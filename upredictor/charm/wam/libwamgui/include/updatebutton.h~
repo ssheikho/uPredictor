@@ -1,0 +1,22 @@
+#ifndef UPDATE_BUTTON_H
+#define UPDATE_BUTTON_H
+
+#include "externalupdate.h"
+#include <gtk/gtk.h>
+
+class UpdateButton : public ExternalUpdate {
+	public:
+		UpdateButton(ExternalUpdate &eu);
+		~UpdateButton();
+
+		void update();
+		static void updateCB(GtkWidget *widget, gpointer data);
+
+		GtkWidget *getWidget();
+
+	protected:
+		ExternalUpdate &_eu;
+		GtkWidget *_button;
+};
+
+#endif

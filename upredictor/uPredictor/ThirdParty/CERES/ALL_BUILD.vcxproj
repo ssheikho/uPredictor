@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{2D0C9F8D-418B-4D34-B9F3-B571BB4481D7}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\upredictor\uPredictor\ThirdParty\CERES\config;D:\upredictor\uPredictor\ThirdParty\ceres-solver\include;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal\ceres;D:\upredictor\uPredictor\ThirdParty\glog\src\windows;C:\Program Files\Eigen\include\eigen3;D:\prediction\Predictor\ThirdParty\gflags\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\upredictor\uPredictor\ThirdParty\CERES\config;D:\upredictor\uPredictor\ThirdParty\ceres-solver\include;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal\ceres;D:\upredictor\uPredictor\ThirdParty\glog\src\windows;C:\Program Files\Eigen\include\eigen3;D:\prediction\Predictor\ThirdParty\gflags\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\upredictor\uPredictor\ThirdParty\CERES\config;D:\upredictor\uPredictor\ThirdParty\ceres-solver\include;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal\ceres;D:\upredictor\uPredictor\ThirdParty\glog\src\windows;C:\Program Files\Eigen\include\eigen3;D:\prediction\Predictor\ThirdParty\gflags\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\upredictor\uPredictor\ThirdParty\CERES\config;D:\upredictor\uPredictor\ThirdParty\ceres-solver\include;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal\ceres;D:\upredictor\uPredictor\ThirdParty\glog\src\windows;C:\Program Files\Eigen\include\eigen3;D:\prediction\Predictor\ThirdParty\gflags\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\upredictor\uPredictor\ThirdParty\ceres-solver\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/upredictor/uPredictor/ThirdParty/ceres-solver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/upredictor/uPredictor/ThirdParty/ceres-solver -BD:/upredictor/uPredictor/ThirdParty/CERES --check-stamp-file D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/upredictor/uPredictor/ThirdParty/ceres-solver/CMakeLists.txt;D:\upredictor\uPredictor\ThirdParty\ceres-solver\CMakeLists.txt;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeCCompiler.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\UpdateCacheVariable.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\AddGerritCommitHook.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindEigen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindGflags.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-config-version.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-config.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-export.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindGlog.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindUnorderedMap.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindSharedPtr.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CreateCeresConfig.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\config.h.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CeresConfigVersion.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CeresConfig.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\uninstall.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/upredictor/uPredictor/ThirdParty/ceres-solver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/upredictor/uPredictor/ThirdParty/ceres-solver -BD:/upredictor/uPredictor/ThirdParty/CERES --check-stamp-file D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/upredictor/uPredictor/ThirdParty/ceres-solver/CMakeLists.txt;D:\upredictor\uPredictor\ThirdParty\ceres-solver\CMakeLists.txt;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeCCompiler.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\UpdateCacheVariable.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\AddGerritCommitHook.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindEigen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindGflags.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-config-version.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-config.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-export.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindGlog.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindUnorderedMap.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindSharedPtr.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CreateCeresConfig.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\config.h.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CeresConfigVersion.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CeresConfig.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\uninstall.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/upredictor/uPredictor/ThirdParty/ceres-solver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/upredictor/uPredictor/ThirdParty/ceres-solver -BD:/upredictor/uPredictor/ThirdParty/CERES --check-stamp-file D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/upredictor/uPredictor/ThirdParty/ceres-solver/CMakeLists.txt;D:\upredictor\uPredictor\ThirdParty\ceres-solver\CMakeLists.txt;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeCCompiler.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\UpdateCacheVariable.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\AddGerritCommitHook.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindEigen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindGflags.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-config-version.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-config.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-export.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindGlog.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindUnorderedMap.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindSharedPtr.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CreateCeresConfig.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\config.h.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CeresConfigVersion.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CeresConfig.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\uninstall.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/upredictor/uPredictor/ThirdParty/ceres-solver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/upredictor/uPredictor/ThirdParty/ceres-solver -BD:/upredictor/uPredictor/ThirdParty/CERES --check-stamp-file D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/upredictor/uPredictor/ThirdParty/ceres-solver/CMakeLists.txt;D:\upredictor\uPredictor\ThirdParty\ceres-solver\CMakeLists.txt;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeCCompiler.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\UpdateCacheVariable.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\AddGerritCommitHook.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindEigen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindGflags.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-config-version.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-config.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-export.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindGlog.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindUnorderedMap.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindSharedPtr.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CreateCeresConfig.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\config.h.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CeresConfigVersion.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CeresConfig.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\uninstall.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/ZERO_CHECK.vcxproj">
+      <Project>10A64050-72B9-4111-BF38-DA8BAF9AFC46</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/array_utils_test.vcxproj">
+      <Project>4067F497-BA38-4D00-9A9B-79439BE57841</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/autodiff_cost_function_test.vcxproj">
+      <Project>9D6E4100-C6A4-4F1E-A882-85BD2323041B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/autodiff_local_parameterization_test.vcxproj">
+      <Project>F1117ACC-A2F2-4558-A835-32D2A7E551DC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/autodiff_test.vcxproj">
+      <Project>692F0B1E-B325-458D-813F-F208005781B2</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/block_jacobi_preconditioner_test.vcxproj">
+      <Project>95827F86-EC5C-4A3B-A002-4EA47F71E188</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/block_random_access_dense_matrix_test.vcxproj">
+      <Project>CCAB8A2F-09C1-4D78-AB06-291A0CF3FEBC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/block_random_access_diagonal_matrix_test.vcxproj">
+      <Project>A1BC3EA0-68B6-4C27-A181-DA2769818C34</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/block_random_access_sparse_matrix_test.vcxproj">
+      <Project>864192D7-C46C-4CDE-809B-4AFBBE857081</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/block_sparse_matrix_test.vcxproj">
+      <Project>3C726D8F-B318-4779-9644-7643CF7A6A74</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/examples/bundle_adjuster.vcxproj">
+      <Project>AD0C884A-34F4-4B90-870C-794F4718D201</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/bundle_adjustment_test.vcxproj">
+      <Project>C4B15AA6-3A9D-409D-9D29-C3F85A2C1726</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/c_api_test.vcxproj">
+      <Project>EA008662-A5FA-43D8-9E95-E62F4863FC00</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/canonical_views_clustering_test.vcxproj">
+      <Project>42A8FBBE-2485-4335-A49C-E9B34C686418</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/ceres.vcxproj">
+      <Project>6EC885AC-7EB7-4A6C-8D7B-C820D7E4F6A4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/examples/circle_fit.vcxproj">
+      <Project>3F65A38E-A332-45F2-B384-D262A8543AA2</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/compressed_row_sparse_matrix_test.vcxproj">
+      <Project>32A8BD22-20D4-49E4-926E-A04F2EAEB1F3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/conditioned_cost_function_test.vcxproj">
+      <Project>EAEC50BB-F7B7-407C-A07F-624EB23C19D0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/corrector_test.vcxproj">
+      <Project>89BF364B-ED47-4A2A-A2EC-C0AA6647F215</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/cost_function_to_functor_test.vcxproj">
+      <Project>D802CFF0-F407-4EC8-BE40-F3F38973AE5C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/covariance_test.vcxproj">
+      <Project>12C7D616-8F8F-442B-8398-DE4B60CF9605</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/cubic_interpolation_test.vcxproj">
+      <Project>D37A33D0-CA8A-4A99-A830-DC1F3A54CE61</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/examples/curve_fitting.vcxproj">
+      <Project>0F730526-E97B-4D97-A497-2551703110AC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/examples/curve_fitting_c.vcxproj">
+      <Project>06BEF1D9-87C9-4DD1-AA4C-525A626B30BD</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/examples/denoising.vcxproj">
+      <Project>9854D3F1-9366-46DC-AF2F-76AB1C455B41</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/dense_sparse_matrix_test.vcxproj">
+      <Project>023DE9E3-1E24-414D-BB64-A73E705165EA</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/detect_structure_test.vcxproj">
+      <Project>E458FEEF-1D69-42A8-878F-156B46D532EF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/dogleg_strategy_test.vcxproj">
+      <Project>D90ADE24-BE28-4437-84A8-5663FB557437</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/dynamic_autodiff_cost_function_test.vcxproj">
+      <Project>0007F0F2-9338-464C-B015-F1BEE184F26A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/dynamic_compressed_row_sparse_matrix_test.vcxproj">
+      <Project>DFF71EA1-60B5-499A-B152-CECA68DA6355</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/dynamic_numeric_diff_cost_function_test.vcxproj">
+      <Project>867379F3-9261-49F5-9C85-06BD367CDFA9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/examples/ellipse_approximation.vcxproj">
+      <Project>7FE2D67D-F84F-472B-BF22-D2F44E527F7E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/evaluator_test.vcxproj">
+      <Project>120C0507-C2AE-4BB8-8BC2-75B24DE6FC0D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/gradient_checker_test.vcxproj">
+      <Project>007C2DA3-B961-42AD-8C9B-85454A012066</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/gradient_checking_cost_function_test.vcxproj">
+      <Project>FE91B879-3BBE-4A4F-9F6B-DAAD6F6BBB5B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/gradient_problem_solver_test.vcxproj">
+      <Project>2F7A6795-A3D3-4C4B-8821-59E572745719</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/gradient_problem_test.vcxproj">
+      <Project>0D0F1EF6-149F-4132-AA04-810D7DE68E8F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/graph_algorithms_test.vcxproj">
+      <Project>AC6B2E5C-10C4-4F1F-9659-09270D9FEC2A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/graph_test.vcxproj">
+      <Project>C3043E31-104F-4A99-B651-CA52E76E9C00</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/gtest.vcxproj">
+      <Project>D7EBF174-C7EC-47AD-B7C0-3484FBD1EF64</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/examples/helloworld.vcxproj">
+      <Project>D7CE8027-9A1F-4E79-910E-9B9D39DF6A3F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/examples/helloworld_analytic_diff.vcxproj">
+      <Project>646A6F04-DF4C-46D7-BB97-D632977F77AE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/examples/helloworld_numeric_diff.vcxproj">
+      <Project>C7D55ACF-1D47-49B6-BE31-1F6A43D3AD77</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/householder_vector_test.vcxproj">
+      <Project>D282B7D6-7995-46B0-B210-0A10F5199B6A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/implicit_schur_complement_test.vcxproj">
+      <Project>3DFB392F-0877-4A3D-9E0C-3E9C8C2B480C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/iterative_schur_complement_solver_test.vcxproj">
+      <Project>C17B0F30-D071-4EF9-A9E2-0C0797D68CCE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/jet_test.vcxproj">
+      <Project>616B1E99-46F1-4807-8EC9-431A7C0D954A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/levenberg_marquardt_strategy_test.vcxproj">
+      <Project>DEEC75B1-243C-4F00-8472-EB3935925381</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/examples/libmv_bundle_adjuster.vcxproj">
+      <Project>6CBE1E4C-8FA2-4565-82E1-ABC9194B69FC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/examples/libmv_homography.vcxproj">
+      <Project>2FD5489D-E719-45D0-96A0-FB1F1BB09B09</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/line_search_preprocessor_test.vcxproj">
+      <Project>637780CC-206A-4200-938C-B9DA6D855945</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/local_parameterization_test.vcxproj">
+      <Project>6003F691-1A89-4D09-AA0A-182DDB93F308</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/loss_function_test.vcxproj">
+      <Project>C18CB0CE-5E48-48C9-90B4-569980343471</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/minimizer_test.vcxproj">
+      <Project>1C0D46BC-8F9A-49D6-8C16-7A4EC3F28126</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/examples/more_garbow_hillstrom.vcxproj">
+      <Project>B322346B-9AB4-421A-84EB-3CA81EB11165</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/examples/nist.vcxproj">
+      <Project>CCF44A17-C6FA-48DD-A00E-1407740F9D28</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/normal_prior_test.vcxproj">
+      <Project>E837DA08-14EA-4200-904D-8C838C022F5F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/numeric_diff_cost_function_test.vcxproj">
+      <Project>59899644-416B-4168-9005-F884594154AC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/ordered_groups_test.vcxproj">
+      <Project>B0B504CF-75C1-4B28-8147-36B2CE492A0A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/parameter_block_ordering_test.vcxproj">
+      <Project>EBB633AE-87F4-4C56-973D-079DB434E951</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/parameter_block_test.vcxproj">
+      <Project>8A7D2E46-5F78-4E5E-AD39-B351201C37B7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/partitioned_matrix_view_test.vcxproj">
+      <Project>0E871406-ABA8-43EB-841C-BA2D4978BE5B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/polynomial_test.vcxproj">
+      <Project>056B6AC8-57F9-4BC3-840F-7AFCE8DC136A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/examples/powell.vcxproj">
+      <Project>E84F1362-94FA-4F67-8B00-2443C2C7C365</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/problem_test.vcxproj">
+      <Project>324869F8-A967-4A49-9000-DD750F5AD827</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/program_test.vcxproj">
+      <Project>569C6EE7-E459-49CE-B009-59550AD3B65E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/reorder_program_test.vcxproj">
+      <Project>ED2C7EAD-207E-4188-90E5-D457F69F941C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/residual_block_test.vcxproj">
+      <Project>F8C6B1E8-2EFB-4102-94EC-6ABEB89E2F51</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/residual_block_utils_test.vcxproj">
+      <Project>79EAD43D-EB06-462B-899F-75A6D12805F3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/examples/robot_pose_mle.vcxproj">
+      <Project>3673F402-B809-4FCF-8B53-0DC9C7AE17A4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/examples/robust_curve_fitting.vcxproj">
+      <Project>59C9F105-F4B4-4A19-8406-643A9A418D64</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/examples/rosenbrock.vcxproj">
+      <Project>19A4BDB8-9055-46E2-9EBA-19EF48A2B584</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/rotation_test.vcxproj">
+      <Project>D8DBE48A-7400-4C8B-AAB4-5C61CFEE5D7A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/examples/sampled_function.vcxproj">
+      <Project>456F7C83-DF10-4A22-9043-3814F8E06823</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/schur_complement_solver_test.vcxproj">
+      <Project>9D5F0EEA-400B-49E2-B9AF-35C6DC26CEB2</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/schur_eliminator_test.vcxproj">
+      <Project>4EFB4B4F-9611-4073-8063-68DFD41D0DBB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/examples/simple_bundle_adjuster.vcxproj">
+      <Project>D6EEE796-10A8-4F81-A8D1-9D630190B524</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/single_linkage_clustering_test.vcxproj">
+      <Project>0014AAA2-F09C-4F3B-A9C7-9A8AA138E604</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/small_blas_test.vcxproj">
+      <Project>35E17970-9C4F-492F-A5B1-92818B992BAB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/solver_test.vcxproj">
+      <Project>8A7B2900-F9F4-471E-A197-20CE3A68E3D3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/symmetric_linear_solver_test.vcxproj">
+      <Project>60B813D4-B7D9-47BE-B0BA-372A26E4E948</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/system_test.vcxproj">
+      <Project>AF3805B7-9ADB-4702-A69C-E26A2DEF5A1A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/test_util.vcxproj">
+      <Project>F9DC9117-A5D4-4B21-96EC-B8BEFCA0249A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/triplet_sparse_matrix_test.vcxproj">
+      <Project>5C9FBC3E-9CB4-4D3C-8312-433F71487706</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/trust_region_minimizer_test.vcxproj">
+      <Project>E0109EC7-D2D5-4342-812A-E455E160FAC3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/trust_region_preprocessor_test.vcxproj">
+      <Project>EEA93814-18C6-4AF1-9264-2AC2C97B401D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/unsymmetric_linear_solver_test.vcxproj">
+      <Project>32C1CF5B-AA5C-4B04-8125-BF0365EC8B55</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/visibility_based_preconditioner_test.vcxproj">
+      <Project>B7175F19-2FC7-40A2-BA47-ADCE623D49CB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/upredictor/uPredictor/ThirdParty/CERES/internal/ceres/visibility_test.vcxproj">
+      <Project>C8B26C48-BC0F-46E6-985B-D3003B2EA6A5</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

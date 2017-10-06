@@ -1,0 +1,10 @@
+
+	(:action personunscrews
+		:parameters (?thethreadedhole - threadedhole ?thescrew - screw)
+		:precondition (screwedin ?thescrew ?thethreadedhole)
+		:effect (
+			and
+			(not (screwedin ?thescrew ?thethreadedhole))
+			(intop ?thescrew ?thethreadedhole)
+		)
+	)

@@ -1,0 +1,917 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\arithm.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\bgfg_gmg.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\bgfg_mog.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\bilateral_filter.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\blend.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\brute_force_matcher.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\calib3d.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cascadeclassifier.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\color.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cudastream.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuvid_video_source.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cu_safe_call.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\denoising.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\element_operations.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\error.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\fast.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\ffmpeg_video_source.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\fgd_bgfg.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\filtering.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\frame_queue.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\generalized_hough.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\gftt.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\global_motion.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\graphcuts.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\hog.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\hough_circles.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\hough_lines.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\hough_segments.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\imgproc.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\match_template.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\matrix_operations.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\matrix_reductions.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\mssegmentation.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\optflowbm.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\optical_flow.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\optical_flow_farneback.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\orb.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\precomp.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\pyramids.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\pyrlk.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\remap.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\resize.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\speckle_filtering.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\split_merge.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\stereobm.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\stereobp.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\stereocsbp.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\thread_wrappers.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\tvl1flow.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\video_decoder.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\video_parser.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\video_reader.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\video_writer.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\warp.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="opencv_gpu_pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\devmem2d.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\gpu.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\gpumat.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\stream_accessor.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\block.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\border_interpolate.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\color.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\common.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\datamov_utils.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\dynamic_smem.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\emulation.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\filters.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\funcattrib.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\functional.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\limits.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\reduce.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\saturate_cast.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\scan.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\simd_functions.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\static_check.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\transform.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\type_traits.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\utility.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\vec_distance.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\vec_math.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\vec_traits.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\warp.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\warp_reduce.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\warp_shuffle.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\detail\color_detail.hpp">
+      <Filter>Device\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\detail\reduce.hpp">
+      <Filter>Device\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\detail\reduce_key_val.hpp">
+      <Filter>Device\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\detail\transform_detail.hpp">
+      <Filter>Device\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\detail\type_traits_detail.hpp">
+      <Filter>Device\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\include\opencv2\gpu\device\detail\vec_distance_detail.hpp">
+      <Filter>Device\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\precomp.hpp">
+      <Filter>Src\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuvid_video_source.h">
+      <Filter>Src\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cu_safe_call.h">
+      <Filter>Src\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cvt_color_internal.h">
+      <Filter>Src\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\ffmpeg_video_source.h">
+      <Filter>Src\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\frame_queue.h">
+      <Filter>Src\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\thread_wrappers.h">
+      <Filter>Src\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\video_decoder.h">
+      <Filter>Src\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\video_parser.h">
+      <Filter>Src\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\fgd_bgfg_common.hpp">
+      <Filter>Src\Cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\internal_shared.hpp">
+      <Filter>Src\Cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\lbp.hpp">
+      <Filter>Src\Cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\safe_call.hpp">
+      <Filter>Src\Cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\texture_binder.hpp">
+      <Filter>Src\Cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\column_filter.h">
+      <Filter>Src\Cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\row_filter.h">
+      <Filter>Src\Cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\nvidia\core\NCV.hpp">
+      <Filter>Src\NVidia</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\nvidia\core\NCVAlg.hpp">
+      <Filter>Src\NVidia</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\nvidia\core\NCVColorConversion.hpp">
+      <Filter>Src\NVidia</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\nvidia\core\NCVPixelOperations.hpp">
+      <Filter>Src\NVidia</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\nvidia\core\NCVPyramid.hpp">
+      <Filter>Src\NVidia</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\nvidia\core\NCVRuntimeTemplates.hpp">
+      <Filter>Src\NVidia</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\nvidia\NCVBroxOpticalFlow.hpp">
+      <Filter>Src\NVidia</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\nvidia\NCVHaarObjectDetection.hpp">
+      <Filter>Src\NVidia</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\nvidia\NPP_staging\NPP_staging.hpp">
+      <Filter>Src\NVidia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cvconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opencv2\opencv_modules.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\bf_knnmatch.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\bf_match.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\bf_radius_match.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\bgfg_gmg.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\bgfg_mog.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\bilateral_filter.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\blend.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\build_point_list.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\calib3d.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\canny.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\ccomponetns.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\clahe.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\color.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\column_filter.0.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\column_filter.1.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\column_filter.10.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\column_filter.11.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\column_filter.12.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\column_filter.13.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\column_filter.14.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\column_filter.2.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\column_filter.3.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\column_filter.4.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\column_filter.5.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\column_filter.6.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\column_filter.7.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\column_filter.8.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\column_filter.9.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\copy_make_border.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\debayer.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\disp_bilateral_filter.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\element_operations.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\fast.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\fgd_bgfg.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\generalized_hough.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\gftt.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\global_motion.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\hist.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\hog.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\hough_circles.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\hough_lines.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\hough_segments.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\imgproc.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\integral_image.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\lbp.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\lut.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\match_template.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\mathfunc.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\matrix_reductions.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\nlm.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\NV12ToARGB.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\optflowbm.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\optical_flow.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\optical_flow_farneback.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\orb.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\pyrlk.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\pyr_down.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\pyr_up.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\remap.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\resize.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\rgb_to_yv12.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\row_filter.0.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\row_filter.1.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\row_filter.10.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\row_filter.11.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\row_filter.12.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\row_filter.13.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\row_filter.14.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\row_filter.2.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\row_filter.3.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\row_filter.4.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\row_filter.5.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\row_filter.6.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\row_filter.7.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\row_filter.8.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\row_filter.9.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\split_merge.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\stereobm.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\stereobp.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\stereocsbp.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\tvl1flow.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\cuda\warp.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\nvidia\core\NCV.cu">
+      <Filter>Src\NVidia</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\nvidia\core\NCVPyramid.cu">
+      <Filter>Src\NVidia</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\nvidia\NCVBroxOpticalFlow.cu">
+      <Filter>Src\NVidia</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\nvidia\NCVHaarObjectDetection.cu">
+      <Filter>Src\NVidia</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\src\nvidia\NPP_staging\NPP_staging.cu">
+      <Filter>Src\NVidia</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\gpu\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_bf_knnmatch.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_bf_match.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_bf_radius_match.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_bgfg_gmg.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_bgfg_mog.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_bilateral_filter.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_blend.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_build_point_list.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_calib3d.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_canny.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_ccomponetns.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_clahe.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_color.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_column_filter.0.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_column_filter.1.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_column_filter.10.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_column_filter.11.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_column_filter.12.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_column_filter.13.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_column_filter.14.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_column_filter.2.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_column_filter.3.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_column_filter.4.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_column_filter.5.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_column_filter.6.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_column_filter.7.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_column_filter.8.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_column_filter.9.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_copy_make_border.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_debayer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_disp_bilateral_filter.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_element_operations.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_fast.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_fgd_bgfg.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_generalized_hough.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_gftt.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_global_motion.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_hist.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_hog.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_hough_circles.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_hough_lines.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_hough_segments.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_imgproc.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_integral_image.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_lbp.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_lut.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_match_template.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_mathfunc.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_matrix_reductions.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_nlm.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_NV12ToARGB.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_optflowbm.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_optical_flow.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_optical_flow_farneback.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_orb.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_pyrlk.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_pyr_down.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_pyr_up.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_remap.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_resize.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_rgb_to_yv12.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_row_filter.0.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_row_filter.1.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_row_filter.10.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_row_filter.11.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_row_filter.12.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_row_filter.13.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_row_filter.14.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_row_filter.2.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_row_filter.3.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_row_filter.4.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_row_filter.5.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_row_filter.6.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_row_filter.7.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_row_filter.8.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_row_filter.9.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_split_merge.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_stereobm.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_stereobp.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_stereocsbp.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_tvl1flow.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\cuda\$(Configuration)\cuda_compile_generated_warp.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\nvidia\core\$(Configuration)\cuda_compile_generated_NCV.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\nvidia\core\$(Configuration)\cuda_compile_generated_NCVPyramid.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\nvidia\$(Configuration)\cuda_compile_generated_NCVBroxOpticalFlow.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\nvidia\$(Configuration)\cuda_compile_generated_NCVHaarObjectDetection.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\cuda_compile.dir\src\nvidia\NPP_staging\$(Configuration)\cuda_compile_generated_NPP_staging.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Src\Host">
+      <UniqueIdentifier>{64992EDD-7C02-4CDF-9274-52A1C00D9BE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Cuda">
+      <UniqueIdentifier>{E7B21BE5-CE97-4FD6-B5EA-AC60678BAF3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\NVidia">
+      <UniqueIdentifier>{8D77A6D8-39DF-4F7E-970F-EF1480DAF906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{506FF972-B85E-4389-8C1B-D6D42D87520F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C77A9B5B-02FF-42C7-9B05-3DBD6FB4ED7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{A9F1CD93-C430-4829-A0E3-3F9B5B664CF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{6BDA51B0-819E-4C0F-A167-45966316A079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{5C74D1C8-AF47-4924-A6BA-934C17A8559C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Device">
+      <UniqueIdentifier>{87ADCB67-37B8-4534-A9E0-25EC8D424D67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Device\Detail">
+      <UniqueIdentifier>{F9DFC05C-706F-45EF-9C93-BFCD2A2F51B9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

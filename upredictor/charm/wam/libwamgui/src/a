@@ -1,0 +1,4 @@
+Scanning dependencies of target wamgui
+[ 12%] Building CXX object wam/libwamgui/src/CMakeFiles/wamgui.dir/poslistcb.cc.o
+Linking CXX shared library libwamgui.so
+[100%] Built target wamgui

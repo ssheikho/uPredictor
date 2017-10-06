@@ -1,0 +1,73 @@
+(define (domain screw-simpl)
+	(:types screw rackhole threadedhole gripper)
+	(:predicates 
+		(onrack ?a - screw ?b - rackhole)
+		(intop ?a - screw ?b - threadedhole)
+		(screwedin ?a - screw ?b - threadedhole)
+		(openRackHole ?a - rackhole)
+		(openThreadedHole ?a - threadedhole)
+		(proximityToRobot ?closer - rackhole ?farther - rackhole)
+		(gripperEmpty ?g - gripper)
+		(firstRackHole ?a - rackhole)
+		(ingripper ?s - screw ?g - gripper)
+		(destinationhole ?s - screw ?t - threadedhole)
+		(screworder ?a - screw ?b - screw)
+		(screwdone ?a - screw)
+		
+	)
+	(:action screwfromrack
+		:parameters (
+			?therackhole - rackhole
+			?infrontrackhole - rackhole
+			?thescrew - screw
+			?thegripper - gripper)
+		:precondition 	(and
+							(openRackHole ?infrontrackhole)
+							(proximityToRobot ?infrontrackhole ?therackhole)
+							(gripperEmpty ?thegripper)
+							(onrack ?thescrew ?therackhole)
+						)
+		:effect (and
+					(not (gripperEmpty ?thegripper))
+					(ingripper ?thescrew ?thegripper)
+					(not (onrack ?thescrew ?therackhole))
+					(openRackHole ?therackhole)
+				)
+
+	)
+	(:action grippertothreaded
+		:parameters (	?thegripper - gripper
+						?thescrew - screw
+						?thethreadedhole - threadedhole
+					)
+		:precondition	(and
+							(ingripper ?thescrew ?thegripper)
+							(openThreadedHole ?thethreadedhole)
+							(destinationhole ?thescrew ?thethreadedhole)
+						)
+		:effect (and
+					(not (ingripper ?thescrew ?thegripper))
+					(not (openThreadedHole ?thethreadedhole))
+					(intop ?thescrew ?thethreadedhole)
+					(gripperEmpty ?thegripper)
+				)
+	)
+
+	(:action personscrewsin
+		:parameters	(
+						?thescrew 			- screw
+						?previousscrew		- screw
+						?thethreadedhole	- threadedhole
+					)
+		:precondition	(and
+							(intop ?thescrew ?thethreadedhole)
+							(screwdone ?previousscrew)
+							(screworder ?previousscrew ?thescrew)
+						)
+		:effect (and
+					(not (intop ?thescrew ?thethreadedhole))
+					(screwedin ?thescrew ?thethreadedhole)
+					(screwdone ?thescrew)
+				)
+	)
+)

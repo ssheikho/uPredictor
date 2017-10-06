@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\src\flann.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\src\miniflann.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="opencv_flann_pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\flann.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\flann_base.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\miniflann.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\allocator.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\all_indices.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\any.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\autotuned_index.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\composite_index.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\config.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\defines.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\dist.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\dummy.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\dynamic_bitset.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\general.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\ground_truth.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\hdf5.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\heap.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\hierarchical_clustering_index.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\index_testing.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\kdtree_index.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\kdtree_single_index.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\kmeans_index.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\linear_index.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\logger.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\lsh_index.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\lsh_table.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\matrix.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\nn_index.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\object_factory.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\params.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\random.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\result_set.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\sampling.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\saving.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\simplex_downhill.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\include\opencv2\flann\timer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cvconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opencv2\opencv_modules.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\flann\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{506FF972-B85E-4389-8C1B-D6D42D87520F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C77A9B5B-02FF-42C7-9B05-3DBD6FB4ED7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{5C74D1C8-AF47-4924-A6BA-934C17A8559C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{6BDA51B0-819E-4C0F-A167-45966316A079}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\CMakeLists.txt" />
+    <CustomBuild Include="CMakeFiles\3f7417d158ae6e9ec4b1d6f41c7e7150\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F734C99F-45A5-4498-A15C-876AF71299D7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

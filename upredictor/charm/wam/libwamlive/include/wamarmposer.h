@@ -1,0 +1,75 @@
+#ifndef WAM_ARM_POSER_H
+#define WAM_ARM_POSER_H
+
+#include "armpose.h"
+#include "armposer.h"
+#include "ExternalUpdate.h"
+
+#include <barrett/systems.h>
+#include <barrett/systems/wam.h>
+#include <barrett/units.h>
+#include <barrett/products/product_manager.h>
+
+#include <barrett/math.h> 
+#include <barrett/detail/stl_utils.h>
+
+//#include <iostream>
+
+using namespace barrett;
+using namespace std;
+
+
+template<size_t DOF>
+class WAMArmPoser : public ArmPoser, public ExternalUpdate {
+	public:
+		BARRETT_UNITS_TEMPLATE_TYPEDEFS(DOF);
+
+		WAMArmPoser(systems::Wam<DOF> &wam, string name, Hand *hand = NULL) :
+			_wam(wam), _hand(hand), _name(name) {}
+		~WAMArmPoser() {}
+
+		void move() {
+			_wam.moveTo(_dest, true, 1.5, 1);
+		}
+
+		void updatePose(ArmPose *pose) {
+			for(size_t i = 0; i < DOF; i++)	_dest[i] = pose->getAng(i);
+			move();
+		}
+
+		void idle() {
+			_wam.idle();
+			if(_hand)
+				_hand->idle();
+		}
+
+		void setHand(Hand *hand) {	_hand = hand;	}
+
+		void update() {
+			_curPos = _wam.getJointPositions();
+			fireUpdate(this);
+		}
+
+		bool hasFutureUpdates() {
+			return true;
+		}
+
+		string getName()			{	return _name;				}
+		void setName(string name)	{	_name = name;				}
+
+		int getNAngs()				{	return DOF;					}
+		float getAng(int joint)		{	return _curPos[joint];		}
+
+		void setAng(int joint, float val) {
+			_dest[joint] = val;
+			move();
+		}
+
+	protected:
+		systems::Wam<DOF> &_wam;
+		Hand *_hand;
+		jp_type _curPos, _dest;
+		string _name;
+};
+
+#endif

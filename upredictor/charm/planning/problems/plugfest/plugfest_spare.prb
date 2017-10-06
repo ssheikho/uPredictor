@@ -1,0 +1,53 @@
+
+		(partonrack p2 r2h1)
+		(partonrack p2r r2h2)
+		(partonrack p3 r3h1)
+		(partonrack p3r r3h2)
+
+		(typeofpart p2 ptype2)
+		(typeofpart p2r ptype2)
+		(typeofpart p3 ptype3)
+		(typeofpart p3r ptype3)
+
+		(partdesttype d2 ptype2)
+		(partdesttype d3 ptype3)	
+
+		(destisopen d2)
+		(destisopen d3)	
+
+
+
+
+		p1 p1r p2 p2r p3 p3r - part
+		ptype1 ptype2 ptype3 - parttype
+		r1h1 r1h2 r2h1 r2h2 r3h1 r3h2 - partrackhole
+		d1 d2 d3 - partdestination
+
+
+
+
+	(:action handOverToPersonPersonWorking
+			:parameters 	(
+								?theperson		-	person
+								?thepart		-	part
+								?previousPart	-	part
+								?thegripper		-	gripper
+							)
+			:precondition	(and
+								(ingripper			?thepart		?thegripper)
+								(personhandempty	?theperson)
+								(workingonpart	?previousPart)
+							)
+			:effect			(and
+								(not (ingripper ?thepart ?thegripper))
+								(not (personhandempty ?theperson))
+								(personholdingpart ?theperson ?thepart)
+								(gripperempty ?thegripper)
+								(workingonpart	?thepart)
+								(not (workingonpart	?previousPart))
+							)	
+	)
+
+		(behindonrack RHOLENULL r1h1)
+		(behindonrack RHOLENULL r2h1)
+		(behindonrack RHOLENULL r3h1)

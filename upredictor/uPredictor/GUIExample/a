@@ -1,0 +1,165 @@
+CMake Warning (dev) at UBCCamera/CMakeLists.txt:28 (add_library):
+  Policy CMP0002 is not set: Logical target names must be globally unique.
+  Run "cmake --help-policy CMP0002" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error at UBCDART/CMakeLists.txt:3 (include):
+  include could not find load file:
+
+    /home/justin/Research/Code/upredictor/uPredictor/UBCDART/NicoCrossLWConfig.cmake.in
+
+
+CMake Warning (dev) at UBCDART/CMakeLists.txt:50 (add_library):
+  Policy CMP0002 is not set: Logical target names must be globally unique.
+  Run "cmake --help-policy CMP0002" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at UBCKinect/CMakeLists.txt:71 (add_library):
+  Policy CMP0002 is not set: Logical target names must be globally unique.
+  Run "cmake --help-policy CMP0002" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at UBCKinectGUI/CMakeLists.txt:50 (add_library):
+  Policy CMP0002 is not set: Logical target names must be globally unique.
+  Run "cmake --help-policy CMP0002" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at UBCGUI/CMakeLists.txt:47 (add_library):
+  Policy CMP0002 is not set: Logical target names must be globally unique.
+  Run "cmake --help-policy CMP0002" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at UBCSimpleGeometry/CMakeLists.txt:25 (add_library):
+  Policy CMP0002 is not set: Logical target names must be globally unique.
+  Run "cmake --help-policy CMP0002" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at UBCUtil/CMakeLists.txt:35 (add_library):
+  Policy CMP0002 is not set: Logical target names must be globally unique.
+  Run "cmake --help-policy CMP0002" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error at GUIExample/CMakeLists.txt:3 (include):
+  include could not find load file:
+
+    /home/justin/Research/Code/upredictor/uPredictor/GUIExample/NicoCrossLWConfig.cmake.in
+
+
+CMake Warning (dev) at GUIExample/CMakeLists.txt:74 (link_directories):
+  This command specifies the relative path
+
+    ../UBCCamera
+
+  as a link directory.
+
+  Policy CMP0015 is not set: link_directories() treats paths relative to the
+  source dir.  Run "cmake --help-policy CMP0015" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at GUIExample/CMakeLists.txt:74 (link_directories):
+  This command specifies the relative path
+
+    ../UBCDART
+
+  as a link directory.
+
+  Policy CMP0015 is not set: link_directories() treats paths relative to the
+  source dir.  Run "cmake --help-policy CMP0015" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at GUIExample/CMakeLists.txt:74 (link_directories):
+  This command specifies the relative path
+
+    ../UBCGUI
+
+  as a link directory.
+
+  Policy CMP0015 is not set: link_directories() treats paths relative to the
+  source dir.  Run "cmake --help-policy CMP0015" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at GUIExample/CMakeLists.txt:74 (link_directories):
+  This command specifies the relative path
+
+    ../UBCKinect
+
+  as a link directory.
+
+  Policy CMP0015 is not set: link_directories() treats paths relative to the
+  source dir.  Run "cmake --help-policy CMP0015" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at GUIExample/CMakeLists.txt:74 (link_directories):
+  This command specifies the relative path
+
+    ../UBCKinectGUI
+
+  as a link directory.
+
+  Policy CMP0015 is not set: link_directories() treats paths relative to the
+  source dir.  Run "cmake --help-policy CMP0015" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at GUIExample/CMakeLists.txt:74 (link_directories):
+  This command specifies the relative path
+
+    ../UBCUtil
+
+  as a link directory.
+
+  Policy CMP0015 is not set: link_directories() treats paths relative to the
+  source dir.  Run "cmake --help-policy CMP0015" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at GUIExample/CMakeLists.txt:74 (link_directories):
+  This command specifies the relative path
+
+    ../Linux/Third-Party/dart/lib
+
+  as a link directory.
+
+  Policy CMP0015 is not set: link_directories() treats paths relative to the
+  source dir.  Run "cmake --help-policy CMP0015" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at GUIExample/CMakeLists.txt:74 (link_directories):
+  This command specifies the relative path
+
+    ../Linux/Third-Party/libfreenect2/lib
+
+  as a link directory.
+
+  Policy CMP0015 is not set: link_directories() treats paths relative to the
+  source dir.  Run "cmake --help-policy CMP0015" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 3.5)
+
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring incomplete, errors occurred!
+See also "/home/justin/Research/Code/upredictor/uPredictor/CMakeFiles/CMakeOutput.log".
+See also "/home/justin/Research/Code/upredictor/uPredictor/CMakeFiles/CMakeError.log".
+Makefile:166: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1

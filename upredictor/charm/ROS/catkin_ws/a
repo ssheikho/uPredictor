@@ -1,0 +1,69 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/justin/charm/charm/trunk/ROS/catkin_ws/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/hydro
+-- This workspace overlays: /opt/ros/hydro
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Python version: 2.7
+-- Using Debian Python package layout
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/justin/charm/charm/trunk/ROS/catkin_ws/build/test_results
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- catkin 0.5.88
+-- BUILD_SHARED_LIBS is on
+WARNING: package "hrpsys_ros_bridge" should not depend on metapackage "pr2_controllers" but on its packages instead
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 4 packages in topological order:
+-- ~~  - wam_msgs
+-- ~~  - wam_srvs
+-- ~~  - wam_node
+-- ~~  - wam_teleop
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'wam_msgs'
+-- ==> add_subdirectory(wam_msgs)
+-- Using these message generators: gencpp;genlisp;genpy
+-- wam_msgs: 7 messages, 0 services
+-- +++ processing catkin package: 'wam_srvs'
+-- ==> add_subdirectory(wam_srvs)
+-- Using these message generators: gencpp;genlisp;genpy
+-- wam_srvs: 0 messages, 12 services
+-- +++ processing catkin package: 'wam_node'
+-- ==> add_subdirectory(wam_node)
+-- Using these message generators: gencpp;genlisp;genpy
+-- +++ processing catkin package: 'wam_teleop'
+-- ==> add_subdirectory(wam_teleop)
+-- Using these message generators: gencpp;genlisp;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/justin/charm/charm/trunk/ROS/catkin_ws/build
+[  1%] [ 11%] Built target geometry_msgs_generate_messages_py
+[ 24%] Built target wam_msgs_generate_messages_cpp
+Built target wam_msgs_generate_messages_py
+[ 36%] Built target wam_msgs_generate_messages_lisp
+[ 36%] Built target geometry_msgs_generate_messages_lisp
+[ 36%] Built target geometry_msgs_generate_messages_cpp
+Linking CXX executable wam_node
+[ 37%] [ 37%] Built target wam_joystick_teleop
+Built target wam_msgs_generate_messages
+[ 59%] Built target wam_srvs_generate_messages_py
+[ 98%] [ 98%] Built target wam_srvs_generate_messages_lisp
+Built target wam_srvs_generate_messages_cpp
+[ 98%] Built target wam_srvs_generate_messages
+/usr/bin/ld: CMakeFiles/wam_node.dir/src/wam_node.cpp.o: undefined reference to symbol 'gsl_vector_get'
+/usr/bin/ld: note: 'gsl_vector_get' is defined in DSO /usr/lib/libgsl.so.0 so try adding it to the linker command line
+/usr/lib/libgsl.so.0: could not read symbols: Invalid operation
+collect2: error: ld returned 1 exit status
+make[2]: *** [wam_node/wam_node] Error 1
+make[1]: *** [wam_node/CMakeFiles/wam_node.dir/all] Error 2
+make: *** [all] Error 2
+Base path: /home/justin/charm/charm/trunk/ROS/catkin_ws
+Source space: /home/justin/charm/charm/trunk/ROS/catkin_ws/src
+Build space: /home/justin/charm/charm/trunk/ROS/catkin_ws/build
+Devel space: /home/justin/charm/charm/trunk/ROS/catkin_ws/devel
+Install space: /home/justin/charm/charm/trunk/ROS/catkin_ws/install
+####
+#### Running command: "make cmake_check_build_system" in "/home/justin/charm/charm/trunk/ROS/catkin_ws/build"
+####
+####
+#### Running command: "make -j4 -l4" in "/home/justin/charm/charm/trunk/ROS/catkin_ws/build"
+####
+Invoking "make" failed

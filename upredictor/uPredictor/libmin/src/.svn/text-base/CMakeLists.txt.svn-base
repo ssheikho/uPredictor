@@ -1,0 +1,27 @@
+SET(CMAKE_BUILD_TYPE Debug)
+
+add_library (min SHARED
+	minimizable.cc	
+	minimizablewithderiv.cc	
+	minwpin.cc
+)
+
+add_library (min_static STATIC
+	minimizable.cc	
+	minimizablewithderiv.cc	
+	minwpin.cc
+)
+
+include_directories (
+	../include 			
+	../../../crossql/libutil/include 	
+	../../libcontainer/include			
+	../../libnr/include 					
+	../../levmar/levmar-2.3				
+	../../libvideo/include 				
+	../../../crossql/libmin/include 		
+	../../../crossql/libutil/include 	
+	/usr/include/opencv 
+	/usr/local/include) 
+
+INSTALL(FILES libmin.so DESTINATION /lib)

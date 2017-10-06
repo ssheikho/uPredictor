@@ -1,0 +1,6 @@
+Run server code first:
+./launchServer
+
+Run client sim code:
+./launchClientSim 
+

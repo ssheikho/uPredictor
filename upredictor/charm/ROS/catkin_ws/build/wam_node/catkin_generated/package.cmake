@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "wam_node")
+set(wam_node_MAINTAINER "louisa <louisa@todo.todo>")
+set(wam_node_DEPRECATED "")
+set(wam_node_VERSION "1.0.0")
+set(wam_node_BUILD_DEPENDS "wam_msgs" "wam_srvs")
+set(wam_node_RUN_DEPENDS "message_runtime" "geometry_msgs" "wam_msgs" "wam_srvs")
+set(wam_node_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\adaptiveskindetector.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\ba.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\basicretinafilter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\bowmsctrainer.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\chamfermatching.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\chowliutree.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\colormap.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\colortracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\contrib_init.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\detection_based_tracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\facerec.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\featuretracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\fuzzymeanshifttracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\gencolors.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\hybridtracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\imagelogpolprojection.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\inputoutput.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\lda.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\logpolar_bsm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\magnoretinafilter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\octree.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\openfabmap.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\parvoretinafilter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\polyfit.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\retina.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\retinacolor.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\retinafilter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\rgbdodometry.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\selfsimilarity.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\spinimages.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\stereovar.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="opencv_contrib_pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\include\opencv2\contrib\contrib.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\include\opencv2\contrib\detection_based_tracker.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\include\opencv2\contrib\hybridtracker.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\include\opencv2\contrib\openfabmap.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\include\opencv2\contrib\retina.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\basicretinafilter.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\imagelogpolprojection.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\magnoretinafilter.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\parvoretinafilter.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\retinacolor.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\retinafilter.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\src\templatebuffer.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cvconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opencv2\opencv_modules.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\contrib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{506FF972-B85E-4389-8C1B-D6D42D87520F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C77A9B5B-02FF-42C7-9B05-3DBD6FB4ED7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{5C74D1C8-AF47-4924-A6BA-934C17A8559C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{6BDA51B0-819E-4C0F-A167-45966316A079}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

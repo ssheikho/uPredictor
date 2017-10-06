@@ -1,0 +1,21 @@
+(define 
+	(actors screw-simpl)
+	(:domain screw-simpl)
+	(:actors
+		(:actor	robot
+			(:actortype AutoActor)
+			(:conffile AutoActor)
+			(:actions
+				screwfromrack
+				grippertothreaded
+			)
+		)
+		(:actor	person
+			(:actortype AutoActor)
+			(:conffile AutoActor)
+			(:actions
+				personscrewsin
+			)
+		)
+	)
+)

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C79FF997-5700-4B8F-BFCF-83DCF7CD6D79}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>KinectPlayer</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\sara_\Documents\opencv\include;C:\Users\sara_\Documents\VTK-7.0.0\Common\Core;C:\Users\sara_\Documents\VTK-7.0.0\Common\DataModel;C:\Users\sara_\Documents\VTK-7.0.0\Common\ExecutionModel;C:\Users\sara_\Documents\VTK-7.0.0\Common\Math;C:\Users\sara_\Documents\VTK-7.0.0\Filters\Core;C:\Users\sara_\Documents\VTK-7.0.0\Filters\General;C:\Users\sara_\Documents\VTK-7.0.0\Filters\Geometry;C:\Users\sara_\Documents\VTK-7.0.0\Filters\Sources;C:\Users\sara_\Documents\VTK-7.0.0\Interaction\Style;C:\Users\sara_\Documents\VTK-7.0.0\Rendering\Annotation;C:\Users\sara_\Documents\VTK-7.0.0\Rendering\Core;C:\Users\sara_\Documents\VTK-7.0.0\Rendering\FreeType;C:\Users\sara_\Documents\VTK-7.0.0\Rendering\LOD;C:\Users\sara_\Documents\pcl\include;C:\Users\sara_\Documents\boost_1_60_0;C:\Users\sara_\Documents\pcl\pcl\common\include;F:\freeglut-3.0.0\include;C:\Program Files\PCL\include\pcl-1.8;F:\boost_1_60_0;D:\eigen-eigen-07105f7124f9;F:\VTK-7.0.0\VTK-7.0.0\Common\Core;F:\VTK-7.0.0\VTK-7.0.0_bin\Common\Core;F:\VTK-7.0.0\VTK-7.0.0\Common\DataModel;F:\VTK-7.0.0\VTK-7.0.0_bin\Common\DataModel;F:\VTK-7.0.0\VTK-7.0.0\Common\ExecutionModel;F:\VTK-7.0.0\VTK-7.0.0_bin\Common\ExecutionModel;F:\VTK-7.0.0\VTK-7.0.0\Common\Math;F:\VTK-7.0.0\VTK-7.0.0_bin\Common\Math;F:\VTK-7.0.0\VTK-7.0.0\Filters\Core;F:\VTK-7.0.0\VTK-7.0.0_bin\Filters\Core;F:\VTK-7.0.0\VTK-7.0.0\Filters\General;F:\VTK-7.0.0\VTK-7.0.0_bin\Filters\General;F:\VTK-7.0.0\VTK-7.0.0\Filters\Geometry;F:\VTK-7.0.0\VTK-7.0.0_bin\Filters\Geometry;F:\VTK-7.0.0\VTK-7.0.0\Filters\Modeling;F:\VTK-7.0.0\VTK-7.0.0_bin\Filters\Modeling;F:\VTK-7.0.0\VTK-7.0.0\Filters\Sources;F:\VTK-7.0.0\VTK-7.0.0_bin\Filters\Sources;F:\VTK-7.0.0\VTK-7.0.0\Interaction\Style;F:\VTK-7.0.0\VTK-7.0.0_bin\Interaction\Style;F:\VTK-7.0.0\VTK-7.0.0\Rendering\Annotation;F:\VTK-7.0.0\VTK-7.0.0_bin\Rendering\Annotation;F:\VTK-7.0.0\VTK-7.0.0\Rendering\Core;F:\VTK-7.0.0\VTK-7.0.0_bin\Rendering\Core;F:\VTK-7.0.0\VTK-7.0.0\Rendering\FreeType;F:\VTK-7.0.0\VTK-7.0.0_bin\Rendering\FreeType;F:\VTK-7.0.0\VTK-7.0.0\Rendering\LOD;F:\VTK-7.0.0\VTK-7.0.0_bin\Rendering\LOD;$(SolutionDir)\ThirdParty\freeglut\include;$(SolutionDir)\UBCGUI;$(SolutionDir)\UBCUtil;$(SolutionDir)\UBCKinect;$(SolutionDir)\UBCKinectGUI;$(SolutionDir)\miniball;$(SolutionDir)\LZ4;$(SolutionDir)\ThirdParty\Eigen\include\eigen3;C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\inc;$(SolutionDir)\ThirdParty\glfw-3.1.1\include;C:\Users\sara_\Documents\VTK-7.0.0\Filters\Modeling</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>F:\freeglut-3.0.0\lib\$(Configuration);F:\boost_1_60_0\stage\lib;F:\VTK-7.0.0\VTK-7.0.0_bin\lib\$(Configuration);D:\PCL\lib;$(SolutionDir)\ThirdParty\freeglut\$(Configuration);$(SolutionDir)\ThirdParty\glfw-3.1.1\$(Configuration);$(SolutionDir)\ThirdParty\glew-1.12.0\$(Platform);$(SolutionDir)\$(Platform)\$(Configuration);C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Lib\$(Platform);C:\Users\sara_\Documents\opencv\build\lib\$(Configuration);C:\Users\sara_\Documents\boost_1_60_0\stage\lib;C:\Users\sara_\Documents\pcl\lib;C:\Users\sara_\Documents\VTK-7.0.0\lib\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>pcl_common_$(configuration).lib;pcl_features_$(configuration).lib;pcl_filters_$(configuration).lib;pcl_io_ply_$(configuration).lib;pcl_io_$(configuration).lib;pcl_kdtree_$(configuration).lib;pcl_keypoints_$(configuration).lib;pcl_ml_$(configuration).lib;pcl_octree_$(configuration).lib;pcl_outofcore_$(configuration).lib;pcl_people_release.lib;pcl_recognition_release.lib;pcl_registration_release.lib;pcl_sample_consensus_release.lib;pcl_search_release.lib;pcl_segmentation_release.lib;pcl_stereo_release.lib;pcl_surface_release.lib;pcl_tracking_release.lib;pcl_visualization_release.lib;vtkalglib-7.0.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\sara_\Documents\opencv\include;C:\Users\sara_\Documents\VTK-7.0.0\Common\Core;C:\Users\sara_\Documents\VTK-7.0.0\Common\DataModel;C:\Users\sara_\Documents\VTK-7.0.0\Common\ExecutionModel;C:\Users\sara_\Documents\VTK-7.0.0\Common\Math;C:\Users\sara_\Documents\VTK-7.0.0\Filters\Core;C:\Users\sara_\Documents\VTK-7.0.0\Filters\General;C:\Users\sara_\Documents\VTK-7.0.0\Filters\Geometry;C:\Users\sara_\Documents\VTK-7.0.0\Filters\Sources;C:\Users\sara_\Documents\VTK-7.0.0\Interaction\Style;C:\Users\sara_\Documents\VTK-7.0.0\Rendering\Annotation;C:\Users\sara_\Documents\VTK-7.0.0\Rendering\Core;C:\Users\sara_\Documents\VTK-7.0.0\Rendering\FreeType;C:\Users\sara_\Documents\VTK-7.0.0\Rendering\LOD;C:\Users\sara_\Documents\pcl\include;C:\Users\sara_\Documents\boost_1_60_0;C:\Users\sara_\Documents\pcl\pcl\common\include;F:\freeglut-3.0.0\include;C:\Program Files\PCL\include\pcl-1.8;F:\boost_1_60_0;D:\eigen-eigen-07105f7124f9;F:\VTK-7.0.0\VTK-7.0.0\Common\Core;F:\VTK-7.0.0\VTK-7.0.0_bin\Common\Core;F:\VTK-7.0.0\VTK-7.0.0\Common\DataModel;F:\VTK-7.0.0\VTK-7.0.0_bin\Common\DataModel;F:\VTK-7.0.0\VTK-7.0.0\Common\ExecutionModel;F:\VTK-7.0.0\VTK-7.0.0_bin\Common\ExecutionModel;F:\VTK-7.0.0\VTK-7.0.0\Common\Math;F:\VTK-7.0.0\VTK-7.0.0_bin\Common\Math;F:\VTK-7.0.0\VTK-7.0.0\Filters\Core;F:\VTK-7.0.0\VTK-7.0.0_bin\Filters\Core;F:\VTK-7.0.0\VTK-7.0.0\Filters\General;F:\VTK-7.0.0\VTK-7.0.0_bin\Filters\General;F:\VTK-7.0.0\VTK-7.0.0\Filters\Geometry;F:\VTK-7.0.0\VTK-7.0.0_bin\Filters\Geometry;F:\VTK-7.0.0\VTK-7.0.0\Filters\Modeling;F:\VTK-7.0.0\VTK-7.0.0_bin\Filters\Modeling;F:\VTK-7.0.0\VTK-7.0.0\Filters\Sources;F:\VTK-7.0.0\VTK-7.0.0_bin\Filters\Sources;F:\VTK-7.0.0\VTK-7.0.0\Interaction\Style;F:\VTK-7.0.0\VTK-7.0.0_bin\Interaction\Style;F:\VTK-7.0.0\VTK-7.0.0\Rendering\Annotation;F:\VTK-7.0.0\VTK-7.0.0_bin\Rendering\Annotation;F:\VTK-7.0.0\VTK-7.0.0\Rendering\Core;F:\VTK-7.0.0\VTK-7.0.0_bin\Rendering\Core;F:\VTK-7.0.0\VTK-7.0.0\Rendering\FreeType;F:\VTK-7.0.0\VTK-7.0.0_bin\Rendering\FreeType;F:\VTK-7.0.0\VTK-7.0.0\Rendering\LOD;F:\VTK-7.0.0\VTK-7.0.0_bin\Rendering\LOD;$(SolutionDir)\ThirdParty\freeglut\include;$(SolutionDir)\UBCGUI;$(SolutionDir)\UBCUtil;$(SolutionDir)\UBCKinect;$(SolutionDir)\UBCKinectGUI;$(SolutionDir)\miniball;$(SolutionDir)\LZ4;$(SolutionDir)\ThirdParty\Eigen\include\eigen3;C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\inc;$(SolutionDir)\ThirdParty\glfw-3.1.1\include;C:\Users\sara_\Documents\VTK-7.0.0\Filters\Modeling</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>F:\freeglut-3.0.0\lib\$(Configuration);F:\boost_1_60_0\stage\lib;F:\VTK-7.0.0\VTK-7.0.0_bin\lib\$(Configuration);D:\PCL\lib;$(SolutionDir)\ThirdParty\freeglut\$(Configuration);$(SolutionDir)\ThirdParty\glfw-3.1.1\$(Configuration);$(SolutionDir)\ThirdParty\glew-1.12.0\$(Platform);$(SolutionDir)\$(Platform)\$(Configuration);C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Lib\$(Platform);C:\Users\sara_\Documents\opencv\build\lib\$(Configuration);C:\Users\sara_\Documents\boost_1_60_0\stage\lib;C:\Users\sara_\Documents\pcl\lib;C:\Users\sara_\Documents\VTK-7.0.0\lib\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>pcl_common_$(configuration).lib;pcl_features_$(configuration).lib;pcl_filters_$(configuration).lib;pcl_io_ply_$(configuration).lib;pcl_io_$(configuration).lib;pcl_kdtree_$(configuration).lib;pcl_keypoints_$(configuration).lib;pcl_ml_$(configuration).lib;pcl_octree_$(configuration).lib;pcl_outofcore_$(configuration).lib;pcl_people_release.lib;pcl_recognition_release.lib;pcl_registration_release.lib;pcl_sample_consensus_release.lib;pcl_search_release.lib;pcl_segmentation_release.lib;pcl_stereo_release.lib;pcl_surface_release.lib;pcl_tracking_release.lib;pcl_visualization_release.lib;vtkalglib-7.0.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="KinectPlayer.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

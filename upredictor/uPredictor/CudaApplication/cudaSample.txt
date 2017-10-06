@@ -1,0 +1,2 @@
+The number 10 to the power of 2 is 100
+A circle with a radius of 4, the area is 50.264

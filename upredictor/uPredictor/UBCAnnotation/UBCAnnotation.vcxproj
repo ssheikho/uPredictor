@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EEC8A2F8-74BE-464D-9707-4D659E642BA5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>UBCAnnotation</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\kenny_3rd.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\kenny_3rd.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\ThirdParty\glew-1.12.0\include;C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\inc;$(SolutionDir)\ThirdParty\freeglut\include;$(SolutionDir)\ThirdParty\opencv\build\include;$(SolutionDir)\ThirdParty\Eigen\include\eigen3;F:\Justin\GitHub\CudaLBFGS\include;$(SolutionDir)\ThirdParty\CERES\include;$(SolutionDir)\ThirdParty\glog\src\windows;$(SolutionDir)\ThirdParty\glfw-3.1.1\include\;$(SolutionDir)\UBCImageCompression;$(SolutionDir)\UBCKinect;$(SolutionDir)\UBCKinectGUI;$(SolutionDir)\UBCKinectImageProc;$(SolutionDir)\UBCMultiKinect;$(SolutionDir)\UBCUtil;$(SolutionDir)\UBCWriteWrap;$(SolutionDir)\LZ4;$(SolutionDir)\ThirdParty\libjpeg-turbo;F:\msys64\usr\local\include;F:\msys64\usr\local\include\libswscale;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\inc;F:\opencv\build\include;$(SolutionDir)\ThirdParty\Eigen\include\eigen3;$(SolutionDir)\LZ4;$(SolutionDir)\UBCGUI;$(SolutionDir)\UBCKinect;$(SolutionDir)\UBCKinectGUI;$(SolutionDir)\UBCUtil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\ThirdParty\glew-1.12.0\include;C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\inc;$(SolutionDir)\ThirdParty\freeglut\include;$(SolutionDir)\ThirdParty\opencv\build\include;$(SolutionDir)\ThirdParty\Eigen\include\eigen3;F:\Justin\GitHub\CudaLBFGS\include;$(SolutionDir)\ThirdParty\CERES\include;$(SolutionDir)\ThirdParty\glog\src\windows;$(SolutionDir)\ThirdParty\glfw-3.1.1\include\;$(SolutionDir)\UBCImageCompression;$(SolutionDir)\UBCKinect;$(SolutionDir)\UBCKinectGUI;$(SolutionDir)\UBCKinectImageProc;$(SolutionDir)\UBCMultiKinect;$(SolutionDir)\UBCUtil;$(SolutionDir)\UBCWriteWrap;$(SolutionDir)\LZ4;$(SolutionDir)\ThirdParty\libjpeg-turbo;F:\msys64\usr\local\include;F:\msys64\usr\local\include\libswscale;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\inc;F:\opencv\build\include;$(SolutionDir)\ThirdParty\Eigen\include\eigen3;$(SolutionDir)\LZ4;$(SolutionDir)\UBCGUI;$(SolutionDir)\UBCKinect;$(SolutionDir)\UBCKinectGUI;$(SolutionDir)\UBCUtil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnnotationClass.h" />
+    <ClInclude Include="AnnotationClassTable.h" />
+    <ClInclude Include="AnnotationEnumType.h" />
+    <ClInclude Include="AnnotationEnumUI.h" />
+    <ClInclude Include="AnnotationIntValue.h" />
+    <ClInclude Include="AnnotationObject.h" />
+    <ClInclude Include="AnnotationObjectUI.h" />
+    <ClInclude Include="AnnotationTable.h" />
+    <ClInclude Include="AnnotationTableListener.h" />
+    <ClInclude Include="AnnotationType.h" />
+    <ClInclude Include="AnnotationTypeTable.h" />
+    <ClInclude Include="AnnotationUIFactory.h" />
+    <ClInclude Include="AnnotationTableUI.h" />
+    <ClInclude Include="AnnotationUINT64Value.h" />
+    <ClInclude Include="AnnotationUtil.h" />
+    <ClInclude Include="AnnotationValue.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnnotationClass.cpp" />
+    <ClCompile Include="AnnotationClassTable.cpp" />
+    <ClCompile Include="AnnotationEnumType.cpp" />
+    <ClCompile Include="AnnotationEnumUI.cpp" />
+    <ClCompile Include="AnnotationIntValue.cpp" />
+    <ClCompile Include="AnnotationObject.cpp" />
+    <ClCompile Include="AnnotationObjectUI.cpp" />
+    <ClCompile Include="AnnotationTable.cpp" />
+    <ClCompile Include="AnnotationTableUI.cpp" />
+    <ClCompile Include="AnnotationType.cpp" />
+    <ClCompile Include="AnnotationTypeTable.cpp" />
+    <ClCompile Include="AnnotationUIFactory.cpp" />
+    <ClCompile Include="AnnotationUINT64Value.cpp" />
+    <ClCompile Include="AnnotationValue.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

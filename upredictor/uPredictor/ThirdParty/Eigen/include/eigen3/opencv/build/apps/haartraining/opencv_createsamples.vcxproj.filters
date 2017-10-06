@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\apps\haartraining\createsamples.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\apps\haartraining\cvhaartraining.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\apps\haartraining\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{506FF972-B85E-4389-8C1B-D6D42D87520F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C77A9B5B-02FF-42C7-9B05-3DBD6FB4ED7C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

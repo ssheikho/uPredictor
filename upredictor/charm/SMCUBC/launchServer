@@ -1,0 +1,1 @@
+./SMCServer -sadbserver "" -s 4003 -n SMCServer -script ../planning/problems/SMC.min.csv -verbose 1

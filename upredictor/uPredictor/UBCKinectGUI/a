@@ -1,0 +1,9 @@
+[  7%] Building CXX object CMakeFiles/ubckinectgui.dir/KinectCloudRender.o
+/home/sara/Documents/upredictor/uPredictor/UBCKinectGUI/KinectCloudRender.cpp:6:19: fatal error: GL/GL.h: No such file or directory
+compilation terminated.
+CMakeFiles/ubckinectgui.dir/build.make:206: recipe for target 'CMakeFiles/ubckinectgui.dir/KinectCloudRender.o' failed
+make[2]: *** [CMakeFiles/ubckinectgui.dir/KinectCloudRender.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ubckinectgui.dir/all' failed
+make[1]: *** [CMakeFiles/ubckinectgui.dir/all] Error 2
+Makefile:83: recipe for target 'all' failed
+make: *** [all] Error 2

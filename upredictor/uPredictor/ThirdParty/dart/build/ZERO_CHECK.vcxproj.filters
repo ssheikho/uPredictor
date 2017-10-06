@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\justi\Documents\Research\Code\upredictor\uPredictor\ThirdParty\dart\build\CMakeFiles\430b872e29300a1b526cd21686298532\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E1A65438-63EA-3639-B9DE-8B5E02B98C48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

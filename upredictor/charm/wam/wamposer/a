@@ -1,0 +1,1594 @@
+[100%] Building CXX object CMakeFiles/wamposer.dir/wamposer.cc.o
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:198:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_sum_op<
+   ^
+/usr/local/include/barrett/math/matrix.h:198:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:198:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_sum_op<
+   ^
+/usr/local/include/barrett/math/matrix.h:198:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:202:2: error: wrong number of template arguments (1, should be 3)
+  >
+  ^
+In file included from /usr/include/eigen2/Eigen/Core:99:0,
+                 from /usr/local/include/barrett/systems/wam.h:41,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/include/eigen2/Eigen/src/Core/util/ForwardDeclarations.h:46:65: error: provided for ‘template<class BinaryOp, class Lhs, class Rhs> class Eigen::CwiseBinaryOp’
+ template<typename BinaryOp,  typename Lhs, typename Rhs>  class CwiseBinaryOp;
+                                                                 ^
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:209:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_difference_op<
+   ^
+/usr/local/include/barrett/math/matrix.h:209:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:209:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_difference_op<
+   ^
+/usr/local/include/barrett/math/matrix.h:209:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:213:2: error: wrong number of template arguments (1, should be 3)
+  >
+  ^
+In file included from /usr/include/eigen2/Eigen/Core:99:0,
+                 from /usr/local/include/barrett/systems/wam.h:41,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/include/eigen2/Eigen/src/Core/util/ForwardDeclarations.h:46:65: error: provided for ‘template<class BinaryOp, class Lhs, class Rhs> class Eigen::CwiseBinaryOp’
+ template<typename BinaryOp,  typename Lhs, typename Rhs>  class CwiseBinaryOp;
+                                                                 ^
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:220:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_product_op<
+   ^
+/usr/local/include/barrett/math/matrix.h:220:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:220:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_product_op<
+   ^
+/usr/local/include/barrett/math/matrix.h:220:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:228:2: error: wrong number of template arguments (1, should be 3)
+  >
+  ^
+In file included from /usr/include/eigen2/Eigen/Core:99:0,
+                 from /usr/local/include/barrett/systems/wam.h:41,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/include/eigen2/Eigen/src/Core/util/ForwardDeclarations.h:46:65: error: provided for ‘template<class BinaryOp, class Lhs, class Rhs> class Eigen::CwiseBinaryOp’
+ template<typename BinaryOp,  typename Lhs, typename Rhs>  class CwiseBinaryOp;
+                                                                 ^
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:235:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_quotient_op<typename Eigen::internal::traits<LDerived>::Scalar>,
+   ^
+/usr/local/include/barrett/math/matrix.h:235:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:235:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_quotient_op<typename Eigen::internal::traits<LDerived>::Scalar>,
+   ^
+/usr/local/include/barrett/math/matrix.h:235:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:238:2: error: wrong number of template arguments (1, should be 3)
+  >
+  ^
+In file included from /usr/include/eigen2/Eigen/Core:99:0,
+                 from /usr/local/include/barrett/systems/wam.h:41,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/include/eigen2/Eigen/src/Core/util/ForwardDeclarations.h:46:65: error: provided for ‘template<class BinaryOp, class Lhs, class Rhs> class Eigen::CwiseBinaryOp’
+ template<typename BinaryOp,  typename Lhs, typename Rhs>  class CwiseBinaryOp;
+                                                                 ^
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:247:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_add_op<typename Eigen::internal::traits<Derived>::Scalar>,
+   ^
+/usr/local/include/barrett/math/matrix.h:247:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:247:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_add_op<typename Eigen::internal::traits<Derived>::Scalar>,
+   ^
+/usr/local/include/barrett/math/matrix.h:247:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:249:2: error: wrong number of template arguments (1, should be 2)
+  >
+  ^
+In file included from /usr/include/eigen2/Eigen/Core:99:0,
+                 from /usr/local/include/barrett/systems/wam.h:41,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/include/eigen2/Eigen/src/Core/util/ForwardDeclarations.h:45:65: error: provided for ‘template<class UnaryOp, class MatrixType> class Eigen::CwiseUnaryOp’
+ template<typename UnaryOp,   typename MatrixType>         class CwiseUnaryOp;
+                                                                 ^
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:256:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_add_op<typename Eigen::internal::traits<Derived>::Scalar>,
+   ^
+/usr/local/include/barrett/math/matrix.h:256:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:256:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_add_op<typename Eigen::internal::traits<Derived>::Scalar>,
+   ^
+/usr/local/include/barrett/math/matrix.h:256:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:258:2: error: wrong number of template arguments (1, should be 2)
+  >
+  ^
+In file included from /usr/include/eigen2/Eigen/Core:99:0,
+                 from /usr/local/include/barrett/systems/wam.h:41,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/include/eigen2/Eigen/src/Core/util/ForwardDeclarations.h:45:65: error: provided for ‘template<class UnaryOp, class MatrixType> class Eigen::CwiseUnaryOp’
+ template<typename UnaryOp,   typename MatrixType>         class CwiseUnaryOp;
+                                                                 ^
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:266:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_add_op<typename Eigen::internal::traits<Derived>::Scalar>,
+   ^
+/usr/local/include/barrett/math/matrix.h:266:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:266:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_add_op<typename Eigen::internal::traits<Derived>::Scalar>,
+   ^
+/usr/local/include/barrett/math/matrix.h:266:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:268:2: error: wrong number of template arguments (1, should be 2)
+  >
+  ^
+In file included from /usr/include/eigen2/Eigen/Core:99:0,
+                 from /usr/local/include/barrett/systems/wam.h:41,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/include/eigen2/Eigen/src/Core/util/ForwardDeclarations.h:45:65: error: provided for ‘template<class UnaryOp, class MatrixType> class Eigen::CwiseUnaryOp’
+ template<typename UnaryOp,   typename MatrixType>         class CwiseUnaryOp;
+                                                                 ^
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:275:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_opposite_op<typename Eigen::internal::traits<Derived>::Scalar>,
+   ^
+/usr/local/include/barrett/math/matrix.h:275:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:275:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_opposite_op<typename Eigen::internal::traits<Derived>::Scalar>,
+   ^
+/usr/local/include/barrett/math/matrix.h:275:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:277:2: error: wrong number of template arguments (1, should be 2)
+  >
+  ^
+In file included from /usr/include/eigen2/Eigen/Core:99:0,
+                 from /usr/local/include/barrett/systems/wam.h:41,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/include/eigen2/Eigen/src/Core/util/ForwardDeclarations.h:45:65: error: provided for ‘template<class UnaryOp, class MatrixType> class Eigen::CwiseUnaryOp’
+ template<typename UnaryOp,   typename MatrixType>         class CwiseUnaryOp;
+                                                                 ^
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:301:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_multiple_op<typename Eigen::internal::traits<Derived>::Scalar>,
+   ^
+/usr/local/include/barrett/math/matrix.h:301:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:301:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_multiple_op<typename Eigen::internal::traits<Derived>::Scalar>,
+   ^
+/usr/local/include/barrett/math/matrix.h:301:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:303:2: error: wrong number of template arguments (1, should be 2)
+  >
+  ^
+In file included from /usr/include/eigen2/Eigen/Core:99:0,
+                 from /usr/local/include/barrett/systems/wam.h:41,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/include/eigen2/Eigen/src/Core/util/ForwardDeclarations.h:45:65: error: provided for ‘template<class UnaryOp, class MatrixType> class Eigen::CwiseUnaryOp’
+ template<typename UnaryOp,   typename MatrixType>         class CwiseUnaryOp;
+                                                                 ^
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:310:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_multiple_op<typename Eigen::internal::traits<Derived>::Scalar>,
+   ^
+/usr/local/include/barrett/math/matrix.h:310:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:310:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_multiple_op<typename Eigen::internal::traits<Derived>::Scalar>,
+   ^
+/usr/local/include/barrett/math/matrix.h:310:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:312:2: error: wrong number of template arguments (1, should be 2)
+  >
+  ^
+In file included from /usr/include/eigen2/Eigen/Core:99:0,
+                 from /usr/local/include/barrett/systems/wam.h:41,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/include/eigen2/Eigen/src/Core/util/ForwardDeclarations.h:45:65: error: provided for ‘template<class UnaryOp, class MatrixType> class Eigen::CwiseUnaryOp’
+ template<typename UnaryOp,   typename MatrixType>         class CwiseUnaryOp;
+                                                                 ^
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:319:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_quotient1_op<typename Eigen::internal::traits<Derived>::Scalar>,
+   ^
+/usr/local/include/barrett/math/matrix.h:319:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:319:3: error: ‘internal’ is not a member of ‘Eigen’
+   Eigen::internal::scalar_quotient1_op<typename Eigen::internal::traits<Derived>::Scalar>,
+   ^
+/usr/local/include/barrett/math/matrix.h:319:3: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:321:2: error: wrong number of template arguments (1, should be 2)
+  >
+  ^
+In file included from /usr/include/eigen2/Eigen/Core:99:0,
+                 from /usr/local/include/barrett/systems/wam.h:41,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/include/eigen2/Eigen/src/Core/util/ForwardDeclarations.h:45:65: error: provided for ‘template<class UnaryOp, class MatrixType> class Eigen::CwiseUnaryOp’
+ template<typename UnaryOp,   typename MatrixType>         class CwiseUnaryOp;
+                                                                 ^
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h: In static member function ‘static const int barrett::math::Traits<Eigen::MatrixBase<Derived> >::add(double, const Eigen::MatrixBase<OtherDerived>&)’:
+/usr/local/include/barrett/math/matrix.h:260:32: error: ‘internal’ is not a member of ‘Eigen’
+     return Eigen::CwiseUnaryOp<Eigen::internal::scalar_add_op<typename Eigen::internal::traits<Derived>::Scalar>, const Derived>(r.derived(), Eigen::internal::scalar_add_op<typename Eigen::internal::traits<Derived>::Scalar>(l));
+                                ^
+/usr/local/include/barrett/math/matrix.h:260:32: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:260:32: error: ‘internal’ is not a member of ‘Eigen’
+     return Eigen::CwiseUnaryOp<Eigen::internal::scalar_add_op<typename Eigen::internal::traits<Derived>::Scalar>, const Derived>(r.derived(), Eigen::internal::scalar_add_op<typename Eigen::internal::traits<Derived>::Scalar>(l));
+                                ^
+/usr/local/include/barrett/math/matrix.h:260:32: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:260:128: error: wrong number of template arguments (1, should be 2)
+     return Eigen::CwiseUnaryOp<Eigen::internal::scalar_add_op<typename Eigen::internal::traits<Derived>::Scalar>, const Derived>(r.derived(), Eigen::internal::scalar_add_op<typename Eigen::internal::traits<Derived>::Scalar>(l));
+                                                                                                                                ^
+In file included from /usr/include/eigen2/Eigen/Core:99:0,
+                 from /usr/local/include/barrett/systems/wam.h:41,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/include/eigen2/Eigen/src/Core/util/ForwardDeclarations.h:45:65: error: provided for ‘template<class UnaryOp, class MatrixType> class Eigen::CwiseUnaryOp’
+ template<typename UnaryOp,   typename MatrixType>         class CwiseUnaryOp;
+                                                                 ^
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h:260:143: error: ‘internal’ is not a member of ‘Eigen’
+     return Eigen::CwiseUnaryOp<Eigen::internal::scalar_add_op<typename Eigen::internal::traits<Derived>::Scalar>, const Derived>(r.derived(), Eigen::internal::scalar_add_op<typename Eigen::internal::traits<Derived>::Scalar>(l));
+                                                                                                                                               ^
+/usr/local/include/barrett/math/matrix.h:260:143: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/products/motor_puck.h:40:0,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/utils.h: At global scope:
+/usr/local/include/barrett/math/utils.h:64:38: error: ‘internal’ in namespace ‘Eigen’ does not name a type
+  detail::CwiseSignOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                      ^
+/usr/local/include/barrett/math/utils.h:64:46: error: expected template-argument before ‘::’ token
+  detail::CwiseSignOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                              ^
+/usr/local/include/barrett/math/utils.h:64:46: error: expected ‘>’ before ‘::’ token
+/usr/local/include/barrett/math/utils.h:64:71: error: template argument 1 is invalid
+  detail::CwiseSignOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                                       ^
+/usr/local/include/barrett/math/utils.h:64:72: error: expected ‘::’ before ‘,’ token
+  detail::CwiseSignOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                                        ^
+/usr/local/include/barrett/math/utils.h:64:72: error: expected identifier before ‘,’ token
+/usr/local/include/barrett/math/utils.h:66:1: error: template argument 1 is invalid
+ > sign(const Eigen::MatrixBase<Derived>& x);
+ ^
+/usr/local/include/barrett/math/utils.h:66:3: error: expected ‘::’ before ‘sign’
+ > sign(const Eigen::MatrixBase<Derived>& x);
+   ^
+/usr/local/include/barrett/math/utils.h:66:44: error: invalid type in declaration before ‘;’ token
+ > sign(const Eigen::MatrixBase<Derived>& x);
+                                            ^
+/usr/local/include/barrett/math/utils.h:81:2: error: ‘internal’ is not a member of ‘Eigen’
+  Eigen::internal::scalar_abs_op<typename Eigen::internal::traits<Derived>::Scalar>,
+  ^
+/usr/local/include/barrett/math/utils.h:81:2: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/products/motor_puck.h:40:0,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/utils.h:81:2: error: ‘internal’ is not a member of ‘Eigen’
+  Eigen::internal::scalar_abs_op<typename Eigen::internal::traits<Derived>::Scalar>,
+  ^
+/usr/local/include/barrett/math/utils.h:81:2: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/products/motor_puck.h:40:0,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/utils.h:83:1: error: wrong number of template arguments (1, should be 2)
+ > abs(const Eigen::MatrixBase<Derived>& x);
+ ^
+In file included from /usr/include/eigen2/Eigen/Core:99:0,
+                 from /usr/local/include/barrett/systems/wam.h:41,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/include/eigen2/Eigen/src/Core/util/ForwardDeclarations.h:45:65: error: provided for ‘template<class UnaryOp, class MatrixType> class Eigen::CwiseUnaryOp’
+ template<typename UnaryOp,   typename MatrixType>         class CwiseUnaryOp;
+                                                                 ^
+In file included from /usr/local/include/barrett/products/motor_puck.h:40:0,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/utils.h:83:43: error: invalid type in declaration before ‘;’ token
+ > abs(const Eigen::MatrixBase<Derived>& x);
+                                           ^
+/usr/local/include/barrett/math/utils.h:97:2: error: ‘internal’ is not a member of ‘Eigen’
+  Eigen::internal::scalar_min_op<typename Eigen::internal::traits<Derived1>::Scalar>,
+  ^
+/usr/local/include/barrett/math/utils.h:97:2: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/products/motor_puck.h:40:0,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/utils.h:97:2: error: ‘internal’ is not a member of ‘Eigen’
+  Eigen::internal::scalar_min_op<typename Eigen::internal::traits<Derived1>::Scalar>,
+  ^
+/usr/local/include/barrett/math/utils.h:97:2: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/products/motor_puck.h:40:0,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/utils.h:100:1: error: wrong number of template arguments (1, should be 3)
+ > min(const Eigen::MatrixBase<Derived1>& a, const Eigen::MatrixBase<Derived2>& b);
+ ^
+In file included from /usr/include/eigen2/Eigen/Core:99:0,
+                 from /usr/local/include/barrett/systems/wam.h:41,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/include/eigen2/Eigen/src/Core/util/ForwardDeclarations.h:46:65: error: provided for ‘template<class BinaryOp, class Lhs, class Rhs> class Eigen::CwiseBinaryOp’
+ template<typename BinaryOp,  typename Lhs, typename Rhs>  class CwiseBinaryOp;
+                                                                 ^
+In file included from /usr/local/include/barrett/products/motor_puck.h:40:0,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/utils.h:100:82: error: invalid type in declaration before ‘;’ token
+ > min(const Eigen::MatrixBase<Derived1>& a, const Eigen::MatrixBase<Derived2>& b);
+                                                                                  ^
+/usr/local/include/barrett/math/utils.h:116:2: error: ‘internal’ is not a member of ‘Eigen’
+  Eigen::internal::scalar_max_op<typename Eigen::internal::traits<Derived1>::Scalar>,
+  ^
+/usr/local/include/barrett/math/utils.h:116:2: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/products/motor_puck.h:40:0,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/utils.h:116:2: error: ‘internal’ is not a member of ‘Eigen’
+  Eigen::internal::scalar_max_op<typename Eigen::internal::traits<Derived1>::Scalar>,
+  ^
+/usr/local/include/barrett/math/utils.h:116:2: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/products/motor_puck.h:40:0,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/utils.h:119:1: error: wrong number of template arguments (1, should be 3)
+ > max(const Eigen::MatrixBase<Derived1>& a, const Eigen::MatrixBase<Derived2>& b);
+ ^
+In file included from /usr/include/eigen2/Eigen/Core:99:0,
+                 from /usr/local/include/barrett/systems/wam.h:41,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/include/eigen2/Eigen/src/Core/util/ForwardDeclarations.h:46:65: error: provided for ‘template<class BinaryOp, class Lhs, class Rhs> class Eigen::CwiseBinaryOp’
+ template<typename BinaryOp,  typename Lhs, typename Rhs>  class CwiseBinaryOp;
+                                                                 ^
+In file included from /usr/local/include/barrett/products/motor_puck.h:40:0,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/utils.h:119:82: error: invalid type in declaration before ‘;’ token
+ > max(const Eigen::MatrixBase<Derived1>& a, const Eigen::MatrixBase<Derived2>& b);
+                                                                                  ^
+/usr/local/include/barrett/math/utils.h:137:47: error: ‘internal’ in namespace ‘Eigen’ does not name a type
+  detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                               ^
+/usr/local/include/barrett/math/utils.h:137:55: error: expected template-argument before ‘::’ token
+  detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                       ^
+/usr/local/include/barrett/math/utils.h:137:55: error: expected ‘>’ before ‘::’ token
+/usr/local/include/barrett/math/utils.h:137:80: error: template argument 1 is invalid
+  detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                                                ^
+/usr/local/include/barrett/math/utils.h:137:81: error: expected ‘::’ before ‘,’ token
+  detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                                                 ^
+/usr/local/include/barrett/math/utils.h:137:81: error: expected identifier before ‘,’ token
+/usr/local/include/barrett/math/utils.h:139:1: error: template argument 1 is invalid
+ > saturate(const Eigen::MatrixBase<Derived>& x, double limit);
+ ^
+/usr/local/include/barrett/math/utils.h:139:3: error: expected ‘::’ before ‘saturate’
+ > saturate(const Eigen::MatrixBase<Derived>& x, double limit);
+   ^
+/usr/local/include/barrett/math/utils.h:139:62: error: invalid type in declaration before ‘;’ token
+ > saturate(const Eigen::MatrixBase<Derived>& x, double limit);
+                                                              ^
+/usr/local/include/barrett/math/utils.h:143:48: error: ‘internal’ in namespace ‘Eigen’ does not name a type
+  detail::CwiseBinarySaturateOp<typename Eigen::internal::traits<Derived1>::Scalar>,
+                                                ^
+/usr/local/include/barrett/math/utils.h:143:56: error: expected template-argument before ‘::’ token
+  detail::CwiseBinarySaturateOp<typename Eigen::internal::traits<Derived1>::Scalar>,
+                                                        ^
+/usr/local/include/barrett/math/utils.h:143:56: error: expected ‘>’ before ‘::’ token
+/usr/local/include/barrett/math/utils.h:143:82: error: template argument 1 is invalid
+  detail::CwiseBinarySaturateOp<typename Eigen::internal::traits<Derived1>::Scalar>,
+                                                                                  ^
+/usr/local/include/barrett/math/utils.h:143:83: error: expected ‘::’ before ‘,’ token
+  detail::CwiseBinarySaturateOp<typename Eigen::internal::traits<Derived1>::Scalar>,
+                                                                                   ^
+/usr/local/include/barrett/math/utils.h:143:83: error: expected identifier before ‘,’ token
+/usr/local/include/barrett/math/utils.h:146:1: error: template argument 1 is invalid
+ > saturate(const Eigen::MatrixBase<Derived1>& x, const Eigen::MatrixBase<Derived2>& limit);
+ ^
+/usr/local/include/barrett/math/utils.h:146:3: error: expected ‘::’ before ‘saturate’
+ > saturate(const Eigen::MatrixBase<Derived1>& x, const Eigen::MatrixBase<Derived2>& limit);
+   ^
+/usr/local/include/barrett/math/utils.h:146:91: error: invalid type in declaration before ‘;’ token
+ > saturate(const Eigen::MatrixBase<Derived1>& x, const Eigen::MatrixBase<Derived2>& limit);
+                                                                                           ^
+/usr/local/include/barrett/math/utils.h:153:47: error: ‘internal’ in namespace ‘Eigen’ does not name a type
+  detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                               ^
+/usr/local/include/barrett/math/utils.h:153:55: error: expected template-argument before ‘::’ token
+  detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                       ^
+/usr/local/include/barrett/math/utils.h:153:55: error: expected ‘>’ before ‘::’ token
+/usr/local/include/barrett/math/utils.h:153:80: error: template argument 1 is invalid
+  detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                                                ^
+/usr/local/include/barrett/math/utils.h:153:81: error: expected ‘::’ before ‘,’ token
+  detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                                                 ^
+/usr/local/include/barrett/math/utils.h:153:81: error: expected identifier before ‘,’ token
+/usr/local/include/barrett/math/utils.h:155:1: error: template argument 1 is invalid
+ > saturate(const Eigen::MatrixBase<Derived>& x, double lowerLimit, double upperLimit);
+ ^
+/usr/local/include/barrett/math/utils.h:155:3: error: expected ‘::’ before ‘saturate’
+ > saturate(const Eigen::MatrixBase<Derived>& x, double lowerLimit, double upperLimit);
+   ^
+/usr/local/include/barrett/math/utils.h:155:86: error: invalid type in declaration before ‘;’ token
+ > saturate(const Eigen::MatrixBase<Derived>& x, double lowerLimit, double upperLimit);
+                                                                                      ^
+/usr/local/include/barrett/math/utils.h:173:47: error: ‘internal’ in namespace ‘Eigen’ does not name a type
+  detail::CwiseUnaryDeadbandOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                               ^
+/usr/local/include/barrett/math/utils.h:173:55: error: expected template-argument before ‘::’ token
+  detail::CwiseUnaryDeadbandOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                       ^
+/usr/local/include/barrett/math/utils.h:173:55: error: expected ‘>’ before ‘::’ token
+/usr/local/include/barrett/math/utils.h:173:80: error: template argument 1 is invalid
+  detail::CwiseUnaryDeadbandOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                                                ^
+/usr/local/include/barrett/math/utils.h:173:81: error: expected ‘::’ before ‘,’ token
+  detail::CwiseUnaryDeadbandOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                                                 ^
+/usr/local/include/barrett/math/utils.h:173:81: error: expected identifier before ‘,’ token
+/usr/local/include/barrett/math/utils.h:175:1: error: template argument 1 is invalid
+ > deadband(const Eigen::MatrixBase<Derived>& x, double cutoff);
+ ^
+/usr/local/include/barrett/math/utils.h:175:3: error: expected ‘::’ before ‘deadband’
+ > deadband(const Eigen::MatrixBase<Derived>& x, double cutoff);
+   ^
+/usr/local/include/barrett/math/utils.h:175:63: error: invalid type in declaration before ‘;’ token
+ > deadband(const Eigen::MatrixBase<Derived>& x, double cutoff);
+                                                               ^
+/usr/local/include/barrett/math/utils.h:179:48: error: ‘internal’ in namespace ‘Eigen’ does not name a type
+  detail::CwiseBinaryDeadbandOp<typename Eigen::internal::traits<Derived1>::Scalar>,
+                                                ^
+/usr/local/include/barrett/math/utils.h:179:56: error: expected template-argument before ‘::’ token
+  detail::CwiseBinaryDeadbandOp<typename Eigen::internal::traits<Derived1>::Scalar>,
+                                                        ^
+/usr/local/include/barrett/math/utils.h:179:56: error: expected ‘>’ before ‘::’ token
+/usr/local/include/barrett/math/utils.h:179:82: error: template argument 1 is invalid
+  detail::CwiseBinaryDeadbandOp<typename Eigen::internal::traits<Derived1>::Scalar>,
+                                                                                  ^
+/usr/local/include/barrett/math/utils.h:179:83: error: expected ‘::’ before ‘,’ token
+  detail::CwiseBinaryDeadbandOp<typename Eigen::internal::traits<Derived1>::Scalar>,
+                                                                                   ^
+/usr/local/include/barrett/math/utils.h:179:83: error: expected identifier before ‘,’ token
+/usr/local/include/barrett/math/utils.h:182:1: error: template argument 1 is invalid
+ > deadband(const Eigen::MatrixBase<Derived1>& x, const Eigen::MatrixBase<Derived2>& cutoff);
+ ^
+/usr/local/include/barrett/math/utils.h:182:3: error: expected ‘::’ before ‘deadband’
+ > deadband(const Eigen::MatrixBase<Derived1>& x, const Eigen::MatrixBase<Derived2>& cutoff);
+   ^
+/usr/local/include/barrett/math/utils.h:182:92: error: invalid type in declaration before ‘;’ token
+ > deadband(const Eigen::MatrixBase<Derived1>& x, const Eigen::MatrixBase<Derived2>& cutoff);
+                                                                                            ^
+In file included from /usr/local/include/barrett/math/utils.h:195:0,
+                 from /usr/local/include/barrett/products/motor_puck.h:40,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/detail/utils-inl.h:49:38: error: ‘internal’ in namespace ‘Eigen’ does not name a type
+  detail::CwiseSignOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                      ^
+/usr/local/include/barrett/math/detail/utils-inl.h:49:46: error: expected template-argument before ‘::’ token
+  detail::CwiseSignOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                              ^
+/usr/local/include/barrett/math/detail/utils-inl.h:49:46: error: expected ‘>’ before ‘::’ token
+/usr/local/include/barrett/math/detail/utils-inl.h:49:71: error: template argument 1 is invalid
+  detail::CwiseSignOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                                       ^
+/usr/local/include/barrett/math/detail/utils-inl.h:49:72: error: expected ‘::’ before ‘,’ token
+  detail::CwiseSignOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                                        ^
+/usr/local/include/barrett/math/detail/utils-inl.h:49:72: error: expected identifier before ‘,’ token
+/usr/local/include/barrett/math/detail/utils-inl.h:51:1: error: template argument 1 is invalid
+ > sign(const Eigen::MatrixBase<Derived>& x)
+ ^
+/usr/local/include/barrett/math/detail/utils-inl.h:51:3: error: expected ‘::’ before ‘sign’
+ > sign(const Eigen::MatrixBase<Derived>& x)
+   ^
+/usr/local/include/barrett/math/detail/utils-inl.h: In function ‘const int barrett::math::sign(const Eigen::MatrixBase<Derived>&)’:
+/usr/local/include/barrett/math/detail/utils-inl.h:53:57: error: ‘internal’ in namespace ‘Eigen’ does not name a type
+  return x.unaryExpr(detail::CwiseSignOp<typename Eigen::internal::traits<Derived>::Scalar>());
+                                                         ^
+/usr/local/include/barrett/math/detail/utils-inl.h:53:65: error: expected template-argument before ‘::’ token
+  return x.unaryExpr(detail::CwiseSignOp<typename Eigen::internal::traits<Derived>::Scalar>());
+                                                                 ^
+/usr/local/include/barrett/math/detail/utils-inl.h:53:65: error: expected ‘>’ before ‘::’ token
+/usr/local/include/barrett/math/detail/utils-inl.h:53:90: error: template argument 1 is invalid
+  return x.unaryExpr(detail::CwiseSignOp<typename Eigen::internal::traits<Derived>::Scalar>());
+                                                                                          ^
+/usr/local/include/barrett/math/detail/utils-inl.h:53:91: error: expected ‘::’ before ‘(’ token
+  return x.unaryExpr(detail::CwiseSignOp<typename Eigen::internal::traits<Derived>::Scalar>());
+                                                                                           ^
+/usr/local/include/barrett/math/detail/utils-inl.h:53:91: error: expected identifier before ‘(’ token
+/usr/local/include/barrett/math/detail/utils-inl.h: At global scope:
+/usr/local/include/barrett/math/detail/utils-inl.h:72:2: error: ‘internal’ is not a member of ‘Eigen’
+  Eigen::internal::scalar_abs_op<typename Eigen::internal::traits<Derived>::Scalar>,
+  ^
+/usr/local/include/barrett/math/detail/utils-inl.h:72:2: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/math/utils.h:195:0,
+                 from /usr/local/include/barrett/products/motor_puck.h:40,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/detail/utils-inl.h:72:2: error: ‘internal’ is not a member of ‘Eigen’
+  Eigen::internal::scalar_abs_op<typename Eigen::internal::traits<Derived>::Scalar>,
+  ^
+/usr/local/include/barrett/math/detail/utils-inl.h:72:2: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/math/utils.h:195:0,
+                 from /usr/local/include/barrett/products/motor_puck.h:40,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/detail/utils-inl.h:74:1: error: wrong number of template arguments (1, should be 2)
+ > abs(const Eigen::MatrixBase<Derived>& x)
+ ^
+In file included from /usr/include/eigen2/Eigen/Core:99:0,
+                 from /usr/local/include/barrett/systems/wam.h:41,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/include/eigen2/Eigen/src/Core/util/ForwardDeclarations.h:45:65: error: provided for ‘template<class UnaryOp, class MatrixType> class Eigen::CwiseUnaryOp’
+ template<typename UnaryOp,   typename MatrixType>         class CwiseUnaryOp;
+                                                                 ^
+In file included from /usr/local/include/barrett/math/utils.h:195:0,
+                 from /usr/local/include/barrett/products/motor_puck.h:40,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/detail/utils-inl.h:82:2: error: ‘internal’ is not a member of ‘Eigen’
+  Eigen::internal::scalar_min_op<typename Eigen::internal::traits<Derived1>::Scalar>,
+  ^
+/usr/local/include/barrett/math/detail/utils-inl.h:82:2: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/math/utils.h:195:0,
+                 from /usr/local/include/barrett/products/motor_puck.h:40,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/detail/utils-inl.h:82:2: error: ‘internal’ is not a member of ‘Eigen’
+  Eigen::internal::scalar_min_op<typename Eigen::internal::traits<Derived1>::Scalar>,
+  ^
+/usr/local/include/barrett/math/detail/utils-inl.h:82:2: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/math/utils.h:195:0,
+                 from /usr/local/include/barrett/products/motor_puck.h:40,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/detail/utils-inl.h:85:1: error: wrong number of template arguments (1, should be 3)
+ > min(const Eigen::MatrixBase<Derived1>& a, const Eigen::MatrixBase<Derived2>& b)
+ ^
+In file included from /usr/include/eigen2/Eigen/Core:99:0,
+                 from /usr/local/include/barrett/systems/wam.h:41,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/include/eigen2/Eigen/src/Core/util/ForwardDeclarations.h:46:65: error: provided for ‘template<class BinaryOp, class Lhs, class Rhs> class Eigen::CwiseBinaryOp’
+ template<typename BinaryOp,  typename Lhs, typename Rhs>  class CwiseBinaryOp;
+                                                                 ^
+In file included from /usr/local/include/barrett/math/utils.h:195:0,
+                 from /usr/local/include/barrett/products/motor_puck.h:40,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/detail/utils-inl.h:98:2: error: ‘internal’ is not a member of ‘Eigen’
+  Eigen::internal::scalar_max_op<typename Eigen::internal::traits<Derived1>::Scalar>,
+  ^
+/usr/local/include/barrett/math/detail/utils-inl.h:98:2: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/math/utils.h:195:0,
+                 from /usr/local/include/barrett/products/motor_puck.h:40,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/detail/utils-inl.h:98:2: error: ‘internal’ is not a member of ‘Eigen’
+  Eigen::internal::scalar_max_op<typename Eigen::internal::traits<Derived1>::Scalar>,
+  ^
+/usr/local/include/barrett/math/detail/utils-inl.h:98:2: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/ios:42:0,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/armpose.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/defaultarmpose.h:4,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/poslist.h:9,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:1:
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+   internal(ios_base& __base)
+   ^
+/usr/include/c++/4.8/bits/ios_base.h:914:3: note:   ‘std::internal’
+In file included from /usr/local/include/barrett/math/utils.h:195:0,
+                 from /usr/local/include/barrett/products/motor_puck.h:40,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/detail/utils-inl.h:101:1: error: wrong number of template arguments (1, should be 3)
+ > max(const Eigen::MatrixBase<Derived1>& a, const Eigen::MatrixBase<Derived2>& b)
+ ^
+In file included from /usr/include/eigen2/Eigen/Core:99:0,
+                 from /usr/local/include/barrett/systems/wam.h:41,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/include/eigen2/Eigen/src/Core/util/ForwardDeclarations.h:46:65: error: provided for ‘template<class BinaryOp, class Lhs, class Rhs> class Eigen::CwiseBinaryOp’
+ template<typename BinaryOp,  typename Lhs, typename Rhs>  class CwiseBinaryOp;
+                                                                 ^
+In file included from /usr/local/include/barrett/math/utils.h:195:0,
+                 from /usr/local/include/barrett/products/motor_puck.h:40,
+                 from /usr/local/include/barrett/products/low_level_wam.h:45,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/detail/utils-inl.h:132:47: error: ‘internal’ in namespace ‘Eigen’ does not name a type
+  detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                               ^
+/usr/local/include/barrett/math/detail/utils-inl.h:132:55: error: expected template-argument before ‘::’ token
+  detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                       ^
+/usr/local/include/barrett/math/detail/utils-inl.h:132:55: error: expected ‘>’ before ‘::’ token
+/usr/local/include/barrett/math/detail/utils-inl.h:132:80: error: template argument 1 is invalid
+  detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                                                ^
+/usr/local/include/barrett/math/detail/utils-inl.h:132:81: error: expected ‘::’ before ‘,’ token
+  detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                                                 ^
+/usr/local/include/barrett/math/detail/utils-inl.h:132:81: error: expected identifier before ‘,’ token
+/usr/local/include/barrett/math/detail/utils-inl.h:134:1: error: template argument 1 is invalid
+ > saturate(const Eigen::MatrixBase<Derived>& x, double limit)
+ ^
+/usr/local/include/barrett/math/detail/utils-inl.h:134:3: error: expected ‘::’ before ‘saturate’
+ > saturate(const Eigen::MatrixBase<Derived>& x, double limit)
+   ^
+/usr/local/include/barrett/math/detail/utils-inl.h: In function ‘const int barrett::math::saturate(const Eigen::MatrixBase<Derived>&, double)’:
+/usr/local/include/barrett/math/detail/utils-inl.h:136:66: error: ‘internal’ in namespace ‘Eigen’ does not name a type
+  return x.unaryExpr(detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>(-limit, limit));
+                                                                  ^
+/usr/local/include/barrett/math/detail/utils-inl.h:136:74: error: expected template-argument before ‘::’ token
+  return x.unaryExpr(detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>(-limit, limit));
+                                                                          ^
+/usr/local/include/barrett/math/detail/utils-inl.h:136:74: error: expected ‘>’ before ‘::’ token
+/usr/local/include/barrett/math/detail/utils-inl.h:136:99: error: template argument 1 is invalid
+  return x.unaryExpr(detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>(-limit, limit));
+                                                                                                   ^
+/usr/local/include/barrett/math/detail/utils-inl.h:136:100: error: expected ‘::’ before ‘(’ token
+  return x.unaryExpr(detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>(-limit, limit));
+                                                                                                    ^
+/usr/local/include/barrett/math/detail/utils-inl.h:136:100: error: expected identifier before ‘(’ token
+/usr/local/include/barrett/math/detail/utils-inl.h: At global scope:
+/usr/local/include/barrett/math/detail/utils-inl.h:141:48: error: ‘internal’ in namespace ‘Eigen’ does not name a type
+  detail::CwiseBinarySaturateOp<typename Eigen::internal::traits<Derived1>::Scalar>,
+                                                ^
+/usr/local/include/barrett/math/detail/utils-inl.h:141:56: error: expected template-argument before ‘::’ token
+  detail::CwiseBinarySaturateOp<typename Eigen::internal::traits<Derived1>::Scalar>,
+                                                        ^
+/usr/local/include/barrett/math/detail/utils-inl.h:141:56: error: expected ‘>’ before ‘::’ token
+/usr/local/include/barrett/math/detail/utils-inl.h:141:82: error: template argument 1 is invalid
+  detail::CwiseBinarySaturateOp<typename Eigen::internal::traits<Derived1>::Scalar>,
+                                                                                  ^
+/usr/local/include/barrett/math/detail/utils-inl.h:141:83: error: expected ‘::’ before ‘,’ token
+  detail::CwiseBinarySaturateOp<typename Eigen::internal::traits<Derived1>::Scalar>,
+                                                                                   ^
+/usr/local/include/barrett/math/detail/utils-inl.h:141:83: error: expected identifier before ‘,’ token
+/usr/local/include/barrett/math/detail/utils-inl.h:144:1: error: template argument 1 is invalid
+ > saturate(const Eigen::MatrixBase<Derived1>& x, const Eigen::MatrixBase<Derived2>& limit)
+ ^
+/usr/local/include/barrett/math/detail/utils-inl.h:144:3: error: expected ‘::’ before ‘saturate’
+ > saturate(const Eigen::MatrixBase<Derived1>& x, const Eigen::MatrixBase<Derived2>& limit)
+   ^
+/usr/local/include/barrett/math/detail/utils-inl.h: In function ‘const int barrett::math::saturate(const Eigen::MatrixBase<Derived>&, const Eigen::MatrixBase<OtherDerived>&)’:
+/usr/local/include/barrett/math/detail/utils-inl.h:146:75: error: ‘internal’ in namespace ‘Eigen’ does not name a type
+  return x.binaryExpr(limit, detail::CwiseBinarySaturateOp<typename Eigen::internal::traits<Derived1>::Scalar>());
+                                                                           ^
+/usr/local/include/barrett/math/detail/utils-inl.h:146:83: error: expected template-argument before ‘::’ token
+  return x.binaryExpr(limit, detail::CwiseBinarySaturateOp<typename Eigen::internal::traits<Derived1>::Scalar>());
+                                                                                   ^
+/usr/local/include/barrett/math/detail/utils-inl.h:146:83: error: expected ‘>’ before ‘::’ token
+/usr/local/include/barrett/math/detail/utils-inl.h:146:109: error: template argument 1 is invalid
+  return x.binaryExpr(limit, detail::CwiseBinarySaturateOp<typename Eigen::internal::traits<Derived1>::Scalar>());
+                                                                                                             ^
+/usr/local/include/barrett/math/detail/utils-inl.h:146:110: error: expected ‘::’ before ‘(’ token
+  return x.binaryExpr(limit, detail::CwiseBinarySaturateOp<typename Eigen::internal::traits<Derived1>::Scalar>());
+                                                                                                              ^
+/usr/local/include/barrett/math/detail/utils-inl.h:146:110: error: expected identifier before ‘(’ token
+/usr/local/include/barrett/math/detail/utils-inl.h: At global scope:
+/usr/local/include/barrett/math/detail/utils-inl.h:157:47: error: ‘internal’ in namespace ‘Eigen’ does not name a type
+  detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                               ^
+/usr/local/include/barrett/math/detail/utils-inl.h:157:55: error: expected template-argument before ‘::’ token
+  detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                       ^
+/usr/local/include/barrett/math/detail/utils-inl.h:157:55: error: expected ‘>’ before ‘::’ token
+/usr/local/include/barrett/math/detail/utils-inl.h:157:80: error: template argument 1 is invalid
+  detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                                                ^
+/usr/local/include/barrett/math/detail/utils-inl.h:157:81: error: expected ‘::’ before ‘,’ token
+  detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                                                 ^
+/usr/local/include/barrett/math/detail/utils-inl.h:157:81: error: expected identifier before ‘,’ token
+/usr/local/include/barrett/math/detail/utils-inl.h:159:1: error: template argument 1 is invalid
+ > saturate(const Eigen::MatrixBase<Derived>& x, double lowerLimit, double upperLimit)
+ ^
+/usr/local/include/barrett/math/detail/utils-inl.h:159:3: error: expected ‘::’ before ‘saturate’
+ > saturate(const Eigen::MatrixBase<Derived>& x, double lowerLimit, double upperLimit)
+   ^
+/usr/local/include/barrett/math/detail/utils-inl.h: In function ‘const int barrett::math::saturate(const Eigen::MatrixBase<Derived>&, double, double)’:
+/usr/local/include/barrett/math/detail/utils-inl.h:161:66: error: ‘internal’ in namespace ‘Eigen’ does not name a type
+  return x.unaryExpr(detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>(lowerLimit, upperLimit));
+                                                                  ^
+/usr/local/include/barrett/math/detail/utils-inl.h:161:74: error: expected template-argument before ‘::’ token
+  return x.unaryExpr(detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>(lowerLimit, upperLimit));
+                                                                          ^
+/usr/local/include/barrett/math/detail/utils-inl.h:161:74: error: expected ‘>’ before ‘::’ token
+/usr/local/include/barrett/math/detail/utils-inl.h:161:99: error: template argument 1 is invalid
+  return x.unaryExpr(detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>(lowerLimit, upperLimit));
+                                                                                                   ^
+/usr/local/include/barrett/math/detail/utils-inl.h:161:100: error: expected ‘::’ before ‘(’ token
+  return x.unaryExpr(detail::CwiseUnarySaturateOp<typename Eigen::internal::traits<Derived>::Scalar>(lowerLimit, upperLimit));
+                                                                                                    ^
+/usr/local/include/barrett/math/detail/utils-inl.h:161:100: error: expected identifier before ‘(’ token
+/usr/local/include/barrett/math/detail/utils-inl.h: At global scope:
+/usr/local/include/barrett/math/detail/utils-inl.h:198:47: error: ‘internal’ in namespace ‘Eigen’ does not name a type
+  detail::CwiseUnaryDeadbandOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                               ^
+/usr/local/include/barrett/math/detail/utils-inl.h:198:55: error: expected template-argument before ‘::’ token
+  detail::CwiseUnaryDeadbandOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                       ^
+/usr/local/include/barrett/math/detail/utils-inl.h:198:55: error: expected ‘>’ before ‘::’ token
+/usr/local/include/barrett/math/detail/utils-inl.h:198:80: error: template argument 1 is invalid
+  detail::CwiseUnaryDeadbandOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                                                ^
+/usr/local/include/barrett/math/detail/utils-inl.h:198:81: error: expected ‘::’ before ‘,’ token
+  detail::CwiseUnaryDeadbandOp<typename Eigen::internal::traits<Derived>::Scalar>,
+                                                                                 ^
+/usr/local/include/barrett/math/detail/utils-inl.h:198:81: error: expected identifier before ‘,’ token
+/usr/local/include/barrett/math/detail/utils-inl.h:200:1: error: template argument 1 is invalid
+ > deadband(const Eigen::MatrixBase<Derived>& x, double cutoff)
+ ^
+/usr/local/include/barrett/math/detail/utils-inl.h:200:3: error: expected ‘::’ before ‘deadband’
+ > deadband(const Eigen::MatrixBase<Derived>& x, double cutoff)
+   ^
+/usr/local/include/barrett/math/detail/utils-inl.h: In function ‘const int barrett::math::deadband(const Eigen::MatrixBase<Derived>&, double)’:
+/usr/local/include/barrett/math/detail/utils-inl.h:202:66: error: ‘internal’ in namespace ‘Eigen’ does not name a type
+  return x.unaryExpr(detail::CwiseUnaryDeadbandOp<typename Eigen::internal::traits<Derived>::Scalar>(cutoff));
+                                                                  ^
+/usr/local/include/barrett/math/detail/utils-inl.h:202:74: error: expected template-argument before ‘::’ token
+  return x.unaryExpr(detail::CwiseUnaryDeadbandOp<typename Eigen::internal::traits<Derived>::Scalar>(cutoff));
+                                                                          ^
+/usr/local/include/barrett/math/detail/utils-inl.h:202:74: error: expected ‘>’ before ‘::’ token
+/usr/local/include/barrett/math/detail/utils-inl.h:202:99: error: template argument 1 is invalid
+  return x.unaryExpr(detail::CwiseUnaryDeadbandOp<typename Eigen::internal::traits<Derived>::Scalar>(cutoff));
+                                                                                                   ^
+/usr/local/include/barrett/math/detail/utils-inl.h:202:100: error: expected ‘::’ before ‘(’ token
+  return x.unaryExpr(detail::CwiseUnaryDeadbandOp<typename Eigen::internal::traits<Derived>::Scalar>(cutoff));
+                                                                                                    ^
+/usr/local/include/barrett/math/detail/utils-inl.h:202:100: error: expected identifier before ‘(’ token
+/usr/local/include/barrett/math/detail/utils-inl.h: At global scope:
+/usr/local/include/barrett/math/detail/utils-inl.h:207:48: error: ‘internal’ in namespace ‘Eigen’ does not name a type
+  detail::CwiseBinaryDeadbandOp<typename Eigen::internal::traits<Derived1>::Scalar>,
+                                                ^
+/usr/local/include/barrett/math/detail/utils-inl.h:207:56: error: expected template-argument before ‘::’ token
+  detail::CwiseBinaryDeadbandOp<typename Eigen::internal::traits<Derived1>::Scalar>,
+                                                        ^
+/usr/local/include/barrett/math/detail/utils-inl.h:207:56: error: expected ‘>’ before ‘::’ token
+/usr/local/include/barrett/math/detail/utils-inl.h:207:82: error: template argument 1 is invalid
+  detail::CwiseBinaryDeadbandOp<typename Eigen::internal::traits<Derived1>::Scalar>,
+                                                                                  ^
+/usr/local/include/barrett/math/detail/utils-inl.h:207:83: error: expected ‘::’ before ‘,’ token
+  detail::CwiseBinaryDeadbandOp<typename Eigen::internal::traits<Derived1>::Scalar>,
+                                                                                   ^
+/usr/local/include/barrett/math/detail/utils-inl.h:207:83: error: expected identifier before ‘,’ token
+/usr/local/include/barrett/math/detail/utils-inl.h:210:1: error: template argument 1 is invalid
+ > deadband(const Eigen::MatrixBase<Derived1>& x, const Eigen::MatrixBase<Derived2>& cutoff)
+ ^
+/usr/local/include/barrett/math/detail/utils-inl.h:210:3: error: expected ‘::’ before ‘deadband’
+ > deadband(const Eigen::MatrixBase<Derived1>& x, const Eigen::MatrixBase<Derived2>& cutoff)
+   ^
+/usr/local/include/barrett/math/detail/utils-inl.h: In function ‘const int barrett::math::deadband(const Eigen::MatrixBase<Derived>&, const Eigen::MatrixBase<OtherDerived>&)’:
+/usr/local/include/barrett/math/detail/utils-inl.h:212:76: error: ‘internal’ in namespace ‘Eigen’ does not name a type
+  return x.binaryExpr(cutoff, detail::CwiseBinaryDeadbandOp<typename Eigen::internal::traits<Derived1>::Scalar>());
+                                                                            ^
+/usr/local/include/barrett/math/detail/utils-inl.h:212:84: error: expected template-argument before ‘::’ token
+  return x.binaryExpr(cutoff, detail::CwiseBinaryDeadbandOp<typename Eigen::internal::traits<Derived1>::Scalar>());
+                                                                                    ^
+/usr/local/include/barrett/math/detail/utils-inl.h:212:84: error: expected ‘>’ before ‘::’ token
+/usr/local/include/barrett/math/detail/utils-inl.h:212:110: error: template argument 1 is invalid
+  return x.binaryExpr(cutoff, detail::CwiseBinaryDeadbandOp<typename Eigen::internal::traits<Derived1>::Scalar>());
+                                                                                                              ^
+/usr/local/include/barrett/math/detail/utils-inl.h:212:111: error: expected ‘::’ before ‘(’ token
+  return x.binaryExpr(cutoff, detail::CwiseBinaryDeadbandOp<typename Eigen::internal::traits<Derived1>::Scalar>());
+                                                                                                               ^
+/usr/local/include/barrett/math/detail/utils-inl.h:212:111: error: expected identifier before ‘(’ token
+In file included from /usr/local/include/barrett/products/low_level_wam.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:46,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/products/detail/low_level_wam-inl.h: In constructor ‘barrett::LowLevelWam<DOF>::LowLevelWam(const std::vector<barrett::Puck*>&, barrett::SafetyModule*, const libconfig::Setting&, std::vector<int>)’:
+/usr/local/include/barrett/products/detail/low_level_wam-inl.h:86:2: error: ‘FullPivLU’ is not a member of ‘Eigen’
+  Eigen::FullPivLU<typename sqm_type::Base> lu(j2mp);
+  ^
+/usr/local/include/barrett/products/detail/low_level_wam-inl.h:86:42: error: expected ‘(’ before ‘>’ token
+  Eigen::FullPivLU<typename sqm_type::Base> lu(j2mp);
+                                          ^
+/usr/local/include/barrett/products/detail/low_level_wam-inl.h:87:7: error: ‘lu’ was not declared in this scope
+  if (!lu.isInvertible()) {
+       ^
+/usr/local/include/barrett/products/detail/low_level_wam-inl.h:91:9: error: ‘lu’ was not declared in this scope
+  m2jp = lu.inverse();
+         ^
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h: In instantiation of ‘struct barrett::math::Traits<Eigen::MatrixBase<Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’:
+/usr/local/include/barrett/math/matrix.h:345:47:   required from ‘struct barrett::math::Traits<barrett::math::Matrix<3, 1, barrett::units::CartesianPosition> >’
+/usr/local/include/barrett/systems/pid_controller.h:55:45:   required from ‘class barrett::systems::PIDController<barrett::math::Matrix<3, 1, barrett::units::CartesianPosition>, barrett::math::Matrix<3, 1, barrett::units::CartesianForce> >’
+/usr/local/include/barrett/systems/wam.h:96:34:   required from here
+/usr/local/include/barrett/math/matrix.h:295:2: error: no type named ‘PlainObject’ in ‘class Eigen::MatrixBase<Eigen::Matrix<double, 3, 1, 0, 3, 1> >’
+  sub(double l, const Eigen::MatrixBase<Derived>& r) {
+  ^
+/usr/local/include/barrett/math/matrix.h:339:2: error: no type named ‘PlainObject’ in ‘class Eigen::MatrixBase<Eigen::Matrix<double, 3, 1, 0, 3, 1> >’
+  div(double l, const Eigen::MatrixBase<Derived>& r) {
+  ^
+In file included from /usr/local/include/barrett/systems.h:74:0,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/systems/haptic_box.h: In member function ‘virtual void barrett::systems::HapticBox::operate()’:
+/usr/local/include/barrett/systems/haptic_box.h:79:23: error: ‘barrett::systems::HapticBox::cf_type’ has no member named ‘array’
+   bool outside = (pos.array().abs() > halfSize.array()).any();
+                       ^
+/usr/local/include/barrett/systems/haptic_box.h:79:48: error: ‘barrett::math::Vector<3>::type’ has no member named ‘array’
+   bool outside = (pos.array().abs() > halfSize.array()).any();
+                                                ^
+/usr/local/include/barrett/systems/haptic_box.h:85:21: error: ‘barrett::systems::HapticBox::cf_type’ has no member named ‘cwiseAbs’
+     (halfSize - pos.cwiseAbs()).minCoeff(&index);
+                     ^
+/usr/local/include/barrett/systems/haptic_box.h:104:26: error: ‘barrett::systems::HapticBox::cf_type’ has no member named ‘cwiseAbs’
+     dir = halfSize - pos.cwiseAbs();
+                          ^
+/usr/local/include/barrett/systems/haptic_box.h:105:16: error: ‘barrett::systems::HapticBox::cf_type’ has no member named ‘array’
+     dir = (dir.array() * (dir.array() < 0.0).cast<double>()).matrix();
+                ^
+/usr/local/include/barrett/systems/haptic_box.h:105:31: error: ‘barrett::systems::HapticBox::cf_type’ has no member named ‘array’
+     dir = (dir.array() * (dir.array() < 0.0).cast<double>()).matrix();
+                               ^
+/usr/local/include/barrett/systems/haptic_box.h:105:51: error: expected primary-expression before ‘double’
+     dir = (dir.array() * (dir.array() < 0.0).cast<double>()).matrix();
+                                                   ^
+/usr/local/include/barrett/systems/haptic_box.h:105:51: error: expected ‘)’ before ‘double’
+/usr/local/include/barrett/systems/haptic_box.h:106:16: error: ‘barrett::systems::HapticBox::cf_type’ has no member named ‘array’
+     dir = (dir.array() * math::sign(pos).array()).matrix();
+                ^
+/usr/local/include/barrett/systems/haptic_box.h:106:42: error: request for member ‘array’ in ‘barrett::math::sign<Eigen::Matrix<double, 3, 1, 0, 3, 1> >((*(const Eigen::MatrixBase<Eigen::Matrix<double, 3, 1, 0, 3, 1> >*)(&((barrett::systems::HapticBox*)this)->barrett::systems::HapticBox::pos)))’, which is of non-class type ‘int’
+     dir = (dir.array() * math::sign(pos).array()).matrix();
+                                          ^
+In file included from /usr/local/include/barrett/units.h:133:0,
+                 from /usr/local/include/barrett/systems/wam.h:45,
+                 from /usr/local/include/barrett/systems.h:41,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:8,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:
+/usr/local/include/barrett/math/matrix.h: In instantiation of ‘struct barrett::math::Traits<Eigen::MatrixBase<Eigen::Matrix<double, 4, 1, 0, 4, 1> > >’:
+/usr/local/include/barrett/math/matrix.h:345:47:   required from ‘struct barrett::math::Traits<barrett::math::Matrix<4, 1, barrett::units::JointTorques<4> > >’
+/usr/local/include/barrett/systems/gain.h:51:72:   required from ‘class barrett::systems::Wam<4ul>’
+/usr/local/include/barrett/standard_main_function.h:111:112:   required from here
+/usr/local/include/barrett/math/matrix.h:295:2: error: no type named ‘PlainObject’ in ‘class Eigen::MatrixBase<Eigen::Matrix<double, 4, 1, 0, 4, 1> >’
+  sub(double l, const Eigen::MatrixBase<Derived>& r) {
+  ^
+/usr/local/include/barrett/math/matrix.h:339:2: error: no type named ‘PlainObject’ in ‘class Eigen::MatrixBase<Eigen::Matrix<double, 4, 1, 0, 4, 1> >’
+  div(double l, const Eigen::MatrixBase<Derived>& r) {
+  ^
+/usr/local/include/barrett/math/matrix.h: In instantiation of ‘struct barrett::math::Traits<Eigen::MatrixBase<Eigen::Matrix<double, 7, 1, 0, 7, 1> > >’:
+/usr/local/include/barrett/math/matrix.h:345:47:   required from ‘struct barrett::math::Traits<barrett::math::Matrix<7, 1, barrett::units::JointTorques<7> > >’
+/usr/local/include/barrett/systems/gain.h:51:72:   required from ‘class barrett::systems::Wam<7ul>’
+/usr/local/include/barrett/standard_main_function.h:113:112:   required from here
+/usr/local/include/barrett/math/matrix.h:295:2: error: no type named ‘PlainObject’ in ‘class Eigen::MatrixBase<Eigen::Matrix<double, 7, 1, 0, 7, 1> >’
+  sub(double l, const Eigen::MatrixBase<Derived>& r) {
+  ^
+/usr/local/include/barrett/math/matrix.h:339:2: error: no type named ‘PlainObject’ in ‘class Eigen::MatrixBase<Eigen::Matrix<double, 7, 1, 0, 7, 1> >’
+  div(double l, const Eigen::MatrixBase<Derived>& r) {
+  ^
+/home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc: In instantiation of ‘int wam_main(int, char**, barrett::ProductManager&, barrett::systems::Wam<DOF>&) [with long unsigned int DOF = 3ul]’:
+/usr/local/include/barrett/standard_main_function.h:109:112:   required from here
+/home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:52:19: error: cannot declare variable ‘pap’ to be of abstract type ‘WAMArmPoser<3ul>’
+  WAMArmPoser<DOF> pap(wam, "WAMArmPoser");
+                   ^
+In file included from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:0:
+/home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:23:7: note:   because the following virtual functions are pure within ‘WAMArmPoser<3ul>’:
+ class WAMArmPoser : public ArmPoser, public ExternalUpdate {
+       ^
+In file included from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/updatethread.h:4:0,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:2:
+/home/justin/Research/Projects/upredictor/charm/wam/wamposer/../../libs/libubcutil/include/ExternalUpdate.h:7:15: note: 	virtual bool ExternalUpdate::hasFutureUpdates()
+  virtual bool hasFutureUpdates() = 0;
+               ^
+/home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:70:15: error: cannot declare variable ‘ut’ to be of abstract type ‘UpdateThread’
+  UpdateThread ut(pap);
+               ^
+In file included from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:2:0:
+/home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/updatethread.h:7:7: note:   because the following virtual functions are pure within ‘UpdateThread’:
+ class UpdateThread : public ExternalUpdate {
+       ^
+In file included from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/updatethread.h:4:0,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:2:
+/home/justin/Research/Projects/upredictor/charm/wam/wamposer/../../libs/libubcutil/include/ExternalUpdate.h:7:15: note: 	virtual bool ExternalUpdate::hasFutureUpdates()
+  virtual bool hasFutureUpdates() = 0;
+               ^
+/home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc: In instantiation of ‘int wam_main(int, char**, barrett::ProductManager&, barrett::systems::Wam<DOF>&) [with long unsigned int DOF = 4ul]’:
+/usr/local/include/barrett/standard_main_function.h:111:112:   required from here
+/home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:52:19: error: cannot declare variable ‘pap’ to be of abstract type ‘WAMArmPoser<4ul>’
+  WAMArmPoser<DOF> pap(wam, "WAMArmPoser");
+                   ^
+In file included from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:0:
+/home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:23:7: note:   because the following virtual functions are pure within ‘WAMArmPoser<4ul>’:
+ class WAMArmPoser : public ArmPoser, public ExternalUpdate {
+       ^
+In file included from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/updatethread.h:4:0,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:2:
+/home/justin/Research/Projects/upredictor/charm/wam/wamposer/../../libs/libubcutil/include/ExternalUpdate.h:7:15: note: 	virtual bool ExternalUpdate::hasFutureUpdates()
+  virtual bool hasFutureUpdates() = 0;
+               ^
+/home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:70:15: error: cannot declare variable ‘ut’ to be of abstract type ‘UpdateThread’
+  UpdateThread ut(pap);
+               ^
+In file included from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:2:0:
+/home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/updatethread.h:7:7: note:   since type ‘UpdateThread’ has pure virtual functions
+ class UpdateThread : public ExternalUpdate {
+       ^
+/home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc: In instantiation of ‘int wam_main(int, char**, barrett::ProductManager&, barrett::systems::Wam<DOF>&) [with long unsigned int DOF = 7ul]’:
+/usr/local/include/barrett/standard_main_function.h:113:112:   required from here
+/home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:52:19: error: cannot declare variable ‘pap’ to be of abstract type ‘WAMArmPoser<7ul>’
+  WAMArmPoser<DOF> pap(wam, "WAMArmPoser");
+                   ^
+In file included from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:3:0:
+/home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamlive/include/wamarmposer.h:23:7: note:   because the following virtual functions are pure within ‘WAMArmPoser<7ul>’:
+ class WAMArmPoser : public ArmPoser, public ExternalUpdate {
+       ^
+In file included from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/updatethread.h:4:0,
+                 from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:2:
+/home/justin/Research/Projects/upredictor/charm/wam/wamposer/../../libs/libubcutil/include/ExternalUpdate.h:7:15: note: 	virtual bool ExternalUpdate::hasFutureUpdates()
+  virtual bool hasFutureUpdates() = 0;
+               ^
+/home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:70:15: error: cannot declare variable ‘ut’ to be of abstract type ‘UpdateThread’
+  UpdateThread ut(pap);
+               ^
+In file included from /home/justin/Research/Projects/upredictor/charm/wam/wamposer/wamposer.cc:2:0:
+/home/justin/Research/Projects/upredictor/charm/wam/wamposer/../libwamtiming/include/updatethread.h:7:7: note:   since type ‘UpdateThread’ has pure virtual functions
+ class UpdateThread : public ExternalUpdate {
+       ^
+make[2]: *** [CMakeFiles/wamposer.dir/wamposer.cc.o] Error 1
+make[1]: *** [CMakeFiles/wamposer.dir/all] Error 2
+make: *** [all] Error 2

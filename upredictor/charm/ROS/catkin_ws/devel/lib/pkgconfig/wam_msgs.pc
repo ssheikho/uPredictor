@@ -1,0 +1,8 @@
+prefix=/home/justin/charm/charm/trunk/ROS/catkin_ws/devel
+
+Name: wam_msgs
+Description: Description of wam_msgs
+Version: 1.0.0
+Cflags: -I/home/justin/charm/charm/trunk/ROS/catkin_ws/devel/include
+Libs: -L/home/justin/charm/charm/trunk/ROS/catkin_ws/devel/lib 
+Requires: message_runtime

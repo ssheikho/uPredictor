@@ -1,0 +1,15 @@
+(define
+	(times justin-times)
+	(:domain screw-simpl)
+	(:problem screw1)
+	(:times
+		(	(:action racktothreaded rhole1 thole1 screw1)
+			(:command IAD_RACK_TO_THREADED)
+			(:duration 7.5 1.0) 
+		)
+		(	(:action racktothreaded rhole2 thole2 screw2)
+			(:command IAD_RACK_TO_THREADED)
+			(:duration 7.5 1.0) 
+		)
+	)
+)

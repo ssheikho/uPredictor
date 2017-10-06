@@ -1,0 +1,1 @@
+./SMCClientSim -c localhost:4003 -autorecon 1000 -SADB -IAD -KUKA -GRIP -T3K -T3P -T3W -T3O -verbose 1

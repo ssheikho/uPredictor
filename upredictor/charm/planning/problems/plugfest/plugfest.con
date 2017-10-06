@@ -1,0 +1,38 @@
+(define (concurrency-exceptions plugfest)
+	(:domain plugfest)
+	(:action-noconcur firstPartFromRackOfFirstType firstPartFromRackOfFirstType)
+	(:action-noconcur firstPartFromRackOfFirstType firstPartFromRackOfSubsequentType)
+	(:action-noconcur firstPartFromRackOfFirstType innerPartFromRack)
+	(:action-noconcur firstPartFromRackOfFirstType moveToPerson)
+	(:action-noconcur firstPartFromRackOfFirstType moveFromPerson)
+	(:action-noconcur firstPartFromRackOfFirstType handOverToPerson)
+
+	(:action-noconcur firstPartFromRackOfSubsequentType firstPartFromRackOfSubsequentType)
+	(:action-noconcur firstPartFromRackOfSubsequentType innerPartFromRack)
+	(:action-noconcur firstPartFromRackOfSubsequentType moveToPerson)
+	(:action-noconcur firstPartFromRackOfSubsequentType moveFromPerson)
+	(:action-noconcur firstPartFromRackOfSubsequentType handOverToPerson)
+
+	(:action-noconcur innerPartFromRack innerPartFromRack)
+	(:action-noconcur innerPartFromRack moveToPerson)
+	(:action-noconcur innerPartFromRack moveFromPerson)
+	(:action-noconcur innerPartFromRack handOverToPerson)
+
+	(:action-noconcur moveToPerson moveToPerson)
+	(:action-noconcur moveToPerson moveFromPerson)
+	(:action-noconcur moveToPerson handOverToPerson)
+
+	(:action-noconcur moveFromPerson moveFromPerson)
+	(:action-noconcur moveFromPerson handOverToPerson)
+
+	(:action-noconcur handOverToPerson handOverToPerson)
+
+	(:action-noconcur personInstallsPart personInstallsPart)	
+	(:action-noconcur personInstallsPart personRemovesInstalledPart)	
+	(:action-noconcur personInstallsPart personDiscardsPart)	
+
+	(:action-noconcur personRemovesInstalledPart personRemovesInstalledPart)	
+	(:action-noconcur personRemovesInstalledPart personDiscardsPart)
+	
+	(:action-noconcur personDiscardsPart personDiscardsPart)	
+)

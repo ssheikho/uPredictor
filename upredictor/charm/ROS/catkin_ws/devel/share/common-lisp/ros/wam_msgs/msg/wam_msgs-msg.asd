@@ -1,0 +1,21 @@
+
+(cl:in-package :asdf)
+
+(defsystem "wam_msgs-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils )
+  :components ((:file "_package")
+    (:file "RTJointPos" :depends-on ("_package_RTJointPos"))
+    (:file "_package_RTJointPos" :depends-on ("_package"))
+    (:file "RTCartVel" :depends-on ("_package_RTCartVel"))
+    (:file "_package_RTCartVel" :depends-on ("_package"))
+    (:file "RTJointVel" :depends-on ("_package_RTJointVel"))
+    (:file "_package_RTJointVel" :depends-on ("_package"))
+    (:file "RTPose" :depends-on ("_package_RTPose"))
+    (:file "_package_RTPose" :depends-on ("_package"))
+    (:file "RTOrtnVel" :depends-on ("_package_RTOrtnVel"))
+    (:file "_package_RTOrtnVel" :depends-on ("_package"))
+    (:file "RTCartPos" :depends-on ("_package_RTCartPos"))
+    (:file "_package_RTCartPos" :depends-on ("_package"))
+    (:file "RTOrtnPos" :depends-on ("_package_RTOrtnPos"))
+    (:file "_package_RTOrtnPos" :depends-on ("_package"))
+  ))

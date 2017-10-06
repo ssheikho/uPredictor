@@ -1,0 +1,4 @@
+(define
+	(state-machines plugfest)
+	(:domain plugfest)
+)

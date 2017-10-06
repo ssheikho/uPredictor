@@ -1,0 +1,4 @@
+(define timed-action 
+	(screwfromfirstrackhole	rhole1	screw1	gripper1)
+	(:time	4000 20) 4k = milliseconds 20 = stddev
+)

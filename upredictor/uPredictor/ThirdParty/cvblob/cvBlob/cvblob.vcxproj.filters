@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\sara_\OneDrive\Documents\upredictor\uPredictor\ThirdParty\cvblob\cvBlob\cvblob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara_\OneDrive\Documents\upredictor\uPredictor\ThirdParty\cvblob\cvBlob\cvlabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara_\OneDrive\Documents\upredictor\uPredictor\ThirdParty\cvblob\cvBlob\cvaux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara_\OneDrive\Documents\upredictor\uPredictor\ThirdParty\cvblob\cvBlob\cvcontour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara_\OneDrive\Documents\upredictor\uPredictor\ThirdParty\cvblob\cvBlob\cvtrack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara_\OneDrive\Documents\upredictor\uPredictor\ThirdParty\cvblob\cvBlob\cvcolor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sara_\OneDrive\Documents\upredictor\uPredictor\ThirdParty\cvblob\cvBlob\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7DE6D6D0-E2A0-3DBC-B0BF-EE7E67CF8F12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

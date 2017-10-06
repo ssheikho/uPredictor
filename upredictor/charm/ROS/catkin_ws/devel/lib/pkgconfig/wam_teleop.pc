@@ -1,0 +1,8 @@
+prefix=/home/justin/charm/charm/trunk/ROS/catkin_ws/devel
+
+Name: wam_teleop
+Description: Description of wam_teleop
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/justin/charm/charm/trunk/ROS/catkin_ws/devel/lib 
+Requires: message_runtime

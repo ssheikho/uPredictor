@@ -1,0 +1,65 @@
+(define
+	(state-machines plugfest)
+	(:domain plugfest)
+	(:state-machines
+			(:state-machine
+				(:action firstPartFromRackOfFirstType)
+				(:states
+					(:state-listing state-one state-two state-three state-four)
+					(:state state-one
+						(:on-entry
+							(:message entered-state-one)
+						)
+						(:message-events
+							(:on-message go-to-state-two
+								(:transition-to state-two)
+							)
+							(:on-message go-to-state-four
+								(:transition-to state-four)
+							)
+						)
+					)
+					(:state state-two
+						(:on-entry
+							(:message entered-state-two)
+						)
+						(:message-events
+							(:on-message go-to-state-two
+								(:transition-to state-two)
+							)
+							(:on-message go-to-state-three
+								(:transition-to state-three)
+							)
+						)
+					)
+					(:state state-three
+						(:on-entry
+							(:message entered-state-three)
+						)
+						(:is-exit-state)
+					)
+					(:state state-four
+						(:on-entry
+							(:message entered-state-four)
+						)
+						(:message-events
+							(:on-message go-to-state-two
+								(:transition-to state-two)
+							)
+							(:on-message go-to-state-five
+								(:transition-to state-five)
+							)
+						}
+					)
+					(:state state-five
+						(:on-entry
+							(:message entered-state-five)
+						)
+						(:is-exit-state)
+					)
+					(:start-state tell-robot)
+				)
+			)
+		)
+	)
+

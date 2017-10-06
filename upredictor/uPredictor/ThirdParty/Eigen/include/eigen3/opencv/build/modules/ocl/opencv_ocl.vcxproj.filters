@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\arithm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\bgfg_mog.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\blend.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\brute_force_matcher.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\build_warps.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\canny.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\cl_context.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\cl_operations.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\cl_programcache.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\cl_runtime\clamdblas_runtime.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\cl_runtime\clamdfft_runtime.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\cl_runtime\cl_runtime.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\color.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\columnsum.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\error.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\fft.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\filtering.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\gemm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\gftt.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\haar.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\hog.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\imgproc.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\interpolate_frames.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\kalman.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\kmeans.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\knearest.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\match_template.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\matrix_operations.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\mcwutil.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\moments.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\mssegmentation.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\optical_flow_farneback.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\pyrdown.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\pyrlk.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\pyrup.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\sort_by_key.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\split_merge.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\stereobm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\stereobp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\stereo_csbp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\svm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\tvl1flow.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl_kernels.cpp">
+      <Filter>OpenCL</Filter>
+    </ClCompile>
+    <ClCompile Include="opencv_ocl_pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\include\opencv2\ocl\matrix_operations.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\include\opencv2\ocl\ocl.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="opencl_kernels.hpp">
+      <Filter>OpenCL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\cl_programcache.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\cl_runtime\cl_runtime_opencl_impl.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\safe_call.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cvconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opencv2\opencv_modules.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\CMakeLists.txt" />
+    <CustomBuild Include="..\..\CMakeFiles\7eaf2b92b0de79bf5178d01a05706f02\opencl_kernels.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_absdiff_nonsaturate.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_add.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_addWeighted.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_add_mask.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_add_scalar.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_add_scalar_mask.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_bitwise.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_cartToPolar.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_compare.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_exp.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_flip.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_log.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_LUT.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_magnitude.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_minMax.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_minMaxLoc.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_minMaxLoc_mask.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_nonzero.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_phase.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_polarToCart.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_pow.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_setidentity.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_sum.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\arithm_transpose.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\bgfg_mog.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\blend_linear.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\brute_force_match.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\build_warps.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\convertC3C4.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\cvt_color.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\filtering_adaptive_bilateral.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\filtering_boxFilter.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\filtering_filter2D.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\filtering_morph.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\filtering_sep_filter_singlepass.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\filter_sep_col.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\filter_sep_row.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\haarobjectdetect.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\haarobjectdetect_scaled2.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\imgproc_bilateral.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\imgproc_calcHarris.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\imgproc_calcMinEigenVal.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\imgproc_canny.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\imgproc_clahe.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\imgproc_columnsum.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\imgproc_convolve.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\imgproc_copymakeboder.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\imgproc_gftt.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\imgproc_histogram.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\imgproc_integral.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\imgproc_integral_sum.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\imgproc_median.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\imgproc_remap.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\imgproc_resize.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\imgproc_sobel3.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\imgproc_threshold.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\imgproc_warpAffine.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\imgproc_warpPerspective.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\interpolate_frames.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\kernel_radix_sort_by_key.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\kernel_sort_by_key.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\kernel_stablesort_by_key.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\kmeans_kernel.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\knearest.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\match_template.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\meanShift.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\merge_mat.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\moments.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\objdetect_hog.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\operator_convertTo.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\operator_copyToM.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\operator_setTo.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\operator_setToM.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\optical_flow_farneback.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\pyrlk.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\pyr_down.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\pyr_up.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\split_mat.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\stereobm.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\stereobp.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\stereocsbp.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\svm.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\ocl\src\opencl\tvl1flow.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{506FF972-B85E-4389-8C1B-D6D42D87520F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C77A9B5B-02FF-42C7-9B05-3DBD6FB4ED7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F734C99F-45A5-4498-A15C-876AF71299D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{5C74D1C8-AF47-4924-A6BA-934C17A8559C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenCL">
+      <UniqueIdentifier>{698DA768-7359-4047-96A2-D1873600E9BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{6BDA51B0-819E-4C0F-A167-45966316A079}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

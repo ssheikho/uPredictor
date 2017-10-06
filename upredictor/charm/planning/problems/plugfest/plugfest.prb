@@ -1,0 +1,52 @@
+(define (problem plugfest3)
+	(:domain plugfest)
+	(:objects
+		p1 p2 p3 p4 p5 - part
+		ptype1 ptype2 PTYPENULL - parttype
+		r1 r2 r3 r4 - partrackhole
+		d1 d2 - partdestination
+		g1 - gripper
+		per1 - person
+	)
+	(:init
+		(frontrackhole r1)
+		(frontrackhole r3)
+		(behindonrack r1 r2)
+		(behindonrack r3 r4)
+
+		(partonrack p1 r1)
+		(partonrack p2 r2)
+		(partonrack p3 r3)
+		(partonrack p4 r4)
+
+		(typeofpart p1 ptype1)
+		(typeofpart p2 ptype1)
+		(typeofpart p3 ptype2)
+		(typeofpart p4 ptype2)
+
+		(partdesttype d1 ptype1)
+		(partdesttype d2 ptype2)
+		(destisopen d1)
+		(destisopen d2)
+
+		(gripperempty g1)
+		(gripperawayfromperson	g1)
+
+		(personhandempty per1)
+
+		(partfirst ptype1)
+		(partorder ptype1 ptype2)
+
+		(workingonpart p5)
+		(workingonparttype PTYPENULL)
+		(typeofpart p5 PTYPENULL)
+		(parttypeisnull PTYPENULL)
+	)
+
+	(:goal
+		(and
+			(destisoccupied d1)
+			(destisoccupied d2)
+		)
+	)
+)

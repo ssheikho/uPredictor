@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sara_\Documents\upredictor\uPredictor\ThirdParty\glfw-3.1.1\CMakeFiles\e70de7e2c777208d1b5420fcb58b215a\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C9307B42-63DA-3606-92FC-98ADF4F68746}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

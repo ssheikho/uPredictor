@@ -1,0 +1,31 @@
+[  4%] Built target generate_resources_tool
+Scanning dependencies of target freenect2
+[  7%] Building CXX object CMakeFiles/freenect2.dir/src/registration.cpp.o
+/home/justin/Research/Code/upredictor/uPredictor/Linux/Third-Party/libfreenect2/src/registration.cpp: In member function ‘void libfreenect2::RegistrationImpl::apply(const unsigned int*, const float*, float*, unsigned int*, int*) const’:
+/home/justin/Research/Code/upredictor/uPredictor/Linux/Third-Party/libfreenect2/src/registration.cpp:177:13: warning: unused variable ‘size_filter_map’ [-Wunused-variable]
+   const int size_filter_map = size_color + 1920 * filter_height_half * 2;
+             ^
+/home/justin/Research/Code/upredictor/uPredictor/Linux/Third-Party/libfreenect2/src/registration.cpp:179:13: warning: unused variable ‘offset_filter_map’ [-Wunused-variable]
+   const int offset_filter_map = 1920 * filter_height_half;
+             ^
+/home/justin/Research/Code/upredictor/uPredictor/Linux/Third-Party/libfreenect2/src/registration.cpp:182:10: warning: unused variable ‘filter_map’ [-Wunused-variable]
+   float *filter_map = NULL;
+          ^
+/home/justin/Research/Code/upredictor/uPredictor/Linux/Third-Party/libfreenect2/src/registration.cpp:184:10: warning: unused variable ‘p_filter_map’ [-Wunused-variable]
+   float *p_filter_map = NULL;
+          ^
+[  9%] Linking CXX shared library lib/libfreenect2.so
+[ 66%] Built target freenect2
+Scanning dependencies of target freenect2-openni2
+[ 69%] Building CXX object CMakeFiles/freenect2-openni2.dir/src/openni2/ColorStream.cpp.o
+[ 71%] Building CXX object CMakeFiles/freenect2-openni2.dir/src/openni2/IrStream.cpp.o
+[ 73%] Building CXX object CMakeFiles/freenect2-openni2.dir/src/openni2/VideoStream.cpp.o
+[ 76%] Building CXX object CMakeFiles/freenect2-openni2.dir/src/openni2/DepthStream.cpp.o
+[ 78%] Building CXX object CMakeFiles/freenect2-openni2.dir/src/openni2/DeviceDriver.cpp.o
+[ 80%] Building CXX object CMakeFiles/freenect2-openni2.dir/src/openni2/Registration.cpp.o
+[ 83%] Linking CXX shared library lib/libfreenect2-openni2.so
+[ 90%] Built target freenect2-openni2
+Scanning dependencies of target Protonect
+[ 92%] Building CXX object examples/CMakeFiles/Protonect.dir/Protonect.cpp.o
+[ 95%] Linking CXX executable ../bin/Protonect
+[100%] Built target Protonect

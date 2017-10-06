@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{8B05158B-0D7E-42E5-BDAF-A62EAC3EC219}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>opencv_annotation</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_annotation.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_annotationd</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_annotation.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_annotation</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\imgproc\include;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\highgui\include;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\core\include;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\include\opencv;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\apps\annotation;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\build;C:\Program Files\Eigen\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;_VARIADIC_MAX=10;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;_VARIADIC_MAX=10;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\imgproc\include;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\highgui\include;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\core\include;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\include\opencv;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\apps\annotation;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\build;C:\Program Files\Eigen\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\imgproc\include;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\highgui\include;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\core\include;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\include\opencv;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\apps\annotation;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\build;C:\Program Files\Eigen\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;cudart.lib;nppc.lib;nppi.lib;npps.lib;cufft.lib;..\..\lib\Debug\opencv_highgui2411d.lib;..\..\lib\Debug\opencv_imgproc2411d.lib;..\..\lib\Debug\opencv_core2411d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.0/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.0/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/sara__000/predictionNew/Predictor/ThirdParty/opencv/build/lib/Debug/opencv_annotationd.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/sara__000/predictionNew/Predictor/ThirdParty/opencv/build/bin/Debug/opencv_annotationd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\imgproc\include;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\highgui\include;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\core\include;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\include\opencv;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\apps\annotation;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\build;C:\Program Files\Eigen\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\imgproc\include;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\highgui\include;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\core\include;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\include\opencv;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\apps\annotation;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\build;C:\Program Files\Eigen\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\imgproc\include;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\highgui\include;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\modules\core\include;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\include\opencv;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\apps\annotation;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\build;C:\Program Files\Eigen\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;cudart.lib;nppc.lib;nppi.lib;npps.lib;cufft.lib;..\..\lib\Release\opencv_highgui2411.lib;..\..\lib\Release\opencv_imgproc2411.lib;..\..\lib\Release\opencv_core2411.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.0/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.0/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/sara__000/predictionNew/Predictor/ThirdParty/opencv/build/lib/Release/opencv_annotation.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/sara__000/predictionNew/Predictor/ThirdParty/opencv/build/bin/Release/opencv_annotation.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\apps\annotation\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/sara__000/predictionNew/Predictor/ThirdParty/opencv/sources/apps/annotation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/sara__000/predictionNew/Predictor/ThirdParty/opencv/sources -B../.. --check-stamp-file C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\build\apps\annotation\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/sara__000/predictionNew/Predictor/ThirdParty/opencv/sources/apps/annotation/CMakeLists.txt;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\apps\annotation\CMakeLists.txt;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\apps\annotation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\build\apps\annotation\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/sara__000/predictionNew/Predictor/ThirdParty/opencv/sources/apps/annotation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/sara__000/predictionNew/Predictor/ThirdParty/opencv/sources -B../.. --check-stamp-file C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\build\apps\annotation\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/sara__000/predictionNew/Predictor/ThirdParty/opencv/sources/apps/annotation/CMakeLists.txt;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\apps\annotation\CMakeLists.txt;C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\apps\annotation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\build\apps\annotation\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\sara__000\predictionNew\Predictor\ThirdParty\opencv\sources\apps\annotation\opencv_annotation.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/sara__000/predictionNew/Predictor/ThirdParty/opencv/build/ZERO_CHECK.vcxproj">
+      <Project>3386246D-3B78-4895-BE96-FE9F7BFA5C53</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/sara__000/predictionNew/Predictor/ThirdParty/opencv/build/modules/core/opencv_core.vcxproj">
+      <Project>2646995E-BAB6-4438-BB7A-5A66AE3CD9F8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/sara__000/predictionNew/Predictor/ThirdParty/opencv/build/modules/highgui/opencv_highgui.vcxproj">
+      <Project>E89504A4-EAB9-4E97-BE30-8B8F93A51E08</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/sara__000/predictionNew/Predictor/ThirdParty/opencv/build/modules/imgproc/opencv_imgproc.vcxproj">
+      <Project>5E1FE383-C68A-4730-A9AA-92A40CD27C6C</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

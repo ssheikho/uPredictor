@@ -1,0 +1,10 @@
+[-]
+[-]
+[-]
+[(personInstallsPart	per1	p1	d1	ptype1)]
+[-]
+[-]
+[-]
+[(personInstallsPart	per1	p3	d2	ptype2)]
+[-]
+

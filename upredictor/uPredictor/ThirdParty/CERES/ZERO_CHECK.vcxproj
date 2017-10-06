@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{10A64050-72B9-4111-BF38-DA8BAF9AFC46}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\upredictor\uPredictor\ThirdParty\CERES\config;D:\upredictor\uPredictor\ThirdParty\ceres-solver\include;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal\ceres;D:\upredictor\uPredictor\ThirdParty\glog\src\windows;C:\Program Files\Eigen\include\eigen3;D:\prediction\Predictor\ThirdParty\gflags\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\upredictor\uPredictor\ThirdParty\CERES\config;D:\upredictor\uPredictor\ThirdParty\ceres-solver\include;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal\ceres;D:\upredictor\uPredictor\ThirdParty\glog\src\windows;C:\Program Files\Eigen\include\eigen3;D:\prediction\Predictor\ThirdParty\gflags\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\upredictor\uPredictor\ThirdParty\CERES\config;D:\upredictor\uPredictor\ThirdParty\ceres-solver\include;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal\ceres;D:\upredictor\uPredictor\ThirdParty\glog\src\windows;C:\Program Files\Eigen\include\eigen3;D:\prediction\Predictor\ThirdParty\gflags\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\upredictor\uPredictor\ThirdParty\CERES\config;D:\upredictor\uPredictor\ThirdParty\ceres-solver\include;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal\ceres;D:\upredictor\uPredictor\ThirdParty\glog\src\windows;C:\Program Files\Eigen\include\eigen3;D:\prediction\Predictor\ThirdParty\gflags\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\7bd2ef8eebb47a2678ad055fdcb8ddf4\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/upredictor/uPredictor/ThirdParty/ceres-solver -BD:/upredictor/uPredictor/ThirdParty/CERES --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/upredictor/uPredictor/ThirdParty/CERES/CMakeFiles/7bd2ef8eebb47a2678ad055fdcb8ddf4/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-config-version.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-config.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-export.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeCCompiler.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeSystem.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\CMakeLists.txt;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\AddGerritCommitHook.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\AppendTargetProperty.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CeresConfig.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CeresConfigVersion.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CreateCeresConfig.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindEigen.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindGflags.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindGlog.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindSharedPtr.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindUnorderedMap.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\UpdateCacheVariable.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\config.h.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\uninstall.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\examples\CMakeLists.txt;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal\ceres\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\generate.stamp;D:\upredictor\uPredictor\ThirdParty\CERES\internal\ceres\CMakeFiles\generate.stamp;D:\upredictor\uPredictor\ThirdParty\CERES\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/upredictor/uPredictor/ThirdParty/ceres-solver -BD:/upredictor/uPredictor/ThirdParty/CERES --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/upredictor/uPredictor/ThirdParty/CERES/CMakeFiles/7bd2ef8eebb47a2678ad055fdcb8ddf4/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-config-version.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-config.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-export.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeCCompiler.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeSystem.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\CMakeLists.txt;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\AddGerritCommitHook.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\AppendTargetProperty.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CeresConfig.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CeresConfigVersion.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CreateCeresConfig.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindEigen.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindGflags.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindGlog.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindSharedPtr.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindUnorderedMap.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\UpdateCacheVariable.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\config.h.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\uninstall.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\examples\CMakeLists.txt;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal\ceres\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\generate.stamp;D:\upredictor\uPredictor\ThirdParty\CERES\internal\ceres\CMakeFiles\generate.stamp;D:\upredictor\uPredictor\ThirdParty\CERES\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/upredictor/uPredictor/ThirdParty/ceres-solver -BD:/upredictor/uPredictor/ThirdParty/CERES --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/upredictor/uPredictor/ThirdParty/CERES/CMakeFiles/7bd2ef8eebb47a2678ad055fdcb8ddf4/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-config-version.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-config.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-export.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeCCompiler.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeSystem.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\CMakeLists.txt;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\AddGerritCommitHook.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\AppendTargetProperty.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CeresConfig.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CeresConfigVersion.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CreateCeresConfig.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindEigen.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindGflags.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindGlog.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindSharedPtr.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindUnorderedMap.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\UpdateCacheVariable.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\config.h.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\uninstall.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\examples\CMakeLists.txt;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal\ceres\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\generate.stamp;D:\upredictor\uPredictor\ThirdParty\CERES\internal\ceres\CMakeFiles\generate.stamp;D:\upredictor\uPredictor\ThirdParty\CERES\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/upredictor/uPredictor/ThirdParty/ceres-solver -BD:/upredictor/uPredictor/ThirdParty/CERES --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/upredictor/uPredictor/ThirdParty/CERES/CMakeFiles/7bd2ef8eebb47a2678ad055fdcb8ddf4/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-config-version.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-config.cmake;D:\prediction\Predictor\ThirdParty\gflags\gflags-export.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeCCompiler.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\3.2.1\CMakeSystem.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\CMakeLists.txt;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\AddGerritCommitHook.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\AppendTargetProperty.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CeresConfig.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CeresConfigVersion.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\CreateCeresConfig.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindEigen.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindGflags.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindGlog.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindSharedPtr.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\FindUnorderedMap.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\UpdateCacheVariable.cmake;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\config.h.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\cmake\uninstall.cmake.in;D:\upredictor\uPredictor\ThirdParty\ceres-solver\examples\CMakeLists.txt;D:\upredictor\uPredictor\ThirdParty\ceres-solver\internal\ceres\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\upredictor\uPredictor\ThirdParty\CERES\CMakeFiles\generate.stamp;D:\upredictor\uPredictor\ThirdParty\CERES\internal\ceres\CMakeFiles\generate.stamp;D:\upredictor\uPredictor\ThirdParty\CERES\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,60 @@
+#ifndef POS_GRID_H
+#define POS_GRID_H
+
+#include "gridwrapper.h"
+#include "swwrapper.h"
+
+#include <sstream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+class ArmPose;
+class ArmPoser;
+class PosList;
+
+class PosGrid {
+	public:
+		PosGrid(PosList &pl, ArmPoser &armPoser, bool frame = true);
+		~PosGrid();
+
+		GtkWidget *getWidget();
+		GridWrapper &getGrid();
+	protected:
+		class GridLine {
+			public:
+				GridLine(PosGrid &pg, ArmPose *ap = NULL);
+				~GridLine();
+
+				ArmPose *getArmPose();
+				void refreshText();
+
+				static void setCB(GtkWidget *widget, gpointer data);
+				static void delCB(GtkWidget *widget, gpointer data);
+				static void copyCB(GtkWidget *widget, gpointer data);
+				static void moveCB(GtkWidget *widget, gpointer data);
+
+			protected:
+				void init();
+				void setLine();
+				void deleteSelf();
+
+				PosGrid &_pg;
+				ArmPose *_ap;
+				vector<GtkEntry *> _entries;
+				GtkWidget *_setButton, *_delButton, *_copyButton, *_moveButton;
+				
+		};
+
+		PosList &_pl;
+		ArmPoser &_armPoser;
+		GridWrapper _posGrid;
+
+		//SWWrapper _scrolledWindow;
+		GtkWidget *_frame, *_scrolledWindow;
+		int _curRow, _curCol;
+		vector<GridLine *> _rows;
+};
+
+#endif

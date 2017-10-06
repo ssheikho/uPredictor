@@ -1,0 +1,40 @@
+#include "updatethread.h"
+
+#include <cstdio>
+#include <ctime>
+
+using namespace std;
+
+UpdateThread::UpdateThread(ExternalUpdate &eu) : _eu(eu), _keepGoing(false) {}
+UpdateThread::~UpdateThread() {}
+
+void *UpdateThread::updateThread(void *ut) {
+	UpdateThread *thread = (UpdateThread *)ut;
+	struct timespec t;
+	t.tv_sec = 0;
+	t.tv_nsec = 100;
+
+	thread->_keepGoing = true;
+
+	while(thread->_keepGoing) {
+		thread->update();
+		nanosleep(&t, NULL);
+	}
+}
+
+void UpdateThread::update() {
+	_eu.update();
+}
+
+void UpdateThread::update() {
+	_eu.update();
+}
+
+void UpdateThread::start() {
+	pthread_create(&_t, NULL, updateThread, this);
+}
+
+void UpdateThread::join() {
+	_keepGoing = false;
+	pthread_join(_t, NULL);
+}

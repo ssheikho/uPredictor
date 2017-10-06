@@ -1,0 +1,58 @@
+(define (problem screw1)
+	(:domain screw-simpl)
+	(:objects
+		gripper1 - gripper
+		screw1 screw2 screw3 screw4 screw5 screw6 screw0 - screw
+		rhole1 rhole2 rhole3 rhole4 rhole5 rhole6 rhole0 - rackhole
+		thole1 thole2 thole3 thole4 thole5 thole6 - threadedhole)
+	(:init
+		(gripperEmpty gripper1)
+
+		(proximityToRobot rhole0 rhole1)
+		(proximityToRobot rhole1 rhole2)
+		(proximityToRobot rhole2 rhole3)
+		(proximityToRobot rhole3 rhole4)
+		(proximityToRobot rhole4 rhole5)
+		(proximityToRobot rhole5 rhole6)
+
+		(openRackHole rhole0)
+		(onrack screw1 rhole1)
+		(onrack screw2 rhole2)
+		(onrack screw3 rhole3)
+		(onrack screw4 rhole4)
+		(onrack screw5 rhole5)
+		(onrack screw6 rhole6)
+
+		(screwdone screw0)
+		(screworder screw0 screw1)
+		(screworder screw1 screw2)
+		(screworder screw2 screw3)
+		(screworder screw3 screw4)
+		(screworder screw4 screw5)
+		(screworder screw5 screw6)
+
+		(destinationhole screw1 thole1)
+		(destinationhole screw2 thole2)
+		(destinationhole screw3 thole3)
+		(destinationhole screw4 thole4)
+		(destinationhole screw5 thole5)
+		(destinationhole screw6 thole6)
+
+		(openThreadedHole thole1)
+		(openThreadedHole thole2)
+		(openThreadedHole thole3)
+		(openThreadedHole thole4)
+		(openThreadedHole thole5)
+		(openThreadedHole thole6)
+	)
+	(:goal
+		(and
+			(screwedin screw1 thole1)
+			(screwedin screw2 thole2)
+			(screwedin screw3 thole3)
+			(screwedin screw4 thole4)
+			(screwedin screw5 thole5)
+			(screwedin screw6 thole6)
+		)
+	)
+)

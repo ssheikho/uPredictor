@@ -1,0 +1,6 @@
+[ 50%] Built target wamtiming
+Scanning dependencies of target wamposer
+[ 75%] Building CXX object wamposer/CMakeFiles/wamposer.dir/posgrid.cc.o
+[100%] Building CXX object wamposer/CMakeFiles/wamposer.dir/wamposer.cc.o
+Linking CXX executable wamposer
+[100%] Built target wamposer

@@ -1,0 +1,30 @@
+(define (domain screw-simpl)
+	(:types screw rackhole threadedhole)
+	(:predicates 
+		(onrack ?a - screw ?b - rackhole)
+		(intop ?a - screw ?b - threadedhole)
+		(screwedin ?a - screw ?b - threadedhole)
+		(openRackHole ?a - rackhole)
+		(openThreadedHole ?a - threadedhole)
+	)
+	(:action racktothreaded
+		:parameters (?from - rackhole ?to - threadedhole ?thescrew - screw)
+		:precondition (and (onrack ?thescrew ?from) (openThreadedHole ?to))
+		:effect
+			(and
+				(intop ?thescrew ?to)
+				(openRackHole ?rackhole)
+				(not (onrack ?thescrew ?from))
+				(not (openThreadedHole ?to))
+			)
+	)
+	(:action personscrewsin
+		:parameters (?thethreadedhole - threadedhole ?thescrew - screw)
+		:precondition (intop ?thescrew ?thethreadedhole)
+		:effect (
+			and
+			(screwedin ?thescrew ?thethreadedhole)
+			(not (intop ?thescrew ?thethreadedhole))
+		)
+	)
+)

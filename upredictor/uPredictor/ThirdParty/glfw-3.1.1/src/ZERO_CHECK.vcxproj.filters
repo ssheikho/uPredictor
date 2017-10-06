@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sara_\OneDrive\Documents\upredictor\uPredictor\ThirdParty\glfw-3.1.1\src\CMakeFiles\3e1f16c7c1b987ab2f17d945483ac54c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9880665D-769A-3179-A037-D71F60B78C88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

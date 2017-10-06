@@ -1,0 +1,26 @@
+SET(CMAKE_BUILD_TYPE Debug)
+SET(CMAKE_CXX_FLAGS_DEBUG "-g")
+
+SET(LIB_WAM_LIVE_SRC	
+	wamarmposer.cc
+	wamhandcontrol.cc
+	wamsafetycontrols.cc
+)
+
+add_library(wamlive SHARED ${LIB_WAM_LIVE_SRC})
+add_library(wamlive_static STATIC ${LIB_WAM_LIVE_SRC})
+
+include_directories (
+	../include
+	../../libwamtiming/include
+	../../../third-party/libbarrett-1.2.1/include/
+	../../../third-party/libconfig-1.4.5/lib
+	../../../third-party/libbarrett-1.2.1/include/
+	../../../third-party/libconfig-1.4.5/lib
+	#/usr/include/eigen3
+	/usr/include/eigen2
+	/usr/include/xenomai
+)
+
+
+INSTALL(FILES libwamlive.so DESTINATION /lib)

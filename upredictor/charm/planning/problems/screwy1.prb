@@ -1,0 +1,19 @@
+(define (problem screw1)
+	(:domain screw-simpl)
+	(:objects
+		screw1 screw2 - screw
+		rhole1 rhole2 - rackhole
+		thole1 thole2 - threadedhole)
+	(:init
+		(onrack screw1 rhole1)
+		(onrack screw2 rhole2)
+		(openThreadedHole thole1)
+		(openThreadedHole thole2)
+	)
+	(:goal
+		(and
+			(screwedin screw1 thole1)
+			(screwedin screw2 thole2)
+		)
+	)
+)

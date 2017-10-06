@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FD643C19-E18A-4B3A-AFD5-DB0A3CB82646}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>UBCDART</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\justi\Documents\Research\Code\assimp\include;C:\Users\justi\Documents\Research\Code\freeglut-3.0.0\include;C:\Users\justi\Documents\Research\Code\glew-1.13.0\include;C:\Users\justi\Documents\Research\Code\tinyxml_2_6_2\tinyxml;C:\Users\justi\Documents\Research\Code\upredictor\uPredictor\ThirdParty\libmatheval-1.1.5\lib;$(SolutionDir)\UBCGUI;C:\Users\justi\Documents\Research\Code\glew-1.13.0\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\extras\CUPTI\include;C:\Users\justi\Documents\Research\Code\lpng1621;C:\Users\justi\Documents\Research\Code\eigen-eigen-07105f7124f9;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\justi\Documents\Research\Code\upredictor\uPredictor\ThirdParty\dart\src</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\justi\Documents\Research\Code\assimp\include;C:\Users\justi\Documents\Research\Code\freeglut-3.0.0\include;C:\Users\justi\Documents\Research\Code\glew-1.13.0\include;C:\Users\justi\Documents\Research\Code\tinyxml_2_6_2\tinyxml;C:\Users\justi\Documents\Research\Code\upredictor\uPredictor\ThirdParty\libmatheval-1.1.5\lib;$(SolutionDir)\UBCGUI;C:\Users\justi\Documents\Research\Code\lpng1621;C:\Users\justi\Documents\Research\Code\eigen-eigen-07105f7124f9;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\justi\Documents\Research\Code\upredictor\uPredictor\ThirdParty\dart\src</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="assimp_mesh_reader.cpp" />
+    <ClCompile Include="color_ramps.cpp" />
+    <ClCompile Include="contact_prior.cpp" />
+    <ClCompile Include="dart_io.cpp" />
+    <ClCompile Include="data_association_viz.cpp" />
+    <ClCompile Include="distance_transforms.cpp" />
+    <ClCompile Include="geometry.cpp" />
+    <ClCompile Include="gl_dart.cpp" />
+    <ClCompile Include="gradient_viz.cpp" />
+    <ClCompile Include="host_only_model.cpp" />
+    <ClCompile Include="image_io.cpp" />
+    <ClCompile Include="img_ops.cpp" />
+    <ClCompile Include="mesh.cpp" />
+    <ClCompile Include="mesh_proc.cpp" />
+    <ClCompile Include="mesh_sample.cpp" />
+    <ClCompile Include="mesh_splat.cpp" />
+    <ClCompile Include="mirrored_model.cpp" />
+    <ClCompile Include="model.cpp" />
+    <ClCompile Include="model_renderer.cpp" />
+    <ClCompile Include="optimizer.cpp" />
+    <ClCompile Include="organized_point_cloud.cpp" />
+    <ClCompile Include="ostream_operators.cpp" />
+    <ClCompile Include="plane_fitting.cpp" />
+    <ClCompile Include="point_2d_3d_prior.cpp" />
+    <ClCompile Include="point_3d_3d_prior.cpp" />
+    <ClCompile Include="pose.cpp" />
+    <ClCompile Include="prediction_renderer.cpp" />
+    <ClCompile Include="primitive_meshing.cpp" />
+    <ClCompile Include="resampling.cpp" />
+    <ClCompile Include="sdf.cpp" />
+    <ClCompile Include="sdf_viz.cpp" />
+    <ClCompile Include="string_format.cpp" />
+    <ClCompile Include="tracker.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="assimp_mesh_reader.h" />
+    <ClInclude Include="bilateral_filter.h" />
+    <ClInclude Include="color_ramps.h" />
+    <ClInclude Include="cuda_utils.h" />
+    <ClInclude Include="dart_io.h" />
+    <ClInclude Include="dart_types.h" />
+    <ClInclude Include="data_association_viz.h" />
+    <ClInclude Include="depth_source.h" />
+    <ClInclude Include="distance_transforms.h" />
+    <ClInclude Include="geometry.h" />
+    <ClInclude Include="gl_dart.h" />
+    <ClInclude Include="gradient_viz.h" />
+    <ClInclude Include="grid_2d.h" />
+    <ClInclude Include="grid_3d.h" />
+    <ClInclude Include="helper_math.h" />
+    <ClInclude Include="host_only_model.h" />
+    <ClInclude Include="image_depth_source.h" />
+    <ClInclude Include="image_io.h" />
+    <ClInclude Include="img_ops.h" />
+    <ClInclude Include="intersection.h" />
+    <ClInclude Include="kernel_common.h" />
+    <ClInclude Include="matrix_viz.h" />
+    <ClInclude Include="mesh.h" />
+    <ClInclude Include="mesh_proc.h" />
+    <ClInclude Include="mesh_sample.h" />
+    <ClInclude Include="mesh_splat.h" />
+    <ClInclude Include="mirrored_memory.h" />
+    <ClInclude Include="mirrored_model.h" />
+    <ClInclude Include="model.h" />
+    <ClInclude Include="model_renderer.h" />
+    <ClInclude Include="modToObs.h" />
+    <ClInclude Include="obsToMod.h" />
+    <ClInclude Include="optimization.h" />
+    <ClInclude Include="optimizer.h" />
+    <ClInclude Include="organized_point_cloud.h" />
+    <ClInclude Include="ostream_operators.h" />
+    <ClInclude Include="pango_depth_source.h" />
+    <ClInclude Include="plane_fitting.h" />
+    <ClInclude Include="point_cloud_src.h" />
+    <ClInclude Include="pose.h" />
+    <ClInclude Include="pose_reduction.h" />
+    <ClInclude Include="prediction_renderer.h" />
+    <ClInclude Include="prefix.h" />
+    <ClInclude Include="primitive_meshing.h" />
+    <ClInclude Include="priors.h" />
+    <ClInclude Include="raycast.h" />
+    <ClInclude Include="resampling.h" />
+    <ClInclude Include="sdf.h" />
+    <ClInclude Include="sdf_viz.h" />
+    <ClInclude Include="SE3.h" />
+    <ClInclude Include="string_format.h" />
+    <ClInclude Include="tracker.h" />
+    <ClInclude Include="vector_type_template.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

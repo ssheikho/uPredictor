@@ -1,0 +1,7 @@
+Scanning dependencies of target ubckinect
+[  6%] Building CXX object UBCKinect/CMakeFiles/ubckinect.dir/KinectInterface.o
+[ 12%] Building CXX object UBCKinect/CMakeFiles/ubckinect.dir/KinectVideoCompress.o
+[ 18%] Building CXX object UBCKinect/CMakeFiles/ubckinect.dir/KinectVideoDecompress.o
+[ 25%] Building CXX object UBCKinect/CMakeFiles/ubckinect.dir/RegisteredBB.o
+[ 31%] Linking CXX static library libubckinect.a
+[100%] Built target ubckinect

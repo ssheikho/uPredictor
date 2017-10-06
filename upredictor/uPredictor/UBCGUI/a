@@ -1,0 +1,84 @@
+CMake Warning (dev) at UBCUtil/CMakeLists.txt:35 (add_library):
+  Policy CMP0002 is not set: Logical target names must be globally unique.
+  Run "cmake --help-policy CMP0002" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at UBCGUI/CMakeLists.txt:47 (add_library):
+  Policy CMP0002 is not set: Logical target names must be globally unique.
+  Run "cmake --help-policy CMP0002" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at GUIExample/CMakeLists.txt:51 (link_directories):
+  This command specifies the relative path
+
+    ../UBCGUI
+
+  as a link directory.
+
+  Policy CMP0015 is not set: link_directories() treats paths relative to the
+  source dir.  Run "cmake --help-policy CMP0015" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at GUIExample/CMakeLists.txt:51 (link_directories):
+  This command specifies the relative path
+
+    ../UBCUtil
+
+  as a link directory.
+
+  Policy CMP0015 is not set: link_directories() treats paths relative to the
+  source dir.  Run "cmake --help-policy CMP0015" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 3.5)
+
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+CMake Warning (dev) at GUIExample/CMakeLists.txt:57 (add_executable):
+  Policy CMP0003 should be set before this line.  Add code such as
+
+    if(COMMAND cmake_policy)
+      cmake_policy(SET CMP0003 NEW)
+    endif(COMMAND cmake_policy)
+
+  as early as possible but after the most recent call to
+  cmake_minimum_required or cmake_policy(VERSION).  This warning appears
+  because target "GUIExample" links to some libraries for which the linker
+  must search:
+
+    opencv_calib3d, opencv_core, opencv_features2d, opencv_flann
+    opencv_highgui, opencv_imgproc, opencv_legacy, opencv_ml, opencv_objdetect
+    opencv_video, glfw, GL, GLU, glut, -lgtk-3, -lgdk-3, -lpangocairo-1.0
+    -lpango-1.0, -latk-1.0, -lcairo-gobject, -lcairo, -lgdk_pixbuf-2.0
+    -lgio-2.0, -lgobject-2.0, -lglib-2.0
+
+  and other libraries with known full path:
+
+    /home/justin/Research/Code/upredictor/uPredictor/UBCGUI/libubcgui.so
+    /home/justin/Research/Code/upredictor/uPredictor/UBCUtil/libubcutil.a
+
+  CMake is adding directories in the second list to the linker search path in
+  case they are needed to find libraries from the first list (for backwards
+  compatibility with CMake 2.4).  Set policy CMP0003 to OLD or NEW to enable
+  or disable this behavior explicitly.  Run "cmake --help-policy CMP0003" for
+  more information.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /home/justin/Research/Code/upredictor/uPredictor
+Scanning dependencies of target ubcgui
+[  6%] Building CXX object UBCGUI/CMakeFiles/ubcgui.dir/SimpleComboBox.o
+[ 13%] Building CXX object UBCGUI/CMakeFiles/ubcgui.dir/SimpleSlider.o
+[ 20%] Linking CXX shared library libubcgui.so
+[100%] Built target ubcgui

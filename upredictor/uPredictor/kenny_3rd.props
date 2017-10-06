@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\3rd\libpng\lpng1622;C:\Code\dart_windows_port\dart\ThirdParty\libmatheval-1.1.5\lib;C:\3rd\tinyxml\tinyxml_2_6_2\tinyxml;C:\3rd\glew\glew-1.13.0\include;C:\3rd\freeglut\freeglut-3.0.0\include;C:\3rd\glfw\glfw-3.1.2\include;C:\3rd\eigen\eigen-eigen-07105f7124f9;C:\3rd\opencv\Builds\install\include;C:\3rd\opencv\opencv-master\modules\calib3d\include;C:\3rd\opencv\opencv-master\modules\flann\include;C:\3rd\opencv\opencv-master\modules\features2d\include;C:\3rd\opencv\opencv-master\modules\videoio\include;C:\3rd\opencv\opencv-master\modules\imgcodecs\include;C:\3rd\opencv\opencv-master\modules\highgui\include;C:\3rd\opencv\opencv-master\modules\objdetect\include;C:\3rd\opencv\opencv-master\modules\video\include;C:\3rd\opencv\opencv-master\modules\photo\include;C:\3rd\opencv\opencv-master\modules\imgproc\include;C:\3rd\opencv\opencv-master\modules\core\include;C:\3rd\opencv\opencv-master\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\3rd\tinyxml\tinyxml_2_6_2\tinyxml\x64\Release;C:\3rd\freeglut\Builds\lib\$(Configuration);C:\3rd\opencv\Builds\lib\Release;C:\3rd\glew\glew-1.13.0\lib\Release\$(Platform);C:\3rd\glfw\Builds\src\$(Configuration);C:\3rd\opencv\Builds\lib\$(Configuration)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

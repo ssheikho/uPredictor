@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sara_\OneDrive\Documents\upredictor\uPredictor\ThirdParty\cvblob\CMakeFiles\340c05e011bf1d76e21f2b9c40d4870d\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{70E81479-64C7-34DC-B37D-52F6EBDBC76E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

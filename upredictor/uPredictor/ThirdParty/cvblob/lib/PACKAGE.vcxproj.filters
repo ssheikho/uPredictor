@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\upredictor\uPredictor\ThirdParty\cvblob\CMakeFiles\b6713732ef6529831672c35153ba44c9\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EC32230C-BDB3-46C5-8601-0FBF23037C12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

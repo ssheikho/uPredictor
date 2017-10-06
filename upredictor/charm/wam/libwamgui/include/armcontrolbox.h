@@ -1,0 +1,26 @@
+#ifndef ARM_CONTROL_BOX_H
+#define ARM_CONTROL_BOX_H
+
+#include "gridwrapper.h"
+
+class ArmPoser;
+
+class ArmControlBox {
+	public:
+		ArmControlBox(ArmPoser &armPoser, bool frame = true);
+		~ArmControlBox();
+
+		GtkWidget *getWidget();
+		GridWrapper &getGrid();
+
+		static void idleCB(GtkWidget *widget, gpointer data);
+
+	protected:
+		void idle();
+
+		ArmPoser &_armPoser;
+		GridWrapper _gw;
+		GtkWidget *_frame, *_label, *_idleButton;
+};
+
+#endif

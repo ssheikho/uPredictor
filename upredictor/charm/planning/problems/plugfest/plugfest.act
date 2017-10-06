@@ -1,0 +1,27 @@
+(define 
+	(actors plugfest)
+	(:domain plugfest)
+	(:actors
+		(:actor	robot
+			(:actortype SMCResponseActor)
+			(:conffile AutoActor)
+			(:actions
+				firstPartFromRackOfFirstType
+				firstPartFromRackOfSubsequentType
+				innerPartFromRack
+				moveToPerson
+				moveFromPerson
+				handOverToPerson
+			)
+		)
+		(:actor	operator
+			(:actortype SMCPersonActor)
+			(:conffile AutoActor)
+			(:actions
+				personInstallsPart
+				personRemovesInstalledPart
+				personDiscardsPart
+			)
+		)
+	)
+)

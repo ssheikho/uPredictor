@@ -1,0 +1,17 @@
+﻿Profiling of 'ColorSegCUDATest' started.
+Profiling of 'ColorSegCUDATest' stopped.
+Profiling of 'ColorSegCUDATest' started.
+Profiling of 'ColorSegCUDATest' stopped.
+Profiling of 'ColorSegCUDATest' started.
+ColorSegCUDATest has exited.
+Profiling of 'ColorSegCUDATest' stopped.
+Matching symbols not found for cudart64_75.dll
+Matching symbols not found for opencv_core310.dll
+Matching symbols not found for opencv_imgproc310.dll
+Matching symbols not found for win32kfull.sys
+Matching symbols not found for win32kbase.sys
+Symbols loaded for ColorSegCUDATest.exe
+Symbols loaded for UBCColorTrackCUDA.dll
+Matching symbols not found for task_executor64.dll
+Matching symbols not found for intelocl64.dll
+Matching symbols not found for cpu_device64.dll

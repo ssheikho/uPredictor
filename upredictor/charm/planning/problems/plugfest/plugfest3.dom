@@ -1,0 +1,249 @@
+(define (domain plugfest)
+	(:types part parttype partrackhole partdestination gripper person)
+	(:predicates 
+		(partonrack		?a - part				?b - partrackhole)
+		(typeofpart		?a - part				?b - parttype)
+		(partdesttype	?a - partdestination	?b - parttype)
+		(destisopen		?a - partdestination)
+		(destisoccupied	?a - partdestination)
+		(destinstalled	?a - part				?b - partdestination)
+		(workingonpart	?a - part)
+		(workingonparttype	?a - parttype)
+		(parthasbeeninstalled	?a - part)
+		(parthasbeenremoved		?a - part)
+
+		(frontrackhole	?front	-	partrackhole)
+		(behindonrack	?front	-	partrackhole	?back	-	partrackhole)
+		(openrackhole	?a		-	partrackhole)
+
+		(gripperempty			?a - gripper)
+		(ingripper				?a - part				?b - gripper)
+		(gripperbyperson		?a - gripper)
+		(gripperawayfromperson	?a - gripper)
+
+		(personhandempty	?a - person)
+		(personholdingpart	?a - person ?b - part)
+
+		(partfirst	?a - parttype)
+		(partorder	?first	-	parttype	?second	-	parttype)
+		(partattempted	?a	-	parttype)
+		(parttypeisnull ?a	-	parttype)
+	)
+
+	(:action firstPartFromRackOfFirstType
+			:parameters
+				(
+					?thegripper				- gripper
+					?thepart				- part
+					?therackhole			- partrackhole
+					?theparttype			- parttype
+					?thedestination			- partdestination
+				)
+			:precondition 	(and
+								(frontrackhole ?therackhole)
+								(gripperempty ?thegripper)
+								(partonrack ?thepart ?therackhole)
+								(partfirst	?theparttype)
+								(typeofpart ?thepart ?theparttype)
+								(not (gripperbyperson	?thegripper))
+								(gripperawayfromperson	?thegripper)
+								(destisopen ?thedestination)
+								(not (destisoccupied ?thedestination))
+								(partdesttype ?thedestination ?theparttype)
+							)
+			:effect (and
+						(not (gripperempty ?thegripper))
+						(ingripper ?thepart ?thegripper)
+						(not (partonrack ?thepart ?therackhole))
+						(openrackhole ?therackhole)
+						(partattempted ?theparttype)
+					)
+	)
+
+	(:action firstPartFromRackOfSubsequentType
+			:parameters
+				(
+					?thegripper		- gripper
+					?thepart		- part
+					?therackhole	- partrackhole
+					?priorparttype	- parttype
+					?theparttype	- parttype
+					?thedestination	- partdestination
+				)
+			:precondition 	(and
+								(frontrackhole ?therackhole)
+								(gripperempty ?thegripper)
+								(partonrack ?thepart ?therackhole)
+								(partorder	?priorparttype	?theparttype)
+								(partattempted	?priorparttype)
+								(typeofpart ?thepart ?theparttype)
+								(not (gripperbyperson	?thegripper))
+								(gripperawayfromperson	?thegripper)
+								(destisopen ?thedestination)
+								(not (destisoccupied ?thedestination))
+								(partdesttype ?thedestination ?theparttype)
+							)
+			:effect (and
+						(not (gripperempty ?thegripper))
+						(ingripper ?thepart ?thegripper)
+						(not (partonrack ?thepart ?therackhole))
+						(openrackhole ?therackhole)
+						(partattempted ?theparttype)
+					)
+	)
+
+	(:action innerPartFromRack
+		:parameters (
+			?thegripper			- gripper
+			?thepart			- part
+			?therackhole		- partrackhole
+			?infrontrackhole	- partrackhole
+			?thedestination	- partdestination
+			?theparttype	- parttype
+			)
+		:precondition 	(and
+							(openrackhole ?infrontrackhole)
+							(behindonrack ?infrontrackhole ?therackhole)
+							(gripperempty ?thegripper)
+							(partonrack ?thepart ?therackhole)
+							(not (gripperbyperson	?thegripper))
+							(gripperawayfromperson	?thegripper)
+							(destisopen ?thedestination)
+							(not (destisoccupied ?thedestination))
+							(typeofpart ?thepart ?theparttype)
+							(partdesttype ?thedestination ?theparttype)
+						)
+		:effect (and
+					(not (gripperempty ?thegripper))
+					(ingripper ?thepart ?thegripper)
+					(not (partonrack ?thepart ?therackhole))
+					(openrackhole ?therackhole)
+				)
+	)
+
+	(:action moveToPerson
+		:parameters 	(
+							?thegripper			- gripper
+							?thepart			- part
+						)
+		:precondition	(	and
+							(not (gripperbyperson	?thegripper))
+							(gripperawayfromperson ?thegripper)
+							(ingripper ?thepart ?thegripper)
+						)
+		:effect 		(	and
+							(gripperbyperson	?thegripper)
+							(not (gripperawayfromperson ?thegripper))
+						)
+	)
+
+	(:action moveFromPerson
+		:parameters 	(
+							?thegripper			- gripper
+						)
+		:precondition	(	and
+							(gripperbyperson	?thegripper)
+							(not (gripperawayfromperson	?thegripper))
+							(gripperempty ?thegripper)
+						)
+		:effect 		(	and
+							(not (gripperbyperson	?thegripper))
+							(gripperawayfromperson ?thegripper)
+						)
+	)
+
+	(:action handOverToPerson
+			:parameters 	(
+								?theperson			-	person
+								?thepart			-	part
+								?previouspart		-	part
+								?thegripper			-	gripper
+								?theparttype		-	parttype
+								?previousparttype	-	parttype
+							)
+			:precondition	(and
+								(ingripper			?thepart		?thegripper)
+								(personhandempty	?theperson)
+								(workingonpart		?previouspart)
+								(gripperbyperson	?thegripper)
+								(not (gripperawayfromperson	?thegripper))
+								(typeofpart ?thepart ?theparttype)
+								(typeofpart ?previouspart ?previousparttype)
+							)
+			:effect			(and
+								(not (ingripper ?thepart ?thegripper))
+								(not (personhandempty ?theperson))
+								(personholdingpart ?theperson ?thepart)
+								(gripperempty ?thegripper)
+								(workingonpart	?thepart)
+								(not (workingonpart	?previouspart))
+							)	
+	)
+
+	(:action personInstallsPart
+			:parameters		(
+								?theperson		-	person
+								?thepart		-	part
+								?thedestination	-	partdestination
+								?theparttype	-	parttype
+							)
+			:precondition	(and
+								(destisopen ?thedestination)
+								(personholdingpart ?theperson ?thepart)
+								(typeofpart ?thepart ?theparttype)
+								(partdesttype ?thedestination ?theparttype)
+								(workingonpart	?thepart)
+							)				
+			:effect			(and
+								(not (destisopen ?thedestination))
+								(destisoccupied ?thedestination)
+								(not (personholdingpart ?theperson ?thepart))
+								(destinstalled	?thepart ?thedestination)
+								(personhandempty ?theperson)
+							)
+	)
+
+	(:action personRemovesInstalledPart
+			:parameters		(
+								?thepart		-	part
+								?thedestination	-	partdestination
+								?theperson		-	person
+							)			
+			:precondition	(and
+								(destinstalled	?thepart ?thedestination)
+								(personhandempty ?theperson)
+								(workingonpart	?thepart)
+							)
+			:effect			(and
+								(not (personhandempty ?theperson))
+								(not (destinstalled	?thepart ?thedestination))
+								(personholdingpart ?theperson ?thepart)
+								(destisopen ?thedestination)
+								(not(destisoccupied ?thedestination))
+							)
+	)
+
+	(:action personDiscardsPart
+			:parameters		(
+								?thepart		-	part
+								?theparttype	-	parttype
+								?theperson		-	person
+								?nullpart		-	part
+								?nullparttype	-	parttype
+							)			
+			:precondition	(and
+								(personholdingpart ?theperson ?thepart)
+								(typeofpart ?thepart ?theparttype)
+								(workingonpart	?thepart)
+								(not (workingonpart	?nullpart))
+								(parttypeisnull ?nullparttype)
+								(typeofpart ?nullpart ?nullparttype)
+							)
+			:effect			(and
+								(not (personholdingpart ?theperson ?thepart))
+								(personhandempty ?theperson)
+								(not (workingonpart	?thepart))
+								(workingonpart	?nullpart)
+							)
+	)
+)

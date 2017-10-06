@@ -1,0 +1,29 @@
+(define (problem screw1)
+	(:domain screw-simpl)
+	(:objects
+		gripper1 - gripper
+		screw1 screw2 - screw
+		rhole1 rhole2 - rackhole
+		thole1 thole2 - threadedhole)
+	(:init
+		(gripperEmpty gripper1)
+
+		(firstRackHole rhole1)
+		(proximityToRobot rhole1 rhole2)
+
+		(onrack screw1 rhole1)
+		(onrack screw2 rhole2)
+
+		(destinationhole screw1 thole1)
+		(destinationhole screw2 thole2)
+
+		(openThreadedHole thole1)
+		(openThreadedHole thole2)
+	)
+	(:goal
+		(and
+			(screwedin screw1 thole1)
+			(screwedin screw2 thole2)
+		)
+	)
+)

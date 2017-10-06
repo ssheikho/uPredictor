@@ -1,0 +1,14 @@
+[  2%] Built target ubccamera
+[  5%] Built target UBColorTrackCuda
+Scanning dependencies of target ubcdart
+[  7%] Building CXX object UBCDART/CMakeFiles/ubcdart.dir/KIDepthSource.o
+[  8%] Linking CXX static library libubcdart.a
+[ 14%] Built target ubcdart
+[ 33%] Built target ubckinect
+[ 50%] Built target ubckinectgui
+[ 76%] Built target ubcgui
+[ 78%] Built target ubcsimplegeometry
+[ 80%] Built target ubctrackercuda
+[ 97%] Built target ubcutil
+[ 98%] Linking CXX executable GUIExample
+[100%] Built target GUIExample

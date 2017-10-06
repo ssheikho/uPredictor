@@ -1,0 +1,20 @@
+(define
+	(state-machines plugfest)
+	(:domain plugfest)
+	(:state-machines
+			(:state-machine
+				(:action firstPartFromRackOfFirstType)
+				(:state-listing state-one state-two state-three state-four)
+				(:states
+					(:state state-one
+						(:on-entry
+							(:message entered-state-one)
+						)
+						(:message-events
+						)
+					)
+				)
+			)
+
+	)
+)

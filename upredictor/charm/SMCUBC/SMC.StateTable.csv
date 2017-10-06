@@ -1,0 +1,11 @@
+Step ,Description,StepDescription,TargetModule,NextState,SuccessCondition1,SuccessCondition2,SuccessCondition3,FailCondition,FailState,TimeoutSeconds,Assignations,Sound
+0.0.0,Begin,Begin,ALL,Next,AllOk,,,,Same,10,SMCReady=1,
+1.1.1,StartingConditions,DoWhatNext,Planner,Next,PlannerReady,,,SADBFailed,Same,1,,
+1.3.1,StartingConditions,DoWhatNext1,Planner,Next,PlannerACK,,,T3KFailed,Same,1,,
+1.3.2,StartingConditions,DoWhatNext2,Planner,Next,StartMove1,,,T3WFailed,Same,10,,
+1.3.3,StartingConditions,DoWhatNext3,Planner,Next,StartMove2,,,T3OFailed,Same,10,,
+1.3.4,StartingConditions,WantStartMove,Planner,Next,StartMove3,,,IADFailed,Same,10,Position=0,
+1.3.5,StartingConditions,WantStartMove1,Planner,Next,PresentPart1,,,KUKAFailed,Same,10,,
+1.3.6,StartingConditions,WantStartMove2,Planner,Next,PresentPart2,,,GRIPFailed,Same,15,,
+1.4.1,StartingConditions,WantStartMove3,Planner,Next,PresentPart3,,,SADBFailed,Same,15,,
+1.5.1,StartingConditions,WantStartMove4,Planner,1.1.1,PlannerFinish,,,T3OFailed,Same,5,Position=1 ,

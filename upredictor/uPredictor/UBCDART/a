@@ -1,0 +1,4 @@
+[  7%] Building NVCC (Device) object UBCDART/CMakeFiles/ubcdart.dir/ubcdart_generated_PointCloud.cu.o
+Scanning dependencies of target ubcdart
+[ 15%] Linking CXX static library libubcdart.a
+[100%] Built target ubcdart

@@ -1,0 +1,8 @@
+prefix=/home/justin/charm/charm/trunk/ROS/catkin_ws/install
+
+Name: wam_node
+Description: Description of wam_node
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/justin/charm/charm/trunk/ROS/catkin_ws/install/lib 
+Requires: message_runtime

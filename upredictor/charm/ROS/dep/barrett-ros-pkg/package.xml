@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+	<name>barrett_ros_package</name>
+	<version>1.0.0</version>
+	<description>The Barrett ROS Package</description>
+
+	<maintainer email="louisa@todo.todo">louisa</maintainer>
+
+	<license>TODO</license>
+
+	<url type="website">http://wiki.ros.org/beginner_tutorials</url>
+	<author email="jane.doe@example.com">Jane Doe</author>
+
+	<buildtool_depend>catkin</buildtool_depend>
+
+	<run_depend>wam_common</run_depend>
+
+	<!--
+		<run_depend>roscpp</run_depend>
+		<run_depend>rospy</run_depend>
+		<run_depend>std_msgs</run_depend>
+	-->
+
+	<export>
+		<metapackage />
+	</export>
+
+</package>
