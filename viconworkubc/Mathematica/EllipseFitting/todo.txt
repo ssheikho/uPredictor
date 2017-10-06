@@ -1,0 +1,9 @@
+1) Experiment with planar fit.
+2) Experiment with elliptical fit.
+3) Experiment with kinematic fit.
+4) Build scanner for fit modes.
+5) Start working on WAM.
+6) Elliptical plan for WAM.
+7) BREB
+8) Protocol
+9) Adapt Kinect code to be useful in this setting.

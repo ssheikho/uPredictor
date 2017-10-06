@@ -1,0 +1,25 @@
+<robot name="wam"
+	xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+	<!-- Includea all the WAM stuff -->
+	<xacro:include filename="$(find wam_description)/urdf/models/wam_top.urdf.xacro"/>
+
+	<!-- Root link is in the world frame-->
+	<link name = "world"/>
+
+	<xacro:wam_7dof prefix="wam" parent_link="world" xyz="0 0 0" rpy="0 0 0" />
+	<xacro:bhand prefix="wam/bhand" parent_link="wam/wrist_palm_link" xyz="0 0 0.06" rpy="0 0 ${PI}"/>
+
+	<gazebo>
+		<plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+			<robotNamespace>/wam</robotNamespace>
+		</plugin>
+
+        <plugin filename="libgazebo_ros_moveit_planning_scene.so" name="gazebo_ros_moveit_planning_scene">
+          <topicName>/planning_scene</topicName>
+          <sceneName>laboratory</sceneName>
+          <robotName>wam</robotName>
+          <updatePeriod>0.5</updatePeriod>
+        </plugin>
+	</gazebo>
+</robot>

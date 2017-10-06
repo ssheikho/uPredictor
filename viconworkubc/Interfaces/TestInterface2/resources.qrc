@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+	<qresource>
+		<file alias="1B.png">src/images/Blue_1.png</file>
+		<file alias="2B.png">src/images/Blue_2.png</file>
+		<file alias="3B.png">src/images/Blue_3.png</file>
+		<file alias="4B.png">src/images/Blue_4.png</file>
+		<file alias="1G.png">src/images/Green_1.png</file>
+		<file alias="2G.png">src/images/Green_2.png</file>
+		<file alias="3G.png">src/images/Green_3.png</file>
+		<file alias="4G.png">src/images/Green_4.png</file>
+		<file alias="1Y.png">src/images/Yellow_1.png</file>
+		<file alias="2Y.png">src/images/Yellow_2.png</file>
+		<file alias="3Y.png">src/images/Yellow_3.png</file>
+		<file alias="4Y.png">src/images/Yellow_4.png</file>
+		<file alias="1R.png">src/images/Red_1.png</file>
+		<file alias="2R.png">src/images/Red_2.png</file>
+		<file alias="3R.png">src/images/Red_3.png</file>
+		<file alias="4R.png">src/images/Red_4.png</file>
+		<file alias="A.png">src/images/A.png</file>
+		<file alias="B.png">src/images/B.png</file>
+		<file alias="C.png">src/images/C.png</file>
+		<file alias="D.png">src/images/D.png</file>
+		<file alias="1.png">src/images/1.png</file>
+		<file alias="2.png">src/images/2.png</file>
+		<file alias="3.png">src/images/3.png</file>
+		<file alias="4.png">src/images/4.png</file>
+	</qresource>
+</RCC>

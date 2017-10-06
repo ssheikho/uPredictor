@@ -1,0 +1,3 @@
+cd C:\Users\jorge\PycharmProjects\TestInterface2
+
+pyrcc4 -py3 -o resources2.py resources.qrc

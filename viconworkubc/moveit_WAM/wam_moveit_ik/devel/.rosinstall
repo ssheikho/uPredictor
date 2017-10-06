@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/sara/Documents/catkin_ws/src/moveit_WAM/wam_moveit_ik/devel/setup.sh

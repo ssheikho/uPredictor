@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "wam_moveit_ik")
+set(wam_moveit_ik_MAINTAINER "caris <caris@todo.todo>")
+set(wam_moveit_ik_DEPRECATED "")
+set(wam_moveit_ik_VERSION "0.0.0")
+set(wam_moveit_ik_BUILD_DEPENDS "moveit_core" "liblapack-dev" "roscpp" "tf_conversions" "pluginlib")
+set(wam_moveit_ik_RUN_DEPENDS "moveit_core" "liblapack-dev" "roscpp" "tf_conversions" "pluginlib")
+set(wam_moveit_ik_BUILDTOOL_DEPENDS "catkin")

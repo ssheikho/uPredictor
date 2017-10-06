@@ -1,0 +1,44 @@
+Subject Name,Lala,Subject Age,21,Subject Gender,Male
+
+
+Trial 0
+4Y,1R,3G,2B
+
+4Y,2B
+1R,3G
+
+
+Trial 1
+3R,1B,2G,4Y
+
+3R,2G
+4Y,1B
+
+
+Trial 2
+2G,1R,3B,4Y
+
+3B,1R
+4Y,2G
+
+
+Trial 3
+4G,3B,1Y,2R
+
+3B,1Y
+2R,4G
+
+
+Trial 4
+1Y,2R,4B,3G
+
+2R,3G
+4B,1Y
+
+
+Trial 5
+2B,1G,4Y,3R
+
+2B,1G
+3R,4Y
+

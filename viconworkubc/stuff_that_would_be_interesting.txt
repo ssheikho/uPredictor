@@ -1,0 +1,7 @@
+1) Analyze the velocity profile as projected along the linear path and see what happens.
+
+2) If the arm basically does a linear interpolation across its DOF, resulting in the path.
+
+3) A linear interpolation across the robot's joints follows a path that is non-planar and wobbles about the plane. What of a real human motion?
+
+4) There are two relevant accelerations here, one is angular acceleration, and one is through space. The question is, which varies less with respect to the overall length of the reach?

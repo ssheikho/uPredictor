@@ -1,0 +1,20 @@
+CMake Error at CMakeLists.txt:4 (find_package):
+  By not providing "Findmoveit_core.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "moveit_core", but CMake did not find one.
+
+  Could not find a package configuration file provided by "moveit_core" with
+  any of the following names:
+
+    moveit_coreConfig.cmake
+    moveit_core-config.cmake
+
+  Add the installation prefix of "moveit_core" to CMAKE_PREFIX_PATH or set
+  "moveit_core_DIR" to a directory containing one of the above files.  If
+  "moveit_core" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/sara/Documents/catkin_ws/src/moveit_WAM/wam_moveit_ik/CMakeFiles/CMakeOutput.log".
+See also "/home/sara/Documents/catkin_ws/src/moveit_WAM/wam_moveit_ik/CMakeFiles/CMakeError.log".

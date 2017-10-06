@@ -1,0 +1,46 @@
+Subject Name,<PyQt4.QtGui.QLineEdit object at 0x03A76260>,Subject Age,<PyQt4.QtGui.QLineEdit object at 0x03A76300>,Subject Gender,Other
+
+
+Trial 0
+2R,1G,4Y,3B
+
+3B,2R
+4Y,1G
+
+
+Trial 1
+1Y,2R,3B,4G
+
+1Y,4G
+3B,2R
+
+
+Trial 2
+3Y,2G,1B,4R
+
+4R,1B
+2G,3Y
+
+Subject Name,Yuqing,Subject Age,20,Subject Gender,Other
+
+
+Trial 0
+3Y,1B,2R,4G
+
+4G,2R
+3Y,1B
+
+
+Trial 1
+3G,4Y,2B,1R
+
+4Y,1R
+3G,2B
+
+
+Trial 2
+4Y,2G,3R,1B
+
+1B,3R
+4Y,2G
+

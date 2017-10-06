@@ -1,0 +1,22 @@
+Participant #: 11 
+Time #: 2016-10-26 00:09:59.619325  
+Timestamp:
+1477465800.817593
+from_ramp:
+[0, 1, 2, 4]
+to_rack:
+[2, 1, 3, 0]
+from_rack:
+[0, 3, 2, 1]
+to_basket:
+[2, 1, 0, 3]
+Timestamp:
+1477465802.71987
+from_ramp:
+[3, 0, 2, 1]
+to_rack:
+[3, 0, 2, 1]
+from_rack:
+[3, 0, 2, 1]
+to_basket:
+[0, 2, 1, 3]

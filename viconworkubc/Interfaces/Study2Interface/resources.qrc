@@ -1,0 +1,69 @@
+<!DOCTYPE RCC><RCC version="1.0">
+	<qresource>
+      		<file alias="1.png">src/images/1.png</file>
+		<file alias="2.png">src/images/2.png</file>
+		<file alias="3.png">src/images/3.png</file>
+		<file alias="4.png">src/images/4.png</file>
+		<file alias="Black_A.png">src/images/Black_A.png</file>
+		<file alias="Black_B.png">src/images/Black_B.png</file>
+		<file alias="Black_C.png">src/images/Black_C.png</file>
+		<file alias="Black_D.png">src/images/Black_D.png</file>
+		<file alias="Black_E.png">src/images/Black_E.png</file>
+		<file alias="Black_ball.png">src/images/Black_ball.png</file>
+		<file alias="Orange.png">src/images/Orange.png</file>
+		<file alias="Blue.png">src/images/Blue.png</file>
+		<file alias="Red.png">src/images/Red.png</file>
+		<file alias="Purple.png">src/images/Purple.png</file>
+		<file alias="Yellow.png">src/images/Yellow.png</file>
+		<file alias="Selected_Orange.png">src/images/Selected_Orange.png</file>
+		<file alias="Selected_Blue.png">src/images/Selected_Blue.png</file>
+		<file alias="Selected_Red.png">src/images/Selected_Red.png</file>
+		<file alias="Selected_Purple.png">src/images/Selected_Purple.png</file>
+		<file alias="Selected_Yellow.png">src/images/Selected_Yellow.png</file>
+		<file alias="Selected_White.png">src/images/Selected_White.png</file>
+		<file alias="Selected_Black.png">src/images/Selected_Black.png</file>
+
+		<file alias="Solo_Orange.png">src/images/solo_orange_ball.png</file>
+		<file alias="Solo_Blue.png">src/images/solo_blue_ball.png</file>
+		<file alias="Solo_Red.png">src/images/solo_red_ball.png</file>
+		<file alias="Solo_Purple.png">src/images/solo_purple_ball.png</file>
+		<file alias="Solo_Yellow.png">src/images/solo_yellow_ball.png</file>
+
+		<file alias="Selected_Solo_Orange.png">src/images/Selected_solo_orange_ball.png</file>
+		<file alias="Selected_Solo_Blue.png">src/images/Selected_solo_blue_ball.png</file>
+		<file alias="Selected_Solo_Red.png">src/images/Selected_solo_red_ball.png</file>
+		<file alias="Selected_Solo_Purple.png">src/images/Selected_solo_purple_ball.png</file>
+		<file alias="Selected_Solo_Yellow.png">src/images/Selected_solo_yellow_ball.png</file>
+
+		<file alias="box.png">src/images/box.png</file>
+
+
+		<file alias="Black_210_211.png">src/images/Black_210_211.png</file>
+		<file alias="Orange_210_211.png">src/images/Orange_210_211.png</file>
+		<file alias="Blue_210_211.png">src/images/Blue_210_211.png</file>
+		<file alias="Red_210_211.png">src/images/Red_210_211.png</file>
+		<file alias="Purple_210_211.png">src/images/Purple_210_211.png</file>
+		<file alias="Yellow_210_211.png">src/images/Yellow_210_211.png</file>
+
+		<file alias="Selected_Black_210_211.png">src/images/Selected_Black_210_211.png</file>
+		<file alias="Selected_Orange_210_211.png">src/images/Selected_Orange_210_211.png</file>
+		<file alias="Selected_Blue_210_211.png">src/images/Selected_Blue_210_211.png</file>
+		<file alias="Selected_Red_210_211.png">src/images/Selected_Red_210_211.png</file>
+		<file alias="Selected_Purple_210_211.png">src/images/Selected_Purple_210_211.png</file>
+		<file alias="Selected_Yellow_210_211.png">src/images/Selected_Yellow_210_211.png</file>
+
+		<file alias="solo_orange_ball_628_632.png">src/images/solo_orange_ball_628_632.png</file>
+		<file alias="solo_blue_ball_628_632.png">src/images/solo_blue_ball_628_632.png</file>
+		<file alias="solo_red_ball_628_632.png">src/images/solo_red_ball_628_632.png</file>
+		<file alias="solo_purple_ball_628_632.png">src/images/solo_purple_ball_628_632.png</file>
+		<file alias="solo_yellow_ball_628_632.png">src/images/solo_yellow_ball_628_632.png</file>
+
+		<file alias="selected_solo_orange_ball_628_632.png">src/images/selected_solo_orange_ball_628_632.png</file>
+		<file alias="selected_solo_blue_ball_628_632.png">src/images/selected_solo_blue_ball_628_632.png</file>
+		<file alias="selected_solo_red_ball_628_632.png">src/images/selected_solo_red_ball_628_632.png</file>
+		<file alias="selected_solo_purple_ball_628_632.png">src/images/selected_solo_purple_ball_628_632.png</file>
+		<file alias="selected_solo_yellow_ball_628_632.png">src/images/selected_solo_yellow_ball_628_632.png</file>
+
+		<file alias="box.png">src/images/box.png</file>
+	</qresource>
+</RCC>

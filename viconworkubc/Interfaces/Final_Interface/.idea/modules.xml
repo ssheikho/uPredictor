@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Final_Interface.iml" filepath="$PROJECT_DIR$/.idea/Final_Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Study2Interface/.idea/Study2Interface.iml" filepath="$PROJECT_DIR$/../Study2Interface/.idea/Study2Interface.iml" />
+    </modules>
+  </component>
+</project>

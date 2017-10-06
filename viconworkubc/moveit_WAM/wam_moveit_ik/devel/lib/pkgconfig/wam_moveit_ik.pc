@@ -1,0 +1,8 @@
+prefix=/home/sara/Documents/catkin_ws/src/moveit_WAM/wam_moveit_ik/devel
+
+Name: wam_moveit_ik
+Description: Description of wam_moveit_ik
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/sara/Documents/catkin_ws/src/moveit_WAM/wam_moveit_ik/devel/lib 
+Requires: moveit_core pluginlib roscpp tf_conversions

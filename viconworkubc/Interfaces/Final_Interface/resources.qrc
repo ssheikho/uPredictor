@@ -1,0 +1,25 @@
+<!DOCTYPE RCC><RCC version="1.0">
+	<qresource>
+      		<file alias="1.png">src/images/1.png</file>
+		<file alias="2.png">src/images/2.png</file>
+		<file alias="3.png">src/images/3.png</file>
+		<file alias="4.png">src/images/4.png</file>
+		<file alias="Black_A.png">src/images/Black_A.png</file>
+		<file alias="Black_B.png">src/images/Black_B.png</file>
+		<file alias="Black_C.png">src/images/Black_C.png</file>
+		<file alias="Black_D.png">src/images/Black_D.png</file>
+		<file alias="Black_E.png">src/images/Black_E.png</file>
+		<file alias="Black_ball.png">src/images/Black_ball.png</file>
+		<file alias="Orange.png">src/images/Orange.png</file>
+		<file alias="Blue.png">src/images/Blue.png</file>
+		<file alias="Red.png">src/images/Red.png</file>
+		<file alias="Purple.png">src/images/Purple.png</file>
+		<file alias="Yellow.png">src/images/Yellow.png</file>
+		<file alias="Selected_Orange.png">src/images/Selected_Orange.png</file>
+		<file alias="Selected_Blue.png">src/images/Selected_Blue.png</file>
+		<file alias="Selected_Red.png">src/images/Selected_Red.png</file>
+		<file alias="Selected_Purple.png">src/images/Selected_Purple.png</file>
+		<file alias="Selected_Yellow.png">src/images/Selected_Yellow.png</file>
+		<file alias="Selected_White.png">src/images/Selected_White.png</file>
+	</qresource>
+</RCC>

@@ -1,0 +1,1 @@
+rosrun moveit_ikfast create_ikfast_moveit_plugin.py wam arm wam_moveit_ik /home/caris/catkin_ws/src/viconworkubc/moveit_WAM/wam_moveit_ik/src/wam_arm_ikfast_solver.cpp

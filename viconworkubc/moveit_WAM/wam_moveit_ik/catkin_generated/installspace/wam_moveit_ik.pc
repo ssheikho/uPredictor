@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: wam_moveit_ik
+Description: Description of wam_moveit_ik
+Version: 0.0.0
+Cflags: 
+Libs:  
+Requires: moveit_core pluginlib roscpp tf_conversions

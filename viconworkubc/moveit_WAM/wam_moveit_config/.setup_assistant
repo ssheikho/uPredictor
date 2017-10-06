@@ -1,0 +1,8 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: barrett_wam_modeling
+    relative_path: robots/wam_7dof_wam_bhand.urdf.xacro
+  SRDF:
+    relative_path: config/wam.srdf
+  CONFIG:
+    generated_timestamp: 1477696290
